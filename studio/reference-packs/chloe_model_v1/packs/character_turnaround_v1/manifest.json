@@ -1,0 +1,101 @@
+{
+  "pack_id": "character_turnaround_v1",
+  "name": "Character Turnaround v1",
+  "character": "Chloe Katastrophe",
+  "status": "approved",
+  "approved_date": "2026-06-26",
+  "superseded_by": null,
+  "purpose": "Defines Chloe Katastrophe's canonical physical identity.",
+  "locked_attributes": [
+    "facial_geometry",
+    "body_proportions",
+    "height",
+    "hair",
+    "skin_tone",
+    "freckles",
+    "posture",
+    "body_composition"
+  ],
+  "assets": [
+    {
+      "asset_id": "001",
+      "category": "Identity Core",
+      "label": "Front",
+      "canonical_name": "Face Master - Front",
+      "canonical_role": "face_master_front",
+      "image": "001/001_front_headshot_v1.png",
+      "metadata": "001/001_front_headshot_v1.json",
+      "prompt_audit": null
+    },
+    {
+      "asset_id": "002",
+      "category": "Identity Core",
+      "label": "Three Quarter",
+      "canonical_name": "Face Master - Three Quarter",
+      "canonical_role": "face_master_three_quarter",
+      "image": "002/002_three_quarter_left_v1.png",
+      "metadata": "002/002_three_quarter_left_v1.json",
+      "prompt_audit": "002/002_three_quarter_left_v1_prompt_audit.md"
+    },
+    {
+      "asset_id": "003",
+      "category": "Identity Core",
+      "label": "Left Profile",
+      "canonical_name": "Face Master - Left",
+      "canonical_role": "face_master_left_profile",
+      "image": "003/003_left_profile_v1.png",
+      "metadata": "003/003_left_profile_v1.json",
+      "prompt_audit": "003/003_left_profile_v1_prompt_audit.md"
+    },
+    {
+      "asset_id": "004",
+      "category": "Identity Core",
+      "label": "Right Profile",
+      "canonical_name": "Face Master - Right",
+      "canonical_role": "face_master_right_profile",
+      "image": "004/004_right_profile_v1.png",
+      "metadata": "004/004_right_profile_v1.json",
+      "prompt_audit": "004/004_right_profile_v1_prompt_audit.md"
+    },
+    {
+      "asset_id": "005",
+      "category": "Character Turnaround",
+      "label": "Front",
+      "canonical_name": "Body Master - Front",
+      "canonical_role": "body_master_front",
+      "image": "005/005_full_body_front_v3.png",
+      "metadata": "005/005_full_body_front_v3.json",
+      "prompt_audit": "005/005_full_body_front_v3_prompt_audit.md"
+    },
+    {
+      "asset_id": "006",
+      "category": "Character Turnaround",
+      "label": "Left",
+      "canonical_name": "Body Master - Left",
+      "canonical_role": "body_master_left_profile",
+      "image": "006/006_full_body_left_v1.png",
+      "metadata": "006/006_full_body_left_v1.json",
+      "prompt_audit": "006/006_full_body_left_v1_prompt_audit.md"
+    },
+    {
+      "asset_id": "007",
+      "category": "Character Turnaround",
+      "label": "Right",
+      "canonical_name": "Body Master - Right",
+      "canonical_role": "body_master_right_profile",
+      "image": "007/007_full_body_right_v1.png",
+      "metadata": "007/007_full_body_right_v1.json",
+      "prompt_audit": "007/007_full_body_right_v1_prompt_audit.md"
+    },
+    {
+      "asset_id": "008",
+      "category": "Character Turnaround",
+      "label": "Back",
+      "canonical_name": "Body Master - Back",
+      "canonical_role": "body_master_back",
+      "image": "008/008_full_body_back_v1.png",
+      "metadata": "008/008_full_body_back_v1.json",
+      "prompt_audit": "008/008_full_body_back_v1_prompt_audit.md"
+    }
+  ]
+}

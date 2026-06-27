@@ -1,0 +1,111 @@
+{
+  "asset_id": "006",
+  "session_id": "002_character_turnaround",
+  "filename": "006_full_body_left_v1.png",
+  "prompt": "Generate Asset 006_full_body_left.png for Chloe Katastrophe, Session 002_character_turnaround. Create a clean documentary-style full-body left profile reference photograph. Use approved Identity Core references and approved Body Master front reference 005_full_body_front_v3 as canonical references. Maintain complete facial and body continuity. Locked attributes: facial identity, body proportions, height, skin tone, freckles, hair color, hair texture, body composition, posture, and overall silhouette are canonical and must not drift. 005_full_body_front_v3 locks Chloe's body proportions; preserve them in side view. Chloe stands naturally in perfect 90-degree left profile, relaxed, simply allowing herself to be photographed. Weight distributed naturally, arms hang comfortably, hands relaxed, feet natural and approximately shoulder-width apart. Approved attire: fitted charcoal athletic tank top, fitted charcoal athletic shorts, barefoot. No jewelry, accessories, makeup emphasis, or glamour styling. Maintain naturally feminine hourglass proportions, moderately full bust, gently defined waist, naturally rounded hips, lean but healthy legs, understated muscle tone, realistic feminine body-fat distribution, healthy capable authentic presence. Soft natural studio lighting, neutral gray background, even illumination, 50mm lens, eye level, natural perspective, full body visible from head to feet.",
+  "negative_prompt": "Avoid body proportions drifting from approved 005, profile anatomy inconsistent with front view, exaggerated bust projection, exaggerated hip projection, unrealistic spine curvature, unnatural posture, distorted hands or feet, facial identity drift, glamour pose, fashion pose, excessive muscle definition, overt sexualization, pin-up styling, cosmetic enhancement aesthetic, airbrushed skin, plastic skin, cinematic drama, harsh shadows, stylized anatomy, generic model pose, jewelry, accessories, heavy makeup, and fashion-model proportions.",
+  "generation_model": "built-in-image-generation",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 9.8,
+  "canon_confidence": 9.8,
+  "appearance_score": 9.9,
+  "expression_score": 9.6,
+  "technical_score": 9.9,
+  "continuity_score": 9.9,
+  "reference_score": 9.84,
+  "reference_priority": "primary",
+  "canonical_role": "body_master_left_profile",
+  "model_status": "anatomy_core",
+  "approved": true,
+  "notes": "Excellent left profile establishing Chloe's canonical side silhouette. Preserves complete continuity with Identity Core and Body Master Reference 005 while confirming natural feminine proportions in profile. Posture is relaxed and believable, with balanced body depth, subtle core engagement, and realistic anatomical transitions. Approved as a primary Anatomy Core reference.",
+  "measurement_notes": {
+    "apparent_height": "170 cm (5'7\")",
+    "body_depth": "Balanced and realistic",
+    "torso_profile": "Flat natural abdomen with subtle core engagement",
+    "bust_projection": "Moderately full and proportional",
+    "waist_contour": "Clearly defined",
+    "lower_abdomen": "Naturally flat with minimal forward projection",
+    "pelvic_alignment": "Neutral",
+    "hip_projection": "Balanced feminine profile",
+    "glute_profile": "Natural, understated",
+    "spine_alignment": "Neutral posture with no exaggerated lumbar curve",
+    "leg_profile": "Long, lean, naturally proportioned",
+    "overall_silhouette": "Graceful feminine profile with quiet strength"
+  },
+  "locked_attributes": [
+    "facial_identity",
+    "body_proportions",
+    "skin_tone",
+    "hair_color",
+    "hair_texture",
+    "torso_profile",
+    "posture"
+  ],
+  "created_at": "2026-06-26T16:31:27Z",
+  "version": 1,
+  "creative_brief": {
+    "asset_id": "006",
+    "purpose": "Generate Chloe Katastrophe's canonical full-body left profile as a documentary reference photograph. This image establishes her complete side silhouette and body proportions so future generations remain consistent regardless of clothing, lighting, or scene.",
+    "success_criteria": "The image should maintain complete facial and body continuity with the approved Identity Core and approved full-body front reference. It should lock Chloe's side profile anatomy, including body depth, bust profile, spine posture, shoulder position, neck posture, abdominal contour, hip projection, glute profile, thigh profile, knee alignment, calf shape, foot profile, and overall side silhouette.",
+    "generation_guidance": "Clean documentary-style full-body left profile. Chloe stands naturally in perfect 90-degree left profile, relaxed, simply allowing herself to be photographed. Weight is distributed naturally, arms hang comfortably, hands relaxed, feet natural and approximately shoulder-width apart. Wear the approved Physical Identity attire: fitted charcoal athletic tank top, fitted charcoal athletic shorts, barefoot. No jewelry, no accessories, no makeup emphasis, no glamour styling. Hair remains loose and natural. Maintain the approved physique: naturally feminine hourglass proportions, moderately full bust, gently defined waist, naturally rounded hips, lean but healthy legs, understated muscle tone, realistic feminine body-fat distribution, healthy capable authentic presence. Use soft natural studio lighting, neutral gray background, even illumination, 50mm lens, eye level, natural perspective, full body visible from head to feet.",
+    "review_focus": "Validate body depth, bust profile, spine posture, shoulder position, neck posture, abdominal contour, hip projection, glute profile, thigh profile, knee alignment, calf shape, foot profile, and overall side silhouette. Reject body drift from approved 005, profile anatomy inconsistent with front view, exaggerated bust or hip projection, unrealistic spine curvature, unnatural posture, distorted hands or feet, facial identity drift, glamour pose, fashion pose, excessive muscle definition, or overt sexualization."
+  },
+  "body_profile": {
+    "femininity": {
+      "target": "medium_high"
+    },
+    "bust": {
+      "target": "medium_full"
+    },
+    "waist": {
+      "target": "defined"
+    },
+    "hips": {
+      "target": "balanced_wide"
+    },
+    "thighs": {
+      "target": "naturally_full"
+    },
+    "torso": {
+      "target": "flat_natural_abdomen"
+    },
+    "core_engagement": {
+      "target": "subtle"
+    },
+    "pelvic_alignment": {
+      "target": "neutral"
+    },
+    "shoulders": {
+      "target": "slightly_narrow"
+    },
+    "muscle_definition": {
+      "target": "low"
+    },
+    "body_fat_distribution": {
+      "target": "naturally_feminine"
+    }
+  },
+  "reference_images": [
+    "studio/reference-decks/approved/001_identity_lock/004_right_profile_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/003_left_profile_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/002_three_quarter_left_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png",
+    "studio/reference-decks/approved/002_anatomical_reference/005_full_body_front_v3.png"
+  ],
+  "reference_strategy": "Use approved Identity Core references for facial continuity and approved 005_full_body_front_v3 for locked body master proportions.",
+  "canon_sources": {
+    "appearance_md": "studio/chloe-model/appearance.md",
+    "visual_canon_md": "studio/chloe-model/appearance.md",
+    "image_creation_directives_md": "studio/workflows/model-v1-shot-list.md",
+    "negative_canon_md": "studio/chloe-model/negative-canon.md",
+    "structured_body_profile": "studio/sessions/002_character_turnaround.yaml"
+  },
+  "source_image": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_00ef54d47a5be3dc016a3ea8f451c8819180dfd44245dfa792.png",
+  "image_size": {
+    "width": 1023,
+    "height": 1537
+  },
+  "canonical_name": "Body Master - Left"
+}

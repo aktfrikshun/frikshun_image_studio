@@ -1,0 +1,16 @@
+.venv/
+.pycache/
+__pycache__/
+*.pyc
+.DS_Store
+
+studio/outputs/*
+!studio/outputs/.gitkeep
+studio/logs/*
+!studio/logs/.gitkeep
+studio/rejection-feedback/*
+!studio/rejection-feedback/.gitkeep
+studio/reference-decks/approved/*
+!studio/reference-decks/approved/.gitkeep
+studio/reference-decks/rejected/*
+!studio/reference-decks/rejected/.gitkeep

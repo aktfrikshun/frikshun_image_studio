@@ -1,0 +1,64 @@
+{
+  "milestone_id": "chloe_model_v1",
+  "name": "Chloe Model v1",
+  "character": "Chloe Katastrophe",
+  "status": "complete",
+  "approved_date": "2026-06-26",
+  "purpose": "Production-ready Chloe Katastrophe model foundation for downstream image, video, album art, and fine-tuning workflows.",
+  "milestone": {
+    "number": 1,
+    "name": "Identity Foundation",
+    "status": "complete",
+    "sessions": [
+      {
+        "session_id": "001_identity_lock",
+        "name": "Identity Core",
+        "status": "approved"
+      },
+      {
+        "session_id": "002_character_turnaround",
+        "name": "Character Turnaround",
+        "status": "approved"
+      },
+      {
+        "session_id": "003_expression_core",
+        "name": "Performance Core",
+        "status": "approved"
+      }
+    ]
+  },
+  "reference_packs": [
+    {
+      "pack_id": "character_turnaround_v1",
+      "path": "packs/character_turnaround_v1/manifest.json"
+    },
+    {
+      "pack_id": "performance_core_v1",
+      "path": "packs/performance_core_v1/manifest.json"
+    }
+  ],
+  "contact_sheets": [
+    "contact_sheets/chloe_model_v1.jpg",
+    "contact_sheets/performance_core_v1.jpg"
+  ],
+  "score_averages": {
+    "identity_score": 9.85,
+    "canon_confidence": 9.81,
+    "appearance_score": 9.86,
+    "expression_score": 9.74,
+    "technical_score": 9.87,
+    "continuity_score": 9.88,
+    "reference_score": 9.85
+  },
+  "locked_traits": [
+    "facial geometry",
+    "body proportions",
+    "height and silhouette",
+    "skin tone and freckles",
+    "dark wavy hair",
+    "posture and body composition",
+    "restrained performance style",
+    "emotion primarily through eyes, mouth tension, breath, and posture"
+  ],
+  "superseded_by": null
+}

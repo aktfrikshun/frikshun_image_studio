@@ -1,0 +1,46 @@
+{
+  "asset_id": "004",
+  "session_id": "001_identity_lock",
+  "filename": "004_right_profile_v1.png",
+  "creative_brief": {
+    "asset_id": "004",
+    "purpose": "Establish Chloe's canonical right facial profile as the mirror counterpart to Image 003. This image exists to lock facial geometry and silhouette, not to create a dramatic portrait.",
+    "success_criteria": "This image should immediately read as the same woman shown in Images 001, 002, and 003. The right facial profile should become part of Chloe's permanent identity reference pack. The image should feel documentary rather than promotional.",
+    "generation_guidance": "Clean right-profile portrait, relaxed natural posture, looking slightly above the horizon, calm thoughtful attentive expression, natural loose hair strands, natural skin texture and subtle freckles, no glamour styling or dramatic makeup.",
+    "review_focus": "Nose profile, chin and jawline continuity, ear placement, hairline consistency, eye shape in profile, neck posture, right-side facial silhouette, and overall resemblance to approved identity references."
+  },
+  "prompt": "Use case: photorealistic-natural\nAsset type: FrikShun Image Studio candidate reference image\nPrimary request: Generate Asset 004 \u2014 Right Profile, filename 004_right_profile.png. This is the mirror counterpart to Asset 003 Left Profile and should lock Chloe's right facial geometry.\nInput images: Use the three visible approved primary identity references as anchors, weighted by reference score: 1) 003_left_profile_v1.png as the strongest profile/silhouette reference, 2) 002_three_quarter_left_v1.png as the strongest three-quarter identity reference, 3) 001_front_headshot_v1.png as the foundational frontal identity anchor. Maintain the same woman: facial proportions, eye shape, nose, lips, freckles, natural skin texture, hair color, hairline, and hair behavior.\nCreative Brief - Asset ID: 004\nCreative Brief - Purpose: Establish Chloe's canonical right facial profile as the mirror counterpart to 003. This image exists to lock facial geometry and silhouette, not to create a dramatic portrait.\nCreative Brief - Success Criteria: The image immediately reads as the same woman shown in Images 001, 002, and 003. The right facial profile can become part of Chloe's permanent identity reference pack. The image feels documentary rather than promotional.\nCreative Brief - Generation Guidance: Produce a clean right-profile portrait of Chloe. Her posture is relaxed and natural. She is looking slightly above the horizon, as though quietly observing something in the distance. Her expression is calm, thoughtful, attentive, and emotionally present. She is not posing; she is simply existing in the moment. Hair falls naturally with a few loose strands. Skin retains natural texture and subtle freckles. Natural imperfection and small asymmetries are preferred over mathematical symmetry. No glamour styling, no dramatic makeup, no cinematic action, no exaggerated emotion.\nCreative Brief - Review Focus: nose profile, chin and jawline continuity, ear placement, hairline consistency, eye shape in profile, neck posture, right-side facial silhouette, overall resemblance to approved identity references.\nCurrent visual canon: Chloe Katastrophe is an adult woman, apparent age 24-26, primarily Slavic heritage, delicate Slavic facial structure, high cheekbones, soft jawline, straight nose, naturally full lips, fair skin with natural texture and light freckles, dark chestnut to nearly black naturally wavy hair, gray-green eyes with subtle amber flecks only as reflected warm light. She has quiet resilience, attentive presence, and a lived-in expression rather than a performed one. She should never appear mathematically symmetrical; natural variation reinforces that she is believable rather than idealized.\nComposition/framing: true right facial profile, eye-level camera, frame from upper chest upward, 85mm portrait lens feel, minimal perspective distortion, neutral background, shallow depth of field.\nLighting/mood: soft window light plus warm practical interior lighting. The purpose is facial definition, not atmosphere.\nStyle/medium: photorealistic documentary portrait photography, realistic anatomy, natural hair and skin, grounded and human.\nConstraints: Preserve Chloe's approved identity from the visible references. Do not make a different woman. Do not beautify into a fashion or glamour portrait. Prioritize right-side facial geometry, silhouette, and continuity with 003.",
+  "negative_prompt": "Avoid: childish, naive, anime, cartoon, superhero, fantasy, cyberpunk stereotype, robot, exposed machinery, influencer selfie, glamour model, fashion-model styling, glossy futuristic armor, excessive accessories, overly sexualized, hyper-aggressive, plastic-perfect skin, porcelain perfection, harsh studio flash, oversaturated neon, nightclub aesthetics, fisheye, extreme wide-angle distortion, dramatic makeup, cinematic action, exaggerated emotion, perfect mathematical symmetry, watermark, text.",
+  "generation_model": "built-in-image-generation",
+  "status": "approved",
+  "rejection_reason": "",
+  "created_at": "2026-06-26T15:19:51Z",
+  "version": 1,
+  "approved_at": "2026-06-26T15:25:34Z",
+  "approved_as": "004_right_profile_v1",
+  "identity_score": 9.8,
+  "canon_confidence": 9.7,
+  "appearance_score": 9.8,
+  "expression_score": 9.6,
+  "technical_score": 9.8,
+  "continuity_score": 9.9,
+  "reference_score": 9.81,
+  "reference_priority": "primary",
+  "model_status": "identity_core",
+  "approved": true,
+  "notes": "Excellent right profile completing Chloe's facial identity lock. Maintains outstanding continuity with Images 001 through 003 while confirming consistent facial proportions from both sides. The quiet, attentive expression, natural skin texture, and relaxed posture reinforce Chloe's established visual identity. Approved as a primary Identity Core reference.",
+  "approved_reference_path": "studio/reference-decks/approved/001_identity_lock/004_right_profile_v1.png",
+  "reference_images": [
+    "studio/reference-decks/approved/001_identity_lock/003_left_profile_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/002_three_quarter_left_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png"
+  ],
+  "reference_strategy": "primary identity_core ranked by reference_score",
+  "source_image": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_0f3347361e76e950016a3e983f3d908190a5fc9a4ef2d5d680.png",
+  "dimensions": {
+    "width": 1023,
+    "height": 1537
+  },
+  "canonical_role": "face_master_right_profile",
+  "canonical_name": "Face Master - Right"
+}

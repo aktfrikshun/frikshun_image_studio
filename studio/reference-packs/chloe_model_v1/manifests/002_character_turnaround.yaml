@@ -1,0 +1,151 @@
+session_id: 002_character_turnaround
+character: Chloe Katastrophe
+description: Character turnaround for Chloe Model v1. These canonical orthographic reference views document the same approved face and body from front, side, and back so future artists, animators, and renderers preserve Chloe's complete physical identity.
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+body_profile:
+  femininity:
+    target: medium_high
+  bust:
+    target: medium_full
+  waist:
+    target: defined
+  hips:
+    target: balanced_wide
+  thighs:
+    target: naturally_full
+  torso:
+    target: flat_natural_abdomen
+  core_engagement:
+    target: subtle
+  pelvic_alignment:
+    target: neutral
+  shoulders:
+    target: slightly_narrow
+  muscle_definition:
+    target: low
+  body_fat_distribution:
+    target: naturally_feminine
+images:
+  - id: "006"
+    filename: 006_full_body_left.png
+    purpose: Establish Chloe's canonical full-body left profile silhouette and side-view anatomy.
+    creative_brief:
+      asset_id: "006"
+      purpose: >
+        Generate Chloe Katastrophe's canonical full-body left profile as a documentary
+        reference photograph. This image establishes her complete side silhouette and
+        body proportions so future generations remain consistent regardless of clothing,
+        lighting, or scene.
+      success_criteria: >
+        The image should maintain complete facial and body continuity with the approved
+        Identity Core and approved full-body front reference. It should lock Chloe's
+        side profile anatomy, including body depth, bust profile, spine posture, shoulder
+        position, neck posture, abdominal contour, hip projection, glute profile, thigh
+        profile, knee alignment, calf shape, foot profile, and overall side silhouette.
+      generation_guidance: >
+        Clean documentary-style full-body left profile. Chloe stands naturally in perfect
+        90-degree left profile, relaxed, simply allowing herself to be photographed.
+        Weight is distributed naturally, arms hang comfortably, hands relaxed, feet
+        natural and approximately shoulder-width apart. Wear the approved Physical
+        Identity attire: fitted charcoal athletic tank top, fitted charcoal athletic
+        shorts, barefoot. No jewelry, no accessories, no makeup emphasis, no glamour
+        styling. Hair remains loose and natural. Maintain the approved physique: naturally
+        feminine hourglass proportions, moderately full bust, gently defined waist,
+        naturally rounded hips, lean but healthy legs, understated muscle tone, realistic
+        feminine body-fat distribution, healthy capable authentic presence. Use soft
+        natural studio lighting, neutral gray background, even illumination, 50mm lens,
+        eye level, natural perspective, full body visible from head to feet.
+      review_focus: >
+        Validate body depth, bust profile, spine posture, shoulder position, neck posture,
+        abdominal contour, hip projection, glute profile, thigh profile, knee alignment,
+        calf shape, foot profile, and overall side silhouette. Reject body drift from
+        approved 005, profile anatomy inconsistent with front view, exaggerated bust or
+        hip projection, unrealistic spine curvature, unnatural posture, distorted hands
+        or feet, facial identity drift, glamour pose, fashion pose, excessive muscle
+        definition, or overt sexualization.
+    status: approved
+  - id: "007"
+    filename: 007_full_body_right.png
+    purpose: Establish Chloe's canonical full-body right profile silhouette and verify consistency with Asset 006.
+    creative_brief:
+      asset_id: "007"
+      purpose: >
+        Generate Chloe Katastrophe's canonical full-body right profile. This image
+        completes the profile pair established by Asset 006 and verifies anatomical
+        consistency from both sides. The purpose is to document Chloe's physical
+        identity, not to create promotional artwork.
+      success_criteria: >
+        The image should maintain complete continuity with the approved Identity Core,
+        Body Master front reference 005_full_body_front_v3, and Body Master left profile
+        006_full_body_left_v1. It should read as the same person viewed from the right
+        side, with consistent body depth, torso profile, bust projection, waist contour,
+        lower abdomen profile, hip projection, glute profile, spine alignment, shoulder
+        position, neck posture, leg profile, foot profile, and overall silhouette.
+      generation_guidance: >
+        Neutral documentary character turnaround photograph. Chloe stands in a perfect
+        90-degree right profile, relaxed, aware of the camera but not posing. Arms hang
+        naturally, hands remain relaxed, feet rest naturally beneath the hips, and
+        weight distribution appears effortless. Approved Physical Identity attire:
+        fitted charcoal athletic tank top, fitted charcoal athletic shorts, barefoot.
+        No jewelry, no accessories, no makeup emphasis. Hair remains loose and natural.
+        Maintain approved body profile: naturally feminine hourglass proportions,
+        moderately full bust, gently defined waist, naturally rounded hips, naturally
+        flat lower abdomen with subtle core engagement, healthy feminine body-fat
+        distribution, understated muscle tone, and quiet strength through posture rather
+        than athletic conditioning. Use soft neutral studio lighting, neutral gray
+        backdrop, even illumination, 50mm lens, eye level, natural perspective, full body
+        visible from head to feet.
+      review_focus: >
+        Validate symmetry with Asset 006, body depth, bust profile, waist contour, lower
+        abdomen profile, hip projection, glute profile, spine alignment, shoulder
+        position, neck posture, knee alignment, calf profile, foot profile, and silhouette
+        continuity. Reject profile anatomy that differs from Asset 006, body drift from
+        Asset 005, excessive lower-abdomen projection, exaggerated lumbar curve,
+        exaggerated bust or hips, distorted hands or feet, facial identity drift, glamour
+        pose, athletic model physique, overt sexualization, or unrealistic anatomy.
+    status: approved
+  - id: "008"
+    filename: 008_full_body_back.png
+    purpose: Establish Chloe's canonical full-body back view and complete the character turnaround.
+    creative_brief:
+      asset_id: "008"
+      purpose: >
+        Generate Chloe Katastrophe's canonical full-body back view. This final turnaround
+        image completes the Character Turnaround and establishes Chloe's posterior
+        anatomy, posture, and silhouette. It is a documentary reference photograph
+        intended for character continuity, not promotional artwork.
+      success_criteria: >
+        The image should complete the character turnaround while preserving continuity
+        with Face Masters 001-004 and Body Masters 005-007. The back view should read as
+        the same person, with consistent facial identity context, body proportions,
+        stature, height, skin tone, freckles, hair color, hair texture, body composition,
+        torso proportions, posture, and silhouette.
+      generation_guidance: >
+        Neutral documentary character turnaround photograph. Chloe stands in a perfect
+        rear orthographic view, facing directly away from the camera, relaxed, not posing,
+        arms hanging naturally, hands relaxed, feet comfortably beneath the hips, and
+        weight distributed naturally. Use the approved Character Turnaround attire:
+        fitted charcoal athletic tank top, fitted charcoal athletic shorts, barefoot.
+        No jewelry, no accessories, no makeup emphasis, no glamour styling. For this
+        rear anatomy reference only, gather Chloe's hair into a simple low ponytail or
+        loose tie-back so the shoulders, upper back, spine, waist, and hips remain visible.
+        This is not a hairstyle change; it is a documentation requirement. Hair should
+        remain natural with no styling beyond securing it away from the back. Maintain
+        approved body canon: naturally feminine hourglass proportions, moderately full
+        bust preserved anatomically, gently defined waist, naturally rounded hips, flat
+        lower abdomen, healthy feminine body-fat distribution, understated muscle tone,
+        healthy graceful capable presence, never exaggerated. Use soft neutral studio
+        lighting, neutral gray backdrop, even illumination, 50mm lens, eye level, natural
+        perspective, full body visible from head to bare feet.
+      review_focus: >
+        Validate shoulder width, neck placement, upper back contour, spine alignment,
+        waist taper, hip width, glute profile, thigh proportions, knee alignment, calf
+        profile, Achilles and ankle proportions, foot placement, rear silhouette, and
+        overall continuity with Assets 005-007. Reject body drift from approved references,
+        asymmetrical shoulder alignment, exaggerated glute projection, exaggerated lumbar
+        curve, distorted hands or feet, inconsistent leg proportions, unrealistic anatomy,
+        glamour pose, overt sexualization, unnecessary muscle definition, or posture
+        inconsistent with the approved Character Turnaround.
+    status: approved

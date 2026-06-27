@@ -1,0 +1,48 @@
+{
+  "asset_id": "025",
+  "session_id": "004_cinematic_performance",
+  "filename": "025_v001_025_fear.png",
+  "prompt": "Session 004 - Cinematic Performance\nAsset ID: 025\nFilename: 025_fear.png\nPurpose: Real fear. Not horror movie fear. Someone she cares about may be gone.\nSuccess Criteria: Eyes widen and breath stops without becoming a scream or horror expression.\nGeneration Guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Fear is immediate, personal, and believable.\nReview Focus: Reject if fear becomes horror-movie acting, cartoonish surprise, glamorized vulnerability, or identity drift.\nLocked references: Identity Core v1, Character Turnaround v1, Performance Core v1, Chloe Model v1.\nPrimary rule: Preserve Chloe exactly; only cinematic emotional state may change.",
+  "negative_prompt": "Avoid theatrical acting, facial identity drift, artificial skin, changed hair, beauty-model posing, fashion styling, dramatic makeup, exaggerated emotion, childlike appearance, text, watermark.",
+  "generation_model": "codex-built-in-imagegen-photoreal",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 9.9,
+  "canon_confidence": 9.9,
+  "appearance_score": 9.9,
+  "expression_score": 9.9,
+  "technical_score": 9.9,
+  "continuity_score": 10.0,
+  "reference_score": 9.93,
+  "reference_priority": "primary",
+  "canonical_name": "Performance Master - Fear",
+  "canonical_role": "performance_master_fear",
+  "model_status": "cinematic_performance",
+  "approved": true,
+  "notes": "Canonical fear reference. Real fear without horror-movie exaggeration.",
+  "measurement_notes": {},
+  "locked_attributes": [
+    "facial_identity",
+    "cinematic_performance",
+    "emotional_intensity",
+    "skin_texture",
+    "freckles",
+    "hair_color",
+    "hair_texture",
+    "protagonist_framing"
+  ],
+  "created_at": "2026-06-26T21:33:15.619546+00:00",
+  "version": 1,
+  "imagegen_source_path": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_080c37bc8046dbf7016a3eedaa658081908bdbf19b6d5f2e5b.png",
+  "image_dimensions": {
+    "width": 1023,
+    "height": 1537
+  },
+  "reference_packs": [
+    "chloe_model_v1",
+    "character_turnaround_v1",
+    "performance_core_v1"
+  ],
+  "approval_directive": "Session 004 partial approval. Asset promoted to canonical cinematic performance reference."
+}

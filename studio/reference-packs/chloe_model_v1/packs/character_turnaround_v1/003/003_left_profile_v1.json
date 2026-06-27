@@ -1,0 +1,45 @@
+{
+  "asset_id": "003",
+  "session_id": "001_identity_lock",
+  "filename": "003_left_profile_v1.png",
+  "creative_brief": {
+    "asset_id": "003",
+    "purpose": "Establish Chloe's canonical left facial profile. This image exists to lock facial geometry and silhouette, not to create a dramatic portrait.",
+    "success_criteria": "This image should immediately read as the same woman shown in Images 001 and 002. The facial profile should become part of Chloe's permanent identity reference pack. The image should feel documentary rather than promotional.",
+    "generation_guidance": "Clean left-profile portrait, relaxed natural posture, looking slightly above the horizon, calm thoughtful emotionally present expression, natural loose hair strands, natural skin texture and subtle freckles, no glamour styling or dramatic makeup.",
+    "review_focus": "Nose profile, chin and jawline continuity, ear placement, hairline consistency, eye shape in profile, neck posture, and overall resemblance to approved identity references."
+  },
+  "prompt": "Use case: photorealistic-natural\nAsset type: FrikShun Image Studio candidate reference image\nPrimary request: Generate Asset 003 \u2014 Left Profile, filename 003_left_profile.png.\nInput images: Use the two visible approved identity references as identity anchors, weighted in this order: 1) 002_three_quarter_left_v1.png as the highest-ranked primary identity reference, 2) 001_front_headshot_v1.png as the secondary foundational identity anchor. Maintain the same woman: facial proportions, eye shape, nose, lips, freckles, natural skin texture, hair color and hair behavior.\nCreative Brief - Asset ID: 003\nCreative Brief - Purpose: Establish Chloe's canonical left facial profile. This image exists to lock facial geometry and silhouette, not to create a dramatic portrait.\nCreative Brief - Success Criteria: The image immediately reads as the same woman shown in Images 001 and 002. The facial profile can become part of Chloe's permanent identity reference pack. The image feels documentary rather than promotional.\nCreative Brief - Generation Guidance: Produce a clean left-profile portrait of Chloe. Her posture is relaxed and natural. She is looking slightly above the horizon, as though quietly observing something in the distance. Her expression is calm, thoughtful, and emotionally present. She is not posing; she is simply existing in the moment. Hair falls naturally with a few loose strands. Skin retains natural texture and subtle freckles. No glamour styling, no dramatic makeup, no cinematic action, no exaggerated emotion.\nCreative Brief - Review Focus: nose profile, chin and jawline continuity, ear placement, hairline consistency, eye shape in profile, neck posture, overall resemblance to approved identity references.\nCurrent visual canon: Chloe Katastrophe is an adult woman, apparent age 24-26, primarily Slavic heritage, delicate Slavic facial structure, high cheekbones, soft jawline, straight nose, naturally full lips, fair skin with natural texture and light freckles, dark chestnut to nearly black naturally wavy hair, gray-green eyes with subtle amber flecks only as reflected warm light. She has quiet resilience, attentive presence, and a lived-in expression rather than a performed one.\nComposition/framing: true left facial profile, eye-level camera, frame from upper chest upward, 85mm portrait lens feel, minimal perspective distortion, neutral background, shallow depth of field.\nLighting/mood: soft window light plus warm practical interior lighting. The purpose is facial definition, not atmosphere.\nStyle/medium: photorealistic documentary portrait photography, realistic anatomy, natural hair and skin, grounded and human.\nConstraints: Preserve Chloe's approved identity from the visible references. Do not make a different woman. Do not beautify into a fashion or glamour portrait. Prioritize facial geometry, silhouette, and continuity.",
+  "negative_prompt": "Avoid: childish, naive, anime, cartoon, superhero, fantasy, cyberpunk stereotype, robot, exposed machinery, influencer selfie, glamour model, fashion-model styling, glossy futuristic armor, excessive accessories, overly sexualized, hyper-aggressive, plastic-perfect skin, porcelain perfection, harsh studio flash, oversaturated neon, nightclub aesthetics, fisheye, extreme wide-angle distortion, dramatic makeup, cinematic action, exaggerated emotion, watermark, text.",
+  "generation_model": "built-in-image-generation",
+  "status": "approved",
+  "rejection_reason": "",
+  "created_at": "2026-06-26T15:08:24Z",
+  "version": 1,
+  "approved_at": "2026-06-26T15:11:59Z",
+  "approved_as": "003_left_profile_v1",
+  "identity_score": 9.8,
+  "canon_confidence": 9.6,
+  "appearance_score": 9.8,
+  "expression_score": 9.5,
+  "technical_score": 9.8,
+  "continuity_score": 9.9,
+  "reference_score": 9.79,
+  "reference_priority": "primary",
+  "model_status": "identity_core",
+  "approved": true,
+  "notes": "Excellent left profile establishing Chloe's facial silhouette. Outstanding continuity with Images 001 and 002. Nose profile, jawline, eye shape, skin texture, freckles, and hair all remain consistent. This image successfully locks Chloe's left facial geometry and should become a primary identity reference for future image and video generation.",
+  "approved_reference_path": "studio/reference-decks/approved/001_identity_lock/003_left_profile_v1.png",
+  "reference_images": [
+    "studio/reference-decks/approved/001_identity_lock/002_three_quarter_left_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png"
+  ],
+  "reference_strategy": "identity_core ranked by reference_score",
+  "source_image": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_00ef5b238c40577a016a3e959ff8c48194996ff0f0e55df2fb.png",
+  "dimensions": {
+    "width": 1023,
+    "height": 1537
+  },
+  "canonical_role": "face_master_left_profile",
+  "canonical_name": "Face Master - Left"
+}

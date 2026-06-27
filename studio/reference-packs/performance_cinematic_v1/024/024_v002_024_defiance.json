@@ -1,0 +1,51 @@
+{
+  "asset_id": "024",
+  "session_id": "004_cinematic_performance",
+  "filename": "024_v002_024_defiance.png",
+  "prompt": "Session 004 - Cinematic Performance\nAsset ID: 024\nFilename: 024_defiance.png\nRevision: v002\nPurpose: Create Chloe's canonical Defiance reference.\nTargeted revision: Increase emotional certainty. Do not increase anger, aggression, volume, clenched teeth, or theatrical rage. Communicate: I know exactly who I am. I survived. I am no longer asking permission. You cannot erase me. The expression should feel quietly immovable, as though Chloe has already made her decision.\nPreserve: facial identity, lighting, framing, skin, freckles, hair, posture, body proportions, mature age, realism.\nPrompt library guidance: The camera documents Chloe rather than admiring her. Avoid glamour framing. Avoid fashion-editorial composition. Frame Chloe as a protagonist rather than a model. Emotion should originate from the eyes, breathing, posture, and intention before facial exaggeration.\nLocked references: Chloe Model v1, Identity Core v1, Character Turnaround v1, Performance Core v1, and 024 v001 for continuity.",
+  "negative_prompt": "Avoid increased anger, aggression, shouting, clenched teeth, rage, scowl, hero pose, glamour framing, fashion-editorial composition, beauty-model posing, dramatic makeup, artificial skin, changed hair, theatrical expression, text, watermark.",
+  "generation_model": "codex-built-in-imagegen-photoreal",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 10.0,
+  "canon_confidence": 10.0,
+  "appearance_score": 10.0,
+  "expression_score": 10.0,
+  "technical_score": 10.0,
+  "continuity_score": 10.0,
+  "reference_score": 10.0,
+  "reference_priority": "primary",
+  "canonical_name": "Performance Master - Defiance",
+  "canonical_role": "performance_master_defiance",
+  "model_status": "cinematic_performance",
+  "approved": true,
+  "notes": "Canonical performance reference. Captures quiet resolve rather than aggression. Expression communicates certainty, resilience, and agency. Recommended as the master Defiance image for Chloe Model v1.",
+  "measurement_notes": {},
+  "locked_attributes": [
+    "facial_identity",
+    "cinematic_performance",
+    "defiance",
+    "quiet_resolve",
+    "agency",
+    "skin_texture",
+    "freckles",
+    "hair_color",
+    "hair_texture",
+    "protagonist_framing"
+  ],
+  "created_at": "2026-06-26T21:54:23.434633+00:00",
+  "version": 2,
+  "imagegen_source_path": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_0aa8593022b460d2016a3ef43154cc81948fb54a9131eb19d8.png",
+  "image_dimensions": {
+    "width": 1023,
+    "height": 1537
+  },
+  "reference_packs": [
+    "chloe_model_v1",
+    "character_turnaround_v1",
+    "performance_core_v1"
+  ],
+  "supersedes": "024/v001",
+  "approval_directive": "Asset 024 v002 approved as canonical Defiance performance master."
+}

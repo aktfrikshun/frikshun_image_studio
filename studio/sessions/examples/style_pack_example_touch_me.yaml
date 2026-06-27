@@ -1,0 +1,38 @@
+session_id: style_pack_example_touch_me
+character: Chloe Katastrophe
+description: Example only. Demonstrates combining Sensory Suite, Rain Glass, and Echo Bloom Style Packs without generating assets automatically.
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+style_packs:
+  - sensory-suite
+  - rain-glass
+  - echo-bloom
+images:
+  - id: "001"
+    filename: 001_glass_hand_touch.png
+    creative_brief:
+      asset_id: "001"
+      purpose: Demonstrate a glass-bound virtual intimacy scene with Chloe's identity preserved.
+      success_criteria: Chloe remains self-possessed and unmistakably herself; the hand-against-glass moment feels intimate, cinematic, and non-explicit.
+      generation_guidance: close portrait through rain-streaked glass, Chloe's hand resting against the barrier, warm amber reflections, dark glossy suite atmosphere, restrained adult sensuality
+      review_focus: facial identity, hand anatomy, tasteful restraint, glass/reflection readability, and preservation of Chloe's agency
+    status: pending
+  - id: "002"
+    filename: 002_corset_direct_gaze.png
+    creative_brief:
+      asset_id: "002"
+      purpose: Demonstrate direct-gaze Sensory Suite styling while keeping Chloe in control of the image.
+      success_criteria: The styling reads adult, elegant, and cinematic without objectifying Chloe or drifting from canon.
+      generation_guidance: upper-chest portrait, structured black corset-inspired bodice, direct steady gaze, glossy dark room, soft amber practicals, natural skin texture
+      review_focus: identity continuity, self-possession, wardrobe tastefulness, skin realism, and avoidance of glamour-editorial posing
+    status: pending
+  - id: "003"
+    filename: 003_echo_bloom_dissolution.png
+    creative_brief:
+      asset_id: "003"
+      purpose: Demonstrate Echo Bloom as memory becoming visible inside a sensual glass-suite context.
+      success_criteria: Chloe remains emotionally legible while subtle duplicate silhouettes and luminous overlays suggest memory synchronization.
+      generation_guidance: close emotional portrait, translucent echo silhouettes, rain glass reflections, soft gold and pale cyan bloom, restrained luminous distortion
+      review_focus: identity preservation, emotional clarity, tasteful abstraction, and avoiding synthetic glitch effects
+    status: pending

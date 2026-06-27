@@ -1,0 +1,9 @@
+{
+  "tops": ["dark fitted shirt", "linen blouse", "black tank", "light jacket"],
+  "bottoms": ["travel trousers", "dark jeans", "utility pants"],
+  "footwear": ["practical boots", "worn travel shoes"],
+  "layers": ["weathered jacket", "long coat", "scarf"],
+  "accessories": ["camera strap", "backpack", "notebook", "silver compass pendant", "sunglasses"],
+  "makeup": "natural, minimal",
+  "hair": "loose, wind-touched, practical"
+}

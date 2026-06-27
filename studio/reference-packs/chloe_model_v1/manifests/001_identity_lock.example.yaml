@@ -1,0 +1,43 @@
+session_id: 001_identity_lock
+character: Chloe Katastrophe
+description: Identity lock portraits for establishing consistent facial identity.
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+images:
+  - id: "001"
+    filename: 001_front_neutral_headshot.png
+    creative_brief:
+      asset_id: "001"
+      purpose: Establish Chloe's core facial identity
+      success_criteria: Chloe is immediately recognizable as an adult woman with her canonical facial structure, gray-green eyes, natural skin texture, freckles, and restrained emotional presence.
+      generation_guidance: front-facing neutral headshot, 85mm portrait, natural skin texture, calm observant expression
+      review_focus: facial proportions, eye color and intensity, freckles, skin realism, mature presence, and usefulness as the foundational identity anchor
+    status: approved
+  - id: "002"
+    filename: 002_three_quarter_left.png
+    creative_brief:
+      asset_id: "002"
+      purpose: Establish Chloe's three-quarter-left facial identity while preserving approved front-headshot likeness
+      success_criteria: Chloe remains recognizably the same woman from Image 001 while the angle reveals stable three-quarter facial geometry.
+      generation_guidance: three-quarter-left close-up portrait, calm observant expression, natural skin texture, soft practical lighting
+      review_focus: continuity with Image 001, nose and cheekbone geometry, eye shape, hair movement, skin texture, and attentive emotional presence
+    status: approved
+  - id: "003"
+    filename: 003_left_profile.png
+    creative_brief:
+      asset_id: "003"
+      purpose: Establish Chloe's canonical left facial profile. This image exists to lock facial geometry and silhouette, not to create a dramatic portrait.
+      success_criteria: This image should immediately read as the same woman shown in Images 001 and 002. The facial profile should become part of Chloe's permanent identity reference pack. The image should feel documentary rather than promotional.
+      generation_guidance: Clean left-profile portrait, relaxed natural posture, looking slightly above the horizon, calm thoughtful emotionally present expression, natural loose hair strands, natural skin texture and subtle freckles, no glamour styling or dramatic makeup.
+      review_focus: Nose profile, chin and jawline continuity, ear placement, hairline consistency, eye shape in profile, neck posture, and overall resemblance to approved identity references.
+    status: approved
+  - id: "004"
+    filename: 004_right_profile.png
+    creative_brief:
+      asset_id: "004"
+      purpose: Establish Chloe's canonical right facial profile as the mirror counterpart to Image 003. This image exists to lock facial geometry and silhouette, not to create a dramatic portrait.
+      success_criteria: This image should immediately read as the same woman shown in Images 001, 002, and 003. The right facial profile should become part of Chloe's permanent identity reference pack. The image should feel documentary rather than promotional.
+      generation_guidance: Clean right-profile portrait, relaxed natural posture, looking slightly above the horizon, calm thoughtful attentive expression, natural loose hair strands, natural skin texture and subtle freckles, no glamour styling or dramatic makeup.
+      review_focus: Nose profile, chin and jawline continuity, ear placement, hairline consistency, eye shape in profile, neck posture, right-side facial silhouette, and overall resemblance to approved identity references.
+    status: approved

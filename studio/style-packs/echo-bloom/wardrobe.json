@@ -1,0 +1,7 @@
+{
+  "tops": ["whatever current scene requires"],
+  "bottoms": ["whatever current scene requires"],
+  "effects": ["subtle duplicate silhouettes", "light trails", "reflections", "translucent overlays"],
+  "hair": "may appear gently lifted or multiplied through reflections",
+  "makeup": "preserve current scene styling"
+}

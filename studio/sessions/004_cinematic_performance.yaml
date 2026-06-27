@@ -1,0 +1,111 @@
+session_id: 004_cinematic_performance
+character: Chloe Katastrophe
+session_status: complete
+description: 'Cinematic Performance for Chloe Model v1. This session expands Chloe''s emotional vocabulary beyond the subtle Performance Core established in Session 003. The objective is believable cinematic emotional performance suitable for music videos, album artwork, and film stills. Every image should feel like a paused frame from a movie. Emotion is intense, but internal before visible.
+
+  '
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+performance_registry_file: performance-registry/performance_core_v1.json
+images:
+- id: 019
+  filename: 019_genuine_laughter.png
+  purpose: Capture Chloe in spontaneous genuine laughter.
+  creative_brief:
+    asset_id: 019
+    purpose: A spontaneous genuine laugh. Not posing. Not smiling for a camera. Someone has genuinely surprised Chloe.
+    success_criteria: Eyes participate, face softens, and the moment feels human rather than performed.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Chloe laughs genuinely while preserving her exact approved identity.
+    review_focus: Reject if the laugh becomes beauty posing, theatrical, childlike, fashion styled, or identity-drifting.
+  status: approved
+- id: '020'
+  filename: 020_radiant_joy.png
+  purpose: Capture Chloe's largest authentic smile.
+  creative_brief:
+    asset_id: '020'
+    purpose: The biggest authentic smile we have ever seen from Chloe.
+    success_criteria: Joyful rather than glamorous. The audience should feel relieved that Chloe can still experience happiness.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Emotion is open and radiant while remaining unmistakably Chloe.
+    review_focus: Reject if the image becomes glamour, commercial beauty, childlike, overly polished, or identity-drifting.
+  status: approved
+- id: '021'
+  filename: 021_silent_tears.png
+  purpose: Capture Chloe crying silently.
+  creative_brief:
+    asset_id: '021'
+    purpose: Chloe crying silently. No sobbing. No screaming. Tears simply arrive.
+    success_criteria: Emotion feels deeply personal and contained rather than staged.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Tears are present but restrained; breath is held; expression remains Chloe's.
+    review_focus: Reject if crying becomes melodramatic, theatrical, beauty-retouched, or identity-drifting.
+  status: approved
+- id: '022'
+  filename: 022_grief.png
+  purpose: Capture the moment after devastating news.
+  creative_brief:
+    asset_id: '022'
+    purpose: The moment after devastating news.
+    success_criteria: Eyes distant, breathing uneven, no theatrical anguish.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Chloe is absorbing grief internally before outward collapse.
+    review_focus: Reject if grief becomes sobbing, horror, fashion sadness, melodrama, or identity drift.
+  status: approved
+- id: '023'
+  filename: 023_controlled_rage.png
+  purpose: Capture Chloe's contained rage.
+  creative_brief:
+    asset_id: '023'
+    purpose: Someone crossed a line. Chloe refuses to lose herself.
+    success_criteria: Anger is contained; eyes become dangerous; jaw tight; no screaming.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Rage remains controlled and internal.
+    review_focus: Reject if rage becomes shouting, villain styling, action-poster aggression, theatrical scowling, or identity drift.
+  status: approved
+- id: '024'
+  filename: 024_defiance.png
+  purpose: Create Chloe's canonical Defiance reference.
+  creative_brief:
+    asset_id: '024'
+    purpose: One of the most important assets. This is not anger; this is determination.
+    success_criteria: Expression communicates "I survived", "I will find out", and "You do not get to decide who I become."
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Defiance is rooted in survival, self-possession, and quiet force.
+    review_focus: Reject if defiance becomes anger, posing, glamour confidence, theatrical heroism, or identity drift.
+  status: approved
+- id: '025'
+  filename: 025_fear.png
+  purpose: Capture Chloe experiencing real fear.
+  creative_brief:
+    asset_id: '025'
+    purpose: Real fear. Not horror movie fear. Someone she cares about may be gone.
+    success_criteria: Eyes widen and breath stops without becoming a scream or horror expression.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Fear is immediate, personal, and believable.
+    review_focus: Reject if fear becomes horror-movie acting, cartoonish surprise, glamorized vulnerability, or identity drift.
+  status: approved
+- id: '026'
+  filename: 026_shock.png
+  purpose: Capture Chloe frozen by unexpected revelation.
+  creative_brief:
+    asset_id: '026'
+    purpose: Unexpected revelation. The mind has not caught up. Body freezes.
+    success_criteria: Shock is visible but human and restrained, not cartoon surprise.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Chloe is suspended in the instant before understanding.
+    review_focus: Reject if shock becomes exaggerated wide-mouth acting, comedy, horror, or identity drift.
+  status: approved
+- id: '027'
+  filename: 027_awe.png
+  purpose: Capture Chloe witnessing impossible beauty.
+  creative_brief:
+    asset_id: '027'
+    purpose: Witnessing something unimaginably beautiful.
+    success_criteria: Eyes brighten, breathing slows, wonder replaces thought.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Awe is luminous but quiet, with no glamour posing.
+    review_focus: Reject if awe becomes fantasy styling, childlike wonder, beauty pose, theatrical uplift, or identity drift.
+  status: approved
+- id: 028
+  filename: 028_acceptance.png
+  purpose: Capture peace after struggle.
+  creative_brief:
+    asset_id: 028
+    purpose: Peace after struggle. Not happiness. Acceptance. Quiet strength. Hope.
+    success_criteria: Chloe appears settled after difficulty, with peace and strength held together.
+    generation_guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. The moment feels like an emotional exhale rather than a smile.
+    review_focus: Reject if acceptance becomes bland neutrality, happiness, glamour serenity, spiritual cliche, or identity drift.
+  status: approved

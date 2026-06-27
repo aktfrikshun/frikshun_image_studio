@@ -1,0 +1,48 @@
+{
+  "asset_id": "020",
+  "session_id": "004_cinematic_performance",
+  "filename": "020_v001_020_radiant_joy.png",
+  "prompt": "Session 004 - Cinematic Performance\nAsset ID: 020\nFilename: 020_radiant_joy.png\nPurpose: The biggest authentic smile we have ever seen from Chloe.\nSuccess Criteria: Joyful rather than glamorous. The audience should feel relieved that Chloe can still experience happiness.\nGeneration Guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Emotion is open and radiant while remaining unmistakably Chloe.\nReview Focus: Reject if the image becomes glamour, commercial beauty, childlike, overly polished, or identity-drifting.\nLocked references: Identity Core v1, Character Turnaround v1, Performance Core v1, Chloe Model v1.\nPrimary rule: Preserve Chloe exactly; only cinematic emotional state may change.",
+  "negative_prompt": "Avoid theatrical acting, facial identity drift, artificial skin, changed hair, beauty-model posing, fashion styling, dramatic makeup, exaggerated emotion, childlike appearance, text, watermark.",
+  "generation_model": "codex-built-in-imagegen-photoreal",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 9.9,
+  "canon_confidence": 9.9,
+  "appearance_score": 10.0,
+  "expression_score": 10.0,
+  "technical_score": 9.9,
+  "continuity_score": 10.0,
+  "reference_score": 9.93,
+  "reference_priority": "primary",
+  "canonical_name": "Performance Master - Radiant Joy",
+  "canonical_role": "performance_master_joy",
+  "model_status": "cinematic_performance",
+  "approved": true,
+  "notes": "Canonical radiant joy reference. Chloe remains recognizable while showing her largest authentic smile.",
+  "measurement_notes": {},
+  "locked_attributes": [
+    "facial_identity",
+    "cinematic_performance",
+    "emotional_intensity",
+    "skin_texture",
+    "freckles",
+    "hair_color",
+    "hair_texture",
+    "protagonist_framing"
+  ],
+  "created_at": "2026-06-26T21:33:15.601805+00:00",
+  "version": 1,
+  "imagegen_source_path": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_080c37bc8046dbf7016a3eeb5445888190a0c9828ba347ecc2.png",
+  "image_dimensions": {
+    "width": 1023,
+    "height": 1537
+  },
+  "reference_packs": [
+    "chloe_model_v1",
+    "character_turnaround_v1",
+    "performance_core_v1"
+  ],
+  "approval_directive": "Session 004 partial approval. Asset promoted to canonical cinematic performance reference."
+}

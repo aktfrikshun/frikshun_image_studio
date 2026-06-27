@@ -1,0 +1,102 @@
+{
+  "asset_id": "005",
+  "session_id": "002_anatomical_reference",
+  "filename": "005_full_body_front_v3.png",
+  "prompt": "Generate v003 of Asset 005_full_body_front.png for Chloe Katastrophe using rejected v002 as the preserve/reference target. This is a strong canon_refinement revision after two rejected attempts. The Body Specification Override supersedes weaker or older body-description language. Preserve facial identity, expression, posture, realism, lighting, camera framing, clothing, hair, skin texture, freckles, gray-green eyes, neutral attentive expression, and documentary presentation exactly. Change body proportions only. Structured Body Profile: femininity target medium_high; bust target medium_full; waist target defined; hips target balanced_wide; thighs target naturally_full; shoulders target slightly_narrow; muscle_definition target low; body_fat_distribution target naturally_feminine. Translate this profile visually: Chloe has a naturally feminine hourglass silhouette; her bust is moderately fuller while remaining entirely believable; her waist is visibly more defined; her hips are gently wider to balance her shoulders; her thighs are naturally fuller; her shoulders remain natural and not broad or muscular; muscle definition is subtle; body fat distribution reflects natural femininity rather than athletic conditioning. The previous two versions were too lean and athletic, with bust size, waist definition, hip width, and overall feminine silhouette too similar across attempts. Apply a clearly visible but still realistic correction to bust, waist, hips, thigh fullness, and overall feminine silhouette while maintaining a believable, non-sexual, documentary anatomical reference.",
+  "negative_prompt": "Avoid exaggerated hourglass proportions, glamour-model physique, exaggerated breasts, unrealistic waist reduction, cosmetic surgery aesthetic, pin-up styling, overt sexualization, fashion pose, glamour pose, heavy makeup, accessories, jewelry, distorted hands, distorted feet, AI anatomy artifacts, inconsistent facial identity, plastic skin, airbrushed skin, cinematic drama, harsh shadows, stylized anatomy, childish appearance, glossy fashion retouching, generic model poses, fitness-influencer physique, bodybuilder definition, and fashion-model thinness.",
+  "generation_model": "built-in-image-generation",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 9.8,
+  "canon_confidence": 9.8,
+  "appearance_score": 9.9,
+  "expression_score": 9.6,
+  "technical_score": 9.9,
+  "continuity_score": 9.9,
+  "reference_score": 9.84,
+  "reference_priority": "primary",
+  "model_status": "anatomy_core",
+  "approved": true,
+  "notes": "Successfully incorporates the requested body refinement while preserving Chloe's approved facial identity. The silhouette is now naturally feminine with a more defined waist, balanced hips, and a fuller but believable bust. Maintains the documentary presentation and understated realism established by the Identity Core. Approved as the canonical full-body front reference for Chloe Model v1.",
+  "measurement_notes": {
+    "apparent_height": "170 cm (5'7\")",
+    "build": "Lean with naturally feminine proportions",
+    "shoulder_width": "Slightly narrower than hips",
+    "torso": "Long and balanced",
+    "waist": "Clearly defined without appearing exaggerated",
+    "hips": "Naturally rounded and balanced",
+    "bust": "Moderately full, proportional to frame",
+    "leg_proportion": "Long and realistic",
+    "arm_proportion": "Natural relaxed length",
+    "posture": "Balanced, relaxed, quietly confident",
+    "silhouette": "Natural feminine hourglass with understated athleticism"
+  },
+  "locked_attributes": [
+    "facial_identity",
+    "body_proportions",
+    "skin_tone",
+    "hair_color",
+    "posture"
+  ],
+  "created_at": "2026-06-26T16:17:51Z",
+  "version": 3,
+  "creative_brief": {
+    "asset_id": "005",
+    "purpose": "Establish Chloe Katastrophe's canonical full-body anatomy and standing posture for Chloe Model v1. This is a professional character turnaround reference, not an artistic, promotional, cinematic, glamorous, or fashion image.",
+    "success_criteria": "The image should read immediately as the same Chloe established by the approved Identity Core references while documenting believable full-body proportions, natural front-facing posture, relaxed shoulders, natural arm and hand position, accurate feet, and a non-sexual documentary anatomical silhouette.",
+    "generation_guidance": "Documentary-style anatomical reference photograph. Chloe stands naturally facing the camera, aware but not performing. Weight rests naturally on one leg, shoulders relaxed, arms hanging naturally, hands relaxed with slightly curved fingers, feet shoulder-width apart. Wardrobe is a fitted charcoal athletic tank top, fitted charcoal bike-short length athletic shorts, and bare feet. Maintain apparent age 24-26, about 170 cm / 5'7\", balanced realistic proportions, naturally feminine hourglass silhouette, moderately full bust, gently defined waist, naturally rounded hips, slightly fuller thighs, graceful capable posture, health from everyday movement rather than deliberate athletic training, natural skin texture, subtle freckles, dark chestnut to nearly black loose natural wavy hair, neutral calm observant expression, soft window light, warm practical interior lighting, neutral studio environment, 50mm lens, eye-level full-body framing from head to bare feet.",
+    "review_focus": "Evaluate overall body proportions, shoulder width, torso length, waist, hip ratio, arm length, hand anatomy, leg proportions, knee placement, ankle proportions, foot size, posture, silhouette, and continuity with Identity Core. Reject fashion pose, glamour pose, pin-up styling, exaggerated curves, unrealistic anatomy, distorted hands or feet, inconsistent facial identity, heavy makeup, excessive muscle definition, sexualized presentation, distracting wardrobe, or visible AI anatomical artifacts."
+  },
+  "body_profile": {
+    "femininity": {
+      "target": "medium_high"
+    },
+    "bust": {
+      "target": "medium_full"
+    },
+    "waist": {
+      "target": "defined"
+    },
+    "hips": {
+      "target": "balanced_wide"
+    },
+    "thighs": {
+      "target": "naturally_full"
+    },
+    "shoulders": {
+      "target": "slightly_narrow"
+    },
+    "muscle_definition": {
+      "target": "low"
+    },
+    "body_fat_distribution": {
+      "target": "naturally_feminine"
+    }
+  },
+  "revision_strength": "strong",
+  "reference_images": [
+    "studio/reference-decks/rejected/002_anatomical_reference/005_v002_005_full_body_front.png",
+    "studio/reference-decks/rejected/002_anatomical_reference/005_v001_005_full_body_front.png",
+    "studio/reference-decks/approved/001_identity_lock/004_right_profile_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/003_left_profile_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/002_three_quarter_left_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png"
+  ],
+  "reference_strategy": "Use rejected v002 and v001 as preserve/reference targets for everything except body composition, with approved identity_core references ranked by computed reference_score.",
+  "canon_sources": {
+    "appearance_md": "studio/chloe-model/appearance.md",
+    "visual_canon_md": "studio/chloe-model/appearance.md",
+    "image_creation_directives_md": "studio/workflows/model-v1-shot-list.md",
+    "negative_canon_md": "studio/chloe-model/negative-canon.md",
+    "rejection_feedback": "studio/rejection-feedback/002_anatomical_reference/005.md",
+    "structured_body_profile": "studio/sessions/002_anatomical_reference.yaml"
+  },
+  "source_image": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_07a3f2b298d61d0c016a3ea590641c8193ba4eb65ea979ef84.png",
+  "image_size": {
+    "width": 1023,
+    "height": 1537
+  },
+  "canonical_role": "body_master_front",
+  "canonical_name": "Body Master - Front"
+}

@@ -1,0 +1,201 @@
+session_id: 003_expression_core
+character: Chloe Katastrophe
+description: 'Performance Core for Chloe Model v1. Generate close portrait or upper-chest expression references using Character Turnaround v1 as locked canon. The approved reference pack defines 001-004 as Identity Core and 005-008 as Character Turnaround / Anatomy Core. Preserve Chloe''s approved identity exactly: facial geometry, mature apparent age, natural skin texture, gray-green eyes, dark wavy hair, freckles, body proportions, posture, and understated presence. Only the expression should change. Expression direction is subtle, restrained, and emotionally intelligent; most feeling should appear in the eyes, mouth tension, breath, and posture.
+
+  '
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+images:
+- id: 009
+  filename: 009_neutral_observation.png
+  purpose: Establish Chloe's baseline neutral observational expression.
+  creative_brief:
+    asset_id: 009
+    purpose: 'Create an Expression Core candidate showing Chloe in neutral observation, preserving the approved Character Turnaround v1 identity exactly.
+
+      '
+    success_criteria: 'Chloe reads immediately as the same woman from Identity Core and Anatomy Core. The expression is neutral, attentive, and observant without becoming blank, young, glamorous, stylized, or theatrical.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair, and restrained documentary realism. Chloe looks quietly attentive, as if taking in the present moment without performing for the camera.
+
+      '
+    review_focus: 'Review facial identity, eye shape, skin texture, hair continuity, mature apparent age, restrained expression, and absence of glamour/fashion styling.
+
+      '
+  status: approved
+  performance: neutral
+- id: '010'
+  filename: 010_dry_half_smile.png
+  purpose: Establish Chloe's dry half-smile expression.
+  creative_brief:
+    asset_id: '010'
+    purpose: 'Create an Expression Core candidate showing Chloe''s dry half-smile while preserving her approved identity exactly.
+
+      '
+    success_criteria: 'The expression suggests restrained wit and guarded warmth. It should be small, asymmetrical, and lived-in rather than cheerful, cute, glamorous, or performative.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Chloe has a slight dry half-smile, mostly visible through one corner of the mouth and a quiet shift in the eyes.
+
+      '
+    review_focus: 'Review mouth asymmetry, eye continuity, emotional restraint, identity preservation, and whether the smile becomes too broad, youthful, or theatrical.
+
+      '
+  status: approved
+  performance: dry_half_smile
+- id: '011'
+  filename: 011_soft_smile.png
+  purpose: Establish Chloe's soft smile expression.
+  creative_brief:
+    asset_id: '011'
+    purpose: 'Create an Expression Core candidate showing Chloe with a soft smile while preserving her approved identity exactly.
+
+      '
+    success_criteria: 'The expression feels approachable and quietly warm without becoming carefree, polished, commercial, or sentimental.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Chloe shows a gentle contained smile with warmth in the eyes and minimal change to posture.
+
+      '
+    review_focus: 'Review identity continuity, mature presence, natural skin, restrained warmth, and whether the smile makes Chloe look too young or too polished.
+
+      '
+  status: approved
+  performance: soft_smile
+- id: '012'
+  filename: 012_curiosity.png
+  purpose: Establish Chloe's curiosity expression.
+  creative_brief:
+    asset_id: '012'
+    purpose: 'Create an Expression Core candidate showing Chloe''s subtle curiosity while preserving her approved identity exactly.
+
+      '
+    success_criteria: 'Chloe appears interested and mentally engaged, as if she expects the world to be worth noticing. The expression should remain quiet and intelligent, not wide-eyed or cartoonish.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Show curiosity through attentive eyes, slight brow lift or micro-tilt, and restrained mouth tension.
+
+      '
+    review_focus: 'Review eye shape, brow subtlety, identity preservation, and whether the expression becomes exaggerated, theatrical, or childlike.
+
+      '
+  status: approved
+  performance: curiosity
+- id: '013'
+  filename: 013_melancholy.png
+  purpose: Establish Chloe's restrained melancholy expression.
+  creative_brief:
+    asset_id: '013'
+    purpose: 'Create an Expression Core candidate showing restrained melancholy while preserving Chloe''s approved identity exactly.
+
+      '
+    success_criteria: 'The image suggests distance, memory, and quiet sadness without visible trauma, melodrama, tears, collapse, or theatrical sorrow.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Chloe''s gaze suggests she is observing the present while remembering something distant. The mouth is relaxed but weighted; posture remains composed.
+
+      '
+    review_focus: 'Review emotional restraint, mature presence, eye continuity, facial identity, and whether the image becomes sad-girl stylized or melodramatic.
+
+      '
+  status: approved
+  performance: melancholy
+- id: '014'
+  filename: 014_determination.png
+  purpose: Establish Chloe's quiet determination expression.
+  creative_brief:
+    asset_id: '014'
+    purpose: 'Create an Expression Core candidate showing quiet determination while preserving Chloe''s approved identity exactly.
+
+      '
+    success_criteria: 'Chloe appears focused and resilient without aggression, hero posing, cinematic intensity, glamour, or hardened trauma.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Show determination through steady eyes, subtle jaw set, controlled breath, and composed posture.
+
+      '
+    review_focus: 'Review identity continuity, jaw and mouth tension, eye intensity, restraint, and whether the expression becomes action-hero or overly dramatic.
+
+      '
+  status: approved
+  performance: determination
+- id: '015'
+  filename: 015_quiet_hope.png
+  purpose: Establish Chloe's quiet hope expression.
+  creative_brief:
+    asset_id: '015'
+    purpose: 'Create an Expression Core candidate showing quiet hope while preserving Chloe''s approved identity exactly.
+
+      '
+    success_criteria: 'The expression feels like a small inward lift, not bright optimism, sentimentality, or a broad smile. Chloe remains lived-in and observant.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Show quiet hope through softened eyes, slightly eased mouth tension, and a calm upward attentiveness.
+
+      '
+    review_focus: 'Review subtle emotional lift, identity preservation, mature presence, and whether the image becomes carefree, cute, or inspirational-poster polished.
+
+      '
+  status: approved
+  performance: quiet_hope
+- id: '016'
+  filename: 016_listening.png
+  purpose: Establish Chloe's listening expression.
+  creative_brief:
+    asset_id: '016'
+    purpose: 'Create an Expression Core candidate showing Chloe listening attentively while preserving her approved identity exactly.
+
+      '
+    success_criteria: 'Chloe looks as though she expects the person in front of her to have something worth hearing. The expression is engaged, grounded, and quiet.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Show listening through attentive eyes, slight head angle or softened brow, relaxed mouth, and present posture.
+
+      '
+    review_focus: 'Review engagement without performance, facial identity, hair continuity, and whether the image becomes posed, flirtatious, or overly expressive.
+
+      '
+  status: approved
+  performance: listening
+- id: '017'
+  filename: 017_remembering.png
+  purpose: Establish Chloe's remembering expression.
+  creative_brief:
+    asset_id: '017'
+    purpose: 'Create an Expression Core candidate showing Chloe remembering something distant while preserving her approved identity exactly.
+
+      '
+    success_criteria: 'Chloe''s gaze suggests memory without losing presence. She should appear composed, human, and reflective rather than dissociated, dreamy, or melodramatic.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Show remembering through a slightly distant gaze, quiet breath, and a restrained mouth, with posture still engaged with the present.
+
+      '
+    review_focus: 'Review eye direction, emotional subtlety, identity preservation, and whether the expression becomes blank, haunted, theatrical, or stylized.
+
+      '
+  status: approved
+  performance: remembering
+- id: 018
+  filename: 018_controlled_anger.png
+  purpose: Establish Chloe's controlled anger expression.
+  creative_brief:
+    asset_id: 018
+    purpose: 'Create an Expression Core candidate showing controlled anger while preserving Chloe''s approved identity exactly.
+
+      '
+    success_criteria: 'The expression communicates contained anger and self-command. It should not become rage, shouting, villain styling, action cinema, or cartoon intensity.
+
+      '
+    generation_guidance: 'Close portrait or upper-chest framing, neutral studio/background setup, soft lighting, natural skin texture, subtle freckles, same dark wavy hair. Show controlled anger through steady narrowed eyes, subtle jaw tension, compressed mouth, and grounded posture.
+
+      '
+    review_focus: 'Review identity continuity, restraint, eye and jaw tension, natural skin, and whether the emotion becomes exaggerated, theatrical, glamourized, or harshly stylized.
+
+      '
+  status: approved
+  performance: controlled_anger
+session_status: complete
+performance_registry_file: performance-registry/performance_core_v1.json

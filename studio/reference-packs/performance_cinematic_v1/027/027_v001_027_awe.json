@@ -1,0 +1,48 @@
+{
+  "asset_id": "027",
+  "session_id": "004_cinematic_performance",
+  "filename": "027_v001_027_awe.png",
+  "prompt": "Session 004 - Cinematic Performance\nAsset ID: 027\nFilename: 027_awe.png\nPurpose: Witnessing something unimaginably beautiful.\nSuccess Criteria: Eyes brighten, breathing slows, wonder replaces thought.\nGeneration Guidance: 85mm portrait lens, eye level, chest-up framing, neutral dark background, soft cinematic lighting, natural skin and freckles, same dark wavy hair. Awe is luminous but quiet, with no glamour posing.\nReview Focus: Reject if awe becomes fantasy styling, childlike wonder, beauty pose, theatrical uplift, or identity drift.\nLocked references: Identity Core v1, Character Turnaround v1, Performance Core v1, Chloe Model v1.\nPrimary rule: Preserve Chloe exactly; only cinematic emotional state may change.",
+  "negative_prompt": "Avoid theatrical acting, facial identity drift, artificial skin, changed hair, beauty-model posing, fashion styling, dramatic makeup, exaggerated emotion, childlike appearance, text, watermark.",
+  "generation_model": "codex-built-in-imagegen-photoreal",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 10.0,
+  "canon_confidence": 10.0,
+  "appearance_score": 10.0,
+  "expression_score": 10.0,
+  "technical_score": 9.9,
+  "continuity_score": 10.0,
+  "reference_score": 9.99,
+  "reference_priority": "primary",
+  "canonical_name": "Performance Master - Awe",
+  "canonical_role": "performance_master_awe",
+  "model_status": "cinematic_performance",
+  "approved": true,
+  "notes": "Canonical awe reference. Wonder and brightness without losing Chloe identity.",
+  "measurement_notes": {},
+  "locked_attributes": [
+    "facial_identity",
+    "cinematic_performance",
+    "emotional_intensity",
+    "skin_texture",
+    "freckles",
+    "hair_color",
+    "hair_texture",
+    "protagonist_framing"
+  ],
+  "created_at": "2026-06-26T21:33:15.624364+00:00",
+  "version": 1,
+  "imagegen_source_path": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_09e578f917e7cf63016a3eeef13ca48193b756c62c07895512.png",
+  "image_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "reference_packs": [
+    "chloe_model_v1",
+    "character_turnaround_v1",
+    "performance_core_v1"
+  ],
+  "approval_directive": "Session 004 partial approval. Asset promoted to canonical cinematic performance reference."
+}

@@ -1,0 +1,112 @@
+{
+  "asset_id": "008",
+  "session_id": "002_character_turnaround",
+  "filename": "008_full_body_back_v1.png",
+  "prompt": "Generate Asset 008_full_body_back.png for Chloe Katastrophe, Session 002_character_turnaround. Create a professional documentary character turnaround photograph showing Chloe's canonical full-body rear view. Use Body Master - Front 005_full_body_front_v3, Body Master - Left 006_full_body_left_v1, and Body Master - Right 007_full_body_right_v1 as canonical locked references for height, body proportions, body composition, posture, and silhouette. Preserve continuity with Identity Core 001-004 for skin tone, freckles, hair color, hair texture, and overall character identity. Locked attributes: facial identity context, body proportions, stature, height, skin tone, freckles, hair color, hair texture, body composition, torso proportions, posture, and silhouette. Chloe faces directly away from the camera. Maintain approved physique: naturally feminine hourglass proportions, gently defined waist, naturally rounded hips, flat lower abdomen preserved anatomically, healthy feminine body-fat distribution, understated muscle tone, graceful and capable presence, never exaggerated. For this reference only, gather Chloe's hair into a simple loose low ponytail or loose tie-back so the shoulders, upper back, spine, waist, and hips are visible. Perfect rear orthographic view, 180 degrees, full body visible from head to bare feet, eye-level camera, 50mm lens, natural perspective, no distortion, relaxed posture, shoulders relaxed, arms hanging naturally, hands relaxed, feet comfortably beneath hips, soft neutral studio lighting, neutral gray backdrop, even illumination.",
+  "negative_prompt": "Avoid body proportions drifting from approved references, asymmetrical shoulder alignment, exaggerated glute projection, exaggerated lumbar curve, distorted hands or feet, inconsistent leg proportions, unrealistic anatomy, glamour pose, overt sexualization, unnecessary muscle definition, posture inconsistent with approved Character Turnaround, loose hair obscuring the back, fashion pose, pin-up styling, athletic model physique, airbrushed skin, plastic skin, cinematic drama, harsh shadows, stylized anatomy, generic model pose, jewelry, accessories, and heavy makeup.",
+  "generation_model": "built-in-image-generation",
+  "status": "approved",
+  "rejection_type": "",
+  "rejection_reason": "",
+  "identity_score": 9.9,
+  "canon_confidence": 10.0,
+  "appearance_score": 9.9,
+  "expression_score": 10.0,
+  "technical_score": 9.9,
+  "continuity_score": 10.0,
+  "reference_score": 9.95,
+  "reference_priority": "primary",
+  "canonical_name": "Body Master - Back",
+  "canonical_role": "body_master_back",
+  "model_status": "anatomy_core",
+  "approved": true,
+  "notes": "Completes Chloe Model v1 Character Turnaround. Rear anatomy, shoulder width, waist taper, hip proportions, posture, and silhouette exhibit excellent continuity with the approved front and profile references. Hair restraint successfully exposes anatomical landmarks while preserving Chloe's natural appearance. Approved as the canonical rear body reference.",
+  "measurement_notes": {
+    "apparent_height": "170 cm (5'7\")",
+    "shoulder_width": "Balanced, slightly narrower than hips",
+    "upper_back": "Natural feminine musculature with understated definition",
+    "spine_alignment": "Neutral and relaxed",
+    "waist_taper": "Clearly defined and symmetrical",
+    "hip_width": "Balanced feminine proportions",
+    "glute_profile": "Natural, proportional, understated",
+    "leg_profile": "Long, lean, symmetrical",
+    "calf_profile": "Naturally developed through everyday movement",
+    "foot_alignment": "Neutral stance with relaxed posture",
+    "overall_silhouette": "Consistent with approved Character Turnaround"
+  },
+  "locked_attributes": [
+    "facial_identity",
+    "body_proportions",
+    "skin_tone",
+    "hair_color",
+    "hair_texture",
+    "torso_profile",
+    "posture"
+  ],
+  "created_at": "2026-06-26T17:22:11Z",
+  "version": 1,
+  "creative_brief": {
+    "asset_id": "008",
+    "purpose": "Generate Chloe Katastrophe's canonical full-body back view. This final turnaround image completes the Character Turnaround and establishes Chloe's posterior anatomy, posture, and silhouette. It is a documentary reference photograph intended for character continuity, not promotional artwork.",
+    "success_criteria": "The image should complete the character turnaround while preserving continuity with Face Masters 001-004 and Body Masters 005-007. The back view should read as the same person, with consistent facial identity context, body proportions, stature, height, skin tone, freckles, hair color, hair texture, body composition, torso proportions, posture, and silhouette.",
+    "generation_guidance": "Neutral documentary character turnaround photograph. Chloe stands in a perfect rear orthographic view, facing directly away from the camera, relaxed, not posing, arms hanging naturally, hands relaxed, feet comfortably beneath the hips, and weight distributed naturally. Use the approved Character Turnaround attire: fitted charcoal athletic tank top, fitted charcoal athletic shorts, barefoot. No jewelry, no accessories, no makeup emphasis, no glamour styling. For this rear anatomy reference only, gather Chloe's hair into a simple low ponytail or loose tie-back so the shoulders, upper back, spine, waist, and hips remain visible. This is not a hairstyle change; it is a documentation requirement. Hair should remain natural with no styling beyond securing it away from the back. Maintain approved body canon: naturally feminine hourglass proportions, moderately full bust preserved anatomically, gently defined waist, naturally rounded hips, flat lower abdomen, healthy feminine body-fat distribution, understated muscle tone, healthy graceful capable presence, never exaggerated. Use soft neutral studio lighting, neutral gray backdrop, even illumination, 50mm lens, eye level, natural perspective, full body visible from head to bare feet.",
+    "review_focus": "Validate shoulder width, neck placement, upper back contour, spine alignment, waist taper, hip width, glute profile, thigh proportions, knee alignment, calf profile, Achilles and ankle proportions, foot placement, rear silhouette, and overall continuity with Assets 005-007. Reject body drift from approved references, asymmetrical shoulder alignment, exaggerated glute projection, exaggerated lumbar curve, distorted hands or feet, inconsistent leg proportions, unrealistic anatomy, glamour pose, overt sexualization, unnecessary muscle definition, or posture inconsistent with the approved Character Turnaround."
+  },
+  "body_profile": {
+    "femininity": {
+      "target": "medium_high"
+    },
+    "bust": {
+      "target": "medium_full"
+    },
+    "waist": {
+      "target": "defined"
+    },
+    "hips": {
+      "target": "balanced_wide"
+    },
+    "thighs": {
+      "target": "naturally_full"
+    },
+    "torso": {
+      "target": "flat_natural_abdomen"
+    },
+    "core_engagement": {
+      "target": "subtle"
+    },
+    "pelvic_alignment": {
+      "target": "neutral"
+    },
+    "shoulders": {
+      "target": "slightly_narrow"
+    },
+    "muscle_definition": {
+      "target": "low"
+    },
+    "body_fat_distribution": {
+      "target": "naturally_feminine"
+    }
+  },
+  "reference_images": [
+    "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/002_three_quarter_left_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/003_left_profile_v1.png",
+    "studio/reference-decks/approved/001_identity_lock/004_right_profile_v1.png",
+    "studio/reference-decks/approved/002_anatomical_reference/005_full_body_front_v3.png",
+    "studio/reference-decks/approved/002_character_turnaround/006_full_body_left_v1.png",
+    "studio/reference-decks/approved/002_character_turnaround/007_full_body_right_v1.png"
+  ],
+  "reference_strategy": "Use approved Identity Core for character continuity, body_master_front for front body proportions, body_master_left_profile and body_master_right_profile for bilateral silhouette and posture consistency.",
+  "canon_sources": {
+    "appearance_md": "studio/chloe-model/appearance.md",
+    "visual_canon_md": "studio/chloe-model/appearance.md",
+    "image_creation_directives_md": "studio/workflows/model-v1-shot-list.md",
+    "negative_canon_md": "studio/chloe-model/negative-canon.md",
+    "structured_body_profile": "studio/sessions/002_character_turnaround.yaml"
+  },
+  "source_image": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_0202125295645b89016a3eb4db63bc81949c0d4fae9bb38658.png",
+  "image_size": {
+    "width": 1023,
+    "height": 1537
+  }
+}

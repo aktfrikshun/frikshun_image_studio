@@ -1,0 +1,32 @@
+{
+  "asset_id": "001",
+  "session_id": "001_identity_lock",
+  "filename": "001_front_headshot_v1.png",
+  "prompt": "Use case: photorealistic-natural\nAsset type: character visual identity test portrait\nPrimary request: Generate a front-facing close-up of Chloe Katastrophe's face using her visual canon.\nSubject: Chloe Katastrophe, an adult virtual woman, apparent age 24-26, primarily Slavic heritage, delicate Slavic facial structure, high cheekbones, soft jawline, straight nose, naturally full lips, believable subtle facial asymmetry, fair skin with natural texture and light freckles across nose and cheeks, dark chestnut to nearly black naturally wavy hair framing the face, gray-green eyes with very subtle amber flecks visible only as natural reflected warm light.\nComposition/framing: straight-on front-facing close-up portrait, face centered, intimate 85mm portrait crop, shoulders barely visible, natural perspective, no distortion, no selfie angle.\nExpression/body language: neutral observation with quiet curiosity and restrained melancholy; emotion mostly through the eyes; calm, intelligent, observant, not posing.\nLighting/mood: soft window light with gentle warm practical fill, cinematic but natural, discovered rather than staged, silence visible.\nColor palette: warm skin tones, steel-blue shadows, amber highlights, deep charcoal and muted dark tones.\nStyle/medium: photorealistic portrait photography, natural skin texture, realistic hair, shallow depth of field, high identity clarity.\nConstraints: Chloe must appear clearly adult, human, grounded, authentic rather than perfect. Her eyes should never glow unnaturally; amber flecks must read as reflected light only.",
+  "negative_prompt": "Avoid: childish, naive, anime, cartoon, superhero, fantasy, cyberpunk stereotype, robot, exposed machinery, influencer selfie, glamour model, fashion-model styling, glossy futuristic armor, excessive accessories, overly sexualized, hyper-aggressive, plastic-perfect skin, porcelain perfection, harsh studio flash, oversaturated neon, nightclub aesthetics, fisheye, extreme wide-angle distortion, watermark, text.",
+  "generation_model": "built-in-image-generation",
+  "status": "approved",
+  "rejection_reason": "",
+  "created_at": "2026-06-26T14:27:37Z",
+  "version": 1,
+  "approved_as": "001_front_headshot_v1",
+  "identity_score": 9.1,
+  "canon_confidence": 8.9,
+  "appearance_score": 9.2,
+  "expression_score": 8.8,
+  "technical_score": 9.7,
+  "continuity_score": 9.0,
+  "reference_score": 9.09,
+  "reference_priority": "primary",
+  "model_status": "identity_core",
+  "approved": true,
+  "notes": "First approved canonical identity image. Establishes Chloe's facial structure, eye color, skin texture, freckles, and emotional baseline. Excellent realism and natural appearance. Expression is calm and observant, though slightly more idealized than later references. Approved as the foundational identity anchor for Chloe Model v1.",
+  "source_image": "/Users/allentaylor/.codex/generated_images/019f043a-af71-7720-8bac-f5e3f25b575b/ig_0ad2945a941ab991016a3e8a7857f08190b221cd82393e4d4f.png",
+  "approved_reference_path": "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png",
+  "dimensions": {
+    "width": 1023,
+    "height": 1537
+  },
+  "canonical_role": "face_master_front",
+  "canonical_name": "Face Master - Front"
+}

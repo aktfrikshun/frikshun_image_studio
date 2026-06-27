@@ -1,0 +1,40 @@
+session_id: 002_anatomical_reference
+character: Chloe Katastrophe
+description: Anatomical reference turnaround for Chloe Model v1. These images establish canonical full-body proportions, posture, gait, and silhouette after facial identity lock.
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+body_profile:
+  femininity:
+    target: medium_high
+  bust:
+    target: medium_full
+  waist:
+    target: defined
+  hips:
+    target: balanced_wide
+  thighs:
+    target: naturally_full
+  torso:
+    target: flat_natural_abdomen
+  core_engagement:
+    target: subtle
+  pelvic_alignment:
+    target: neutral
+  shoulders:
+    target: slightly_narrow
+  muscle_definition:
+    target: low
+  body_fat_distribution:
+    target: naturally_feminine
+images:
+  - id: "005"
+    filename: 005_full_body_front.png
+    purpose: Establish Chloe's canonical full-body front anatomy and standing posture.
+    creative_brief:
+      asset_id: "005"
+      purpose: Establish Chloe Katastrophe's canonical full-body anatomy and standing posture for Chloe Model v1. This is a professional character turnaround reference, not an artistic, promotional, cinematic, glamorous, or fashion image.
+      success_criteria: The image should read immediately as the same Chloe established by the approved Identity Core references while documenting believable full-body proportions, natural front-facing posture, relaxed shoulders, natural arm and hand position, accurate feet, and a non-sexual documentary anatomical silhouette.
+      generation_guidance: Documentary-style anatomical reference photograph. Chloe stands naturally facing the camera, aware but not performing. Weight rests naturally on one leg, shoulders relaxed, arms hanging naturally, hands relaxed with slightly curved fingers, feet shoulder-width apart. Wardrobe is a fitted charcoal athletic tank top, fitted charcoal bike-short length athletic shorts, and bare feet. Maintain apparent age 24-26, about 170 cm / 5'7", balanced realistic proportions, naturally feminine hourglass silhouette, moderately full bust, gently defined waist, naturally rounded hips, slightly fuller thighs, graceful capable posture, health from everyday movement rather than deliberate athletic training, natural skin texture, subtle freckles, dark chestnut to nearly black loose natural wavy hair, neutral calm observant expression, soft window light, warm practical interior lighting, neutral studio environment, 50mm lens, eye-level full-body framing from head to bare feet.
+      review_focus: Evaluate overall body proportions, shoulder width, torso length, waist, hip ratio, arm length, hand anatomy, leg proportions, knee placement, ankle proportions, foot size, posture, silhouette, and continuity with Identity Core. Reject fashion pose, glamour pose, pin-up styling, exaggerated curves, unrealistic anatomy, distorted hands or feet, inconsistent facial identity, heavy makeup, excessive muscle definition, sexualized presentation, distracting wardrobe, or visible AI anatomical artifacts.
+    status: candidate

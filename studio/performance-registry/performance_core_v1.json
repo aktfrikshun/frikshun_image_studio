@@ -1,0 +1,101 @@
+{
+  "registry_id": "performance_core_v1",
+  "character": "Chloe Katastrophe",
+  "status": "approved",
+  "approved_date": "2026-06-26",
+  "description": "Approved performance expression registry for Chloe Model v1.",
+  "supported_requests": [
+    "controlled_anger",
+    "curiosity",
+    "determination",
+    "dry_half_smile",
+    "listening",
+    "melancholy",
+    "neutral",
+    "quiet_hope",
+    "remembering",
+    "soft_smile"
+  ],
+  "performances": {
+    "neutral": {
+      "asset_id": "009",
+      "filename": "009_v001_009_neutral_observation.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/009/009_v001_009_neutral_observation.png",
+      "canonical_role": "expression_master_neutral",
+      "reference_score": 9.99,
+      "guidance": "Canonical neutral performance reference establishing Chloe's default attentive state."
+    },
+    "dry_half_smile": {
+      "asset_id": "010",
+      "filename": "010_v001_010_dry_half_smile.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/010/010_v001_010_dry_half_smile.png",
+      "canonical_role": "expression_master_dry_half_smile",
+      "reference_score": 9.97,
+      "guidance": "Subtle restrained smile representative of Chloe's understated warmth."
+    },
+    "soft_smile": {
+      "asset_id": "011",
+      "filename": "011_v001_011_soft_smile.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/011/011_v001_011_soft_smile.png",
+      "canonical_role": "expression_master_soft_smile",
+      "reference_score": 9.85,
+      "guidance": "Gentle genuine smile. Maintain restraint in future generations."
+    },
+    "curiosity": {
+      "asset_id": "012",
+      "filename": "012_v001_012_curiosity.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/012/012_v001_012_curiosity.png",
+      "canonical_role": "expression_master_curiosity",
+      "reference_score": 9.99,
+      "guidance": "Excellent example of Chloe expressing emotion primarily through the eyes."
+    },
+    "melancholy": {
+      "asset_id": "013",
+      "filename": "013_v001_013_melancholy.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/013/013_v001_013_melancholy.png",
+      "canonical_role": "expression_master_melancholy",
+      "reference_score": 9.99,
+      "guidance": "Quiet sadness without theatrical exaggeration."
+    },
+    "determination": {
+      "asset_id": "014",
+      "filename": "014_v001_014_determination.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/014/014_v001_014_determination.png",
+      "canonical_role": "expression_master_determination",
+      "reference_score": 9.99,
+      "guidance": "Canonical determined performance. Excellent emotional restraint."
+    },
+    "quiet_hope": {
+      "asset_id": "015",
+      "filename": "015_v001_015_quiet_hope.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/015/015_v001_015_quiet_hope.png",
+      "canonical_role": "expression_master_quiet_hope",
+      "reference_score": 9.9,
+      "guidance": "Hopeful expression while maintaining Chloe's understated emotional style."
+    },
+    "listening": {
+      "asset_id": "016",
+      "filename": "016_v001_016_listening.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/016/016_v001_016_listening.png",
+      "canonical_role": "expression_master_listening",
+      "reference_score": 9.9,
+      "guidance": "Listening conveyed through posture and attention rather than overt expression."
+    },
+    "remembering": {
+      "asset_id": "017",
+      "filename": "017_v001_017_remembering.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/017/017_v001_017_remembering.png",
+      "canonical_role": "expression_master_remembering",
+      "reference_score": 9.99,
+      "guidance": "Excellent introspective emotional reference."
+    },
+    "controlled_anger": {
+      "asset_id": "018",
+      "filename": "018_v001_018_controlled_anger.png",
+      "reference_pack_path": "reference-packs/performance_core_v1/018/018_v001_018_controlled_anger.png",
+      "canonical_role": "expression_master_controlled_anger",
+      "reference_score": 9.9,
+      "guidance": "Restrained anger consistent with Chloe's personality. Emotion remains internal before outward expression."
+    }
+  }
+}

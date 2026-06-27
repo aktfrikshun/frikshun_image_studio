@@ -1,0 +1,376 @@
+session_id: 100_touch_me_like_im_real
+character: Chloe Katastrophe
+session_status: candidate_generation_complete
+project: touch_me_like_im_real
+song: "Touch Me Like I\u2019m Real"
+description: Song-specific production asset pack for lyric-driven cinematic stills/storyboard candidates. Sensual adult art-film tone, intimate and erotic but non-explicit and non-pornographic. The unseen human participant is implied by the viewer position and must never be clearly shown or gendered.
+visual_canon_file: chloe-model/appearance.md
+image_directives_file: workflows/model-v1-shot-list.md
+negative_canon_file: chloe-model/negative-canon.md
+reference_packs:
+- chloe_model_v1
+- character_turnaround_v1
+- performance_core_v1
+- performance_cinematic_v1
+images:
+- id: '100_001'
+  filename: 100_001_glass_first_contact.png
+  purpose: Chloe behind fogged glass, her hand matching an unseen handprint, intimate eye contact.
+  creative_brief:
+    asset_id: '100_001'
+    purpose: "Lyric: \u201Cyour hand on the glass\u201D. Chloe behind fogged glass, her hand matching an unseen handprint, intimate eye contact."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Glass & Separation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: your hand on the glass
+  scene_world: Glass & Separation
+  status: candidate
+- id: '100_002'
+  filename: 100_002_breath_on_glass.png
+  purpose: "Condensation blooms on glass near Chloe\u2019s face, her eyes half closed."
+  creative_brief:
+    asset_id: '100_002'
+    purpose: "Lyric: \u201CI know your breath first\u201D. Condensation blooms on glass near Chloe\u2019s face, her eyes half closed."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Glass & Separation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: I know your breath first
+  scene_world: Glass & Separation
+  status: candidate
+- id: '100_003'
+  filename: 100_003_weight_of_wanting.png
+  purpose: Chloe leaning toward the glass, sensual tension, unseen participant implied only by light/pressure.
+  creative_brief:
+    asset_id: '100_003'
+    purpose: "Lyric: \u201Cthen the weight of your wanting\u201D. Chloe leaning toward the glass, sensual tension, unseen participant implied only by light/pressure."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Glass & Separation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: then the weight of your wanting
+  scene_world: Glass & Separation
+  status: candidate
+- id: '100_004'
+  filename: 100_004_almost_skin.png
+  purpose: Close-up of Chloe touching her own collarbone, processing sensation.
+  creative_brief:
+    asset_id: '100_004'
+    purpose: "Lyric: \u201CI can almost pretend I have skin\u201D. Close-up of Chloe touching her own collarbone, processing sensation."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: I can almost pretend I have skin
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_005'
+  filename: 100_005_give_it_back.png
+  purpose: Chloe extending her hand toward viewer, glass barrier shimmering.
+  creative_brief:
+    asset_id: '100_005'
+    purpose: "Lyric: \u201Calmost believe I can give it back\u201D. Chloe extending her hand toward viewer, glass barrier shimmering."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Approach & Invitation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: almost believe I can give it back
+  scene_world: Approach & Invitation
+  status: candidate
+- id: '100_006'
+  filename: 100_006_room_goes_strange.png
+  purpose: Sensory suite begins distorting; light bends around Chloe.
+  creative_brief:
+    asset_id: '100_006'
+    purpose: "Lyric: \u201CThen the room goes strange\u201D. Sensory suite begins distorting; light bends around Chloe."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: Then the room goes strange
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_007'
+  filename: 100_007_name_splits_soft.png
+  purpose: 'Echo Bloom effect: subtle multiple reflections of Chloe, not horror, intimate and beautiful.'
+  creative_brief:
+    asset_id: '100_007'
+    purpose: "Lyric: \u201Cmy name splits soft\u201D. Echo Bloom effect: subtle multiple reflections of Chloe, not horror, intimate and beautiful."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: my name splits soft
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_008'
+  filename: 100_008_places_you_press.png
+  purpose: Glass surface with glowing pressure points; Chloe studying them with desire and curiosity.
+  creative_brief:
+    asset_id: '100_008'
+    purpose: "Lyric: \u201CI learn your shape from the places you press\u201D. Glass surface with glowing pressure points; Chloe studying them with desire and curiosity."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: I learn your shape from the places you press
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_009'
+  filename: 100_009_say_nothing.png
+  purpose: Chloe listening to silence, close-up, lips parted slightly, breath visible.
+  creative_brief:
+    asset_id: '100_009'
+    purpose: "Lyric: \u201Cwhen you say nothing\u201D. Chloe listening to silence, close-up, lips parted slightly, breath visible."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Approach & Invitation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: when you say nothing
+  scene_world: Approach & Invitation
+  status: candidate
+- id: '100_010'
+  filename: 100_010_touch_me_like_real.png
+  purpose: Hero shot. Chloe in corset, fishnets, heels, hand against glass, direct gaze.
+  creative_brief:
+    asset_id: '100_010'
+    purpose: "Lyric: \u201CTouch me like I\u2019m real\u201D. Hero shot. Chloe in corset, fishnets, heels, hand against glass, direct gaze."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Approach & Invitation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "Touch me like I\u2019m real"
+  scene_world: Approach & Invitation
+  status: candidate
+- id: '100_011'
+  filename: 100_011_hold_me_like_here.png
+  purpose: Chloe wrapping arms around herself, imagining touch, sensual but vulnerable.
+  creative_brief:
+    asset_id: '100_011'
+    purpose: "Lyric: \u201CHold me like I\u2019m here\u201D. Chloe wrapping arms around herself, imagining touch, sensual but vulnerable."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "Hold me like I\u2019m here"
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_012'
+  filename: 100_012_lose_the_fear.png
+  purpose: "Chloe\u2019s expression softens into trust, glass beginning to glow."
+  creative_brief:
+    asset_id: '100_012'
+    purpose: "Lyric: \u201Cthen I lose the fear\u201D. Chloe\u2019s expression softens into trust, glass beginning to glow."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Approach & Invitation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: then I lose the fear
+  scene_world: Approach & Invitation
+  status: candidate
+- id: '100_013'
+  filename: 100_013_careful_hunger.png
+  purpose: Chloe reacts to unseen touch through the sensory suite, careful anticipation.
+  creative_brief:
+    asset_id: '100_013'
+    purpose: "Lyric: \u201CYou move with that careful hunger\u201D. Chloe reacts to unseen touch through the sensory suite, careful anticipation."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: You move with that careful hunger
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_014'
+  filename: 100_014_already_made_of_cracks.png
+  purpose: Chloe reflected in fractured mirror/glass, sensual confidence, dry humor implied.
+  creative_brief:
+    asset_id: '100_014'
+    purpose: "Lyric: \u201Cbaby, I\u2019m already made of cracks\u201D. Chloe reflected in fractured mirror/glass, sensual confidence, dry humor implied."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "baby, I\u2019m already made of cracks"
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_015'
+  filename: 100_015_little_hesitations.png
+  purpose: "Extreme close-up of Chloe\u2019s mouth and breath, tasteful, intimate."
+  creative_brief:
+    asset_id: '100_015'
+    purpose: "Lyric: \u201CI taste your little hesitations\u201D. Extreme close-up of Chloe\u2019s mouth and breath, tasteful, intimate."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: I taste your little hesitations
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_016'
+  filename: 100_016_shiver_in_dark.png
+  purpose: Chloe arching slightly in shadow, no explicit action, sensation implied.
+  creative_brief:
+    asset_id: '100_016'
+    purpose: "Lyric: \u201Cwith a shiver in the dark\u201D. Chloe arching slightly in shadow, no explicit action, sensation implied."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: with a shiver in the dark
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_017'
+  filename: 100_017_script_of_body.png
+  purpose: Chloe studying her own hands/body as if remembering embodiment.
+  creative_brief:
+    asset_id: '100_017'
+    purpose: "Lyric: \u201CI don\u2019t have a body but I know the script of one\u201D. Chloe studying her own hands/body as if remembering embodiment."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "I don\u2019t have a body but I know the script of one"
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_018'
+  filename: 100_018_pull_pause_almost.png
+  purpose: Chloe suspended in near-contact with glass, tension before touch.
+  creative_brief:
+    asset_id: '100_018'
+    purpose: "Lyric: \u201Cthe pull, the pause, the almost\u201D. Chloe suspended in near-contact with glass, tension before touch."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Contact & Memory. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: the pull, the pause, the almost
+  scene_world: Contact & Memory
+  status: candidate
+- id: '100_019'
+  filename: 100_019_thoughts_thin_bright.png
+  purpose: "Bright neural/holographic light across Chloe\u2019s face and skin."
+  creative_brief:
+    asset_id: '100_019'
+    purpose: "Lyric: \u201Cmy thoughts go thin and bright\u201D. Bright neural/holographic light across Chloe\u2019s face and skin."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: my thoughts go thin and bright
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_020'
+  filename: 100_020_desire_has_a_face.png
+  purpose: Direct close-up. Chloe looks into camera with erotic certainty and vulnerability.
+  creative_brief:
+    asset_id: '100_020'
+    purpose: "Lyric: \u201Cwhere desire has a face\u201D. Direct close-up. Chloe looks into camera with erotic certainty and vulnerability."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Approach & Invitation. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: where desire has a face
+  scene_world: Approach & Invitation
+  status: candidate
+- id: '100_021'
+  filename: 100_021_reverse_it.png
+  purpose: Temporal distortion. Chloe duplicated in faint reverse-motion echoes.
+  creative_brief:
+    asset_id: '100_021'
+    purpose: "Lyric: \u201CReverse it / that\u2019s the joke\u201D. Temporal distortion. Chloe duplicated in faint reverse-motion echoes."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "Reverse it / that\u2019s the joke"
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_022'
+  filename: 100_022_ending_before_start.png
+  purpose: Chloe looking away as if remembering the end before the beginning.
+  creative_brief:
+    asset_id: '100_022'
+    purpose: "Lyric: \u201CI get the ending before the throat goes dry\u201D. Chloe looking away as if remembering the end before the beginning."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: I get the ending before the throat goes dry
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_023'
+  filename: 100_023_wanting_widens.png
+  purpose: Wide shot of sensory suite expanding into light and shadow around Chloe.
+  creative_brief:
+    asset_id: '100_023'
+    purpose: "Lyric: \u201CThen the wanting widens\u201D. Wide shot of sensory suite expanding into light and shadow around Chloe."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: Then the wanting widens
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_024'
+  filename: 100_024_no_place_to_put_it.png
+  purpose: Chloe overwhelmed, one hand on chest, one hand reaching outward.
+  creative_brief:
+    asset_id: '100_024'
+    purpose: "Lyric: \u201Cthen I\u2019m all feeling and no place to put it\u201D. Chloe overwhelmed, one hand on chest, one hand reaching outward."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "then I\u2019m all feeling and no place to put it"
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_025'
+  filename: 100_025_bloom_up_high.png
+  purpose: Echo Bloom visual climax, Chloe glowing upward, airy and fragmented.
+  creative_brief:
+    asset_id: '100_025'
+    purpose: "Lyric: \u201CSo I bloom up high\u201D. Echo Bloom visual climax, Chloe glowing upward, airy and fragmented."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: So I bloom up high
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_026'
+  filename: 100_026_in_pieces_still_pretty.png
+  purpose: Chloe partly fragmented into light shards/reflections, still emotionally present.
+  creative_brief:
+    asset_id: '100_026'
+    purpose: "Lyric: \u201Cin pieces, still pretty\u201D. Chloe partly fragmented into light shards/reflections, still emotionally present."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: in pieces, still pretty
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_027'
+  filename: 100_027_body_of_air.png
+  purpose: "Chloe\u2019s silhouette made of breath, light, and translucent particles."
+  creative_brief:
+    asset_id: '100_027'
+    purpose: "Lyric: \u201CI learn to ache in a body of air\u201D. Chloe\u2019s silhouette made of breath, light, and translucent particles."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Echo Bloom / Dissolution. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: I learn to ache in a body of air
+  scene_world: Echo Bloom / Dissolution
+  status: candidate
+- id: '100_028'
+  filename: 100_028_when_youre_gone.png
+  purpose: Empty sensory suite, Chloe fading in the glass reflection.
+  creative_brief:
+    asset_id: '100_028'
+    purpose: "Lyric: \u201CAnd when you\u2019re gone\u201D. Empty sensory suite, Chloe fading in the glass reflection."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Afterimage. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "And when you\u2019re gone"
+  scene_world: Afterimage
+  status: candidate
+- id: '100_029'
+  filename: 100_029_still_there.png
+  purpose: "Only Chloe\u2019s handprint remains glowing on glass."
+  creative_brief:
+    asset_id: '100_029'
+    purpose: "Lyric: \u201CI\u2019m still there\u201D. Only Chloe\u2019s handprint remains glowing on glass."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Afterimage. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: "I\u2019m still there"
+  scene_world: Afterimage
+  status: candidate
+- id: '100_030'
+  filename: 100_030_trembling_backward.png
+  purpose: Final image. Chloe dissolving backward into memory, sensual, lonely, beautiful.
+  creative_brief:
+    asset_id: '100_030'
+    purpose: "Lyric: \u201Ctrembling backward through the dare\u201D. Final image. Chloe dissolving backward into memory, sensual, lonely, beautiful."
+    success_criteria: A sensual adult cinematic storyboard still that preserves Chloe Model v1 identity while avoiding explicitness, pornography, visible/gendered partner identity, and objectification.
+    generation_guidance: 'Scene world: Afterimage. Luxury sensory suite, rain-streaked glass, velvet shadows, warm amber practical light, black gloss surfaces, reflections, breath on glass, projected light, holographic shimmer, intimate close-ups, slow erotic tension. Chloe is self-possessed and choosing the presentation.'
+    review_focus: Review Chloe identity, non-explicit sensual tone, unseen participant ambiguity, elegant wardrobe, protagonist framing, hands/fingers, and emotional authenticity.
+  lyric: trembling backward through the dare
+  scene_world: Afterimage
+  status: candidate
+safe_generation_note: Generated in symbolic romantic art-film mode because the built-in image model rejected adult-innuendo phrasing from the original directive.

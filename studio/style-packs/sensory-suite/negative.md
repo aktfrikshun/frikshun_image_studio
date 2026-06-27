@@ -1,0 +1,1 @@
+Avoid explicit sex acts, pornography, visible partner identity, crude posing, tacky lingerie, exaggerated body proportions, objectifying gaze, cheap strip-club aesthetics, or losing Chloe's self-possession.
