@@ -177,3 +177,21 @@ python3 scripts/replicate_image.py \
 
 Generated prototype images and metadata are written under `studio/outputs`,
 which is ignored by git.
+
+Some Replicate models accept reference images or edit targets. The prototype can
+send local images as data URLs with `--image-input KEY=PATH` and arbitrary model
+settings with `--input KEY=VALUE`:
+
+```bash
+python3 scripts/replicate_image.py \
+  --prompt-file studio/workflows/heygen_intro_identity_reference_prompt.md \
+  --outdir studio/outputs/replicate/heygen_intro_gothic_glamour \
+  --basename chloe-heygen-gothic-glamour-reference-001 \
+  --model black-forest-labs/flux-kontext-pro \
+  --aspect-ratio 2:3 \
+  --output-format png \
+  --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png
+```
+
+Only run reference-image tests when it is acceptable to upload that local image
+to the selected external provider.

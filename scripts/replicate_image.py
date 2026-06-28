@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import json
+import mimetypes
 import os
 import time
 import urllib.error
@@ -34,6 +36,51 @@ def read_text(path: Path | None, fallback: str) -> str:
     if path:
         return path.read_text(encoding="utf-8").strip()
     return fallback.strip()
+
+
+def image_data_url(path: Path) -> str:
+    mime_type = mimetypes.guess_type(path.name)[0] or "image/png"
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
+
+
+def parse_value(value: str) -> Any:
+    lowered = value.lower()
+    if lowered == "true":
+        return True
+    if lowered == "false":
+        return False
+    if lowered == "null":
+        return None
+    try:
+        return int(value)
+    except ValueError:
+        pass
+    try:
+        return float(value)
+    except ValueError:
+        return value
+
+
+def parse_key_value(raw: str) -> tuple[str, Any]:
+    if "=" not in raw:
+        raise argparse.ArgumentTypeError("Expected KEY=VALUE.")
+    key, value = raw.split("=", 1)
+    if not key.strip():
+        raise argparse.ArgumentTypeError("Input key cannot be empty.")
+    return key.strip(), parse_value(value.strip())
+
+
+def parse_image_key_value(raw: str) -> tuple[str, str]:
+    if "=" not in raw:
+        raise argparse.ArgumentTypeError("Expected KEY=PATH.")
+    key, value = raw.split("=", 1)
+    if not key.strip():
+        raise argparse.ArgumentTypeError("Image input key cannot be empty.")
+    path = Path(value.strip())
+    if not path.exists():
+        raise argparse.ArgumentTypeError(f"Image input path does not exist: {path}")
+    return key.strip(), image_data_url(path)
 
 
 def request_json(method: str, url: str, token: str, payload: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -108,6 +155,22 @@ def main() -> None:
     parser.add_argument("--output-format", default="png", choices=["webp", "jpg", "png"])
     parser.add_argument("--seed", type=int)
     parser.add_argument("--steps", type=int, default=4)
+    parser.add_argument(
+        "--input",
+        action="append",
+        default=[],
+        type=parse_key_value,
+        metavar="KEY=VALUE",
+        help="Additional model input field. Can be supplied more than once.",
+    )
+    parser.add_argument(
+        "--image-input",
+        action="append",
+        default=[],
+        type=parse_image_key_value,
+        metavar="KEY=PATH",
+        help="Additional model image input field encoded as a data URL. Can be supplied more than once.",
+    )
     args = parser.parse_args()
 
     load_env_file(Path(".env"))
@@ -128,6 +191,10 @@ def main() -> None:
     }
     if args.seed is not None:
         model_input["seed"] = args.seed
+    for key, value in args.input:
+        model_input[key] = value
+    for key, value in args.image_input:
+        model_input[key] = value
 
     args.outdir.mkdir(parents=True, exist_ok=True)
     prediction = poll_prediction(create_prediction(args.model, token, model_input), token)
