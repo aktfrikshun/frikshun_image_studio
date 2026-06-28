@@ -155,3 +155,25 @@ as warnings in `prompt_audit.md`, but generation continues when possible.
 You can add OpenAI, Flux, or another provider by implementing `generate(...)`
 and returning the same `GeneratedImage` metadata contract used by
 `MockImageGenerator`.
+
+## Replicate Prototype
+
+The repository includes a small Replicate HTTP prototype for one-off model
+tests without storing API tokens in git.
+
+1. Copy `.env.example` to `.env`.
+2. Set `REPLICATE_API_TOKEN` in `.env`.
+3. Run a prompt file:
+
+```bash
+python3 scripts/replicate_image.py \
+  --prompt-file studio/workflows/heygen_intro_gothic_glamour_prompt.md \
+  --outdir studio/outputs/replicate/heygen_intro_gothic_glamour \
+  --basename chloe-heygen-gothic-glamour-001 \
+  --model black-forest-labs/flux-schnell \
+  --aspect-ratio 2:3 \
+  --output-format png
+```
+
+Generated prototype images and metadata are written under `studio/outputs`,
+which is ignored by git.
