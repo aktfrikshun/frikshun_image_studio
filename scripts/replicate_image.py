@@ -139,6 +139,17 @@ def output_urls(output: Any) -> list[str]:
     return []
 
 
+def redact_data_urls(value: Any) -> Any:
+    if isinstance(value, str) and value.startswith("data:image/"):
+        header, _, data = value.partition(",")
+        return f"{header},<redacted {len(data)} base64 chars>"
+    if isinstance(value, dict):
+        return {key: redact_data_urls(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [redact_data_urls(item) for item in value]
+    return value
+
+
 def download(url: str, output_path: Path) -> None:
     with urllib.request.urlopen(url, timeout=120) as response:
         output_path.write_bytes(response.read())
@@ -214,7 +225,7 @@ def main() -> None:
         "prediction_id": prediction.get("id"),
         "status": prediction.get("status"),
         "prompt": prompt,
-        "input": model_input,
+        "input": redact_data_urls(model_input),
         "output_path": str(image_path),
         "replicate_output": prediction.get("output"),
     }
