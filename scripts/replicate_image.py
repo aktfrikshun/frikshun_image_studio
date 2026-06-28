@@ -208,17 +208,10 @@ def main() -> None:
         model_input[key] = value
 
     args.outdir.mkdir(parents=True, exist_ok=True)
-    prediction = poll_prediction(create_prediction(args.model, token, model_input), token)
-    if prediction.get("status") != "succeeded":
-        raise RuntimeError(f"Replicate prediction ended with status {prediction.get('status')}: {prediction.get('error')}")
-
-    urls = output_urls(prediction.get("output"))
-    if not urls:
-        raise RuntimeError(f"Replicate prediction succeeded but no output URLs were found: {prediction.get('output')}")
-
     image_path = args.outdir / f"{args.basename}.{args.output_format}"
     metadata_path = args.outdir / f"{args.basename}.json"
-    download(urls[0], image_path)
+
+    prediction = poll_prediction(create_prediction(args.model, token, model_input), token)
     metadata = {
         "created_at": datetime.now(timezone.utc).isoformat(),
         "model": args.model,
@@ -230,6 +223,16 @@ def main() -> None:
         "replicate_output": prediction.get("output"),
     }
     metadata_path.write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+
+    if prediction.get("status") != "succeeded":
+        print(metadata_path)
+        raise RuntimeError(f"Replicate prediction ended with status {prediction.get('status')}: {prediction.get('error')}")
+
+    urls = output_urls(prediction.get("output"))
+    if not urls:
+        raise RuntimeError(f"Replicate prediction succeeded but no output URLs were found: {prediction.get('output')}")
+
+    download(urls[0], image_path)
     print(image_path)
     print(metadata_path)
 

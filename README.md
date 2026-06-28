@@ -238,3 +238,18 @@ python3 scripts/replicate_image.py \
   --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png \
   --input safety_tolerance=2
 ```
+
+If the exploratory version is flagged by Replicate moderation, use the editorial
+boudoir version with less loaded wording:
+
+```bash
+python3 scripts/replicate_image.py \
+  --prompt-file studio/workflows/heygen_intro_identity_reference_prompt_v6_editorial_boudoir.md \
+  --outdir studio/outputs/replicate/heygen_intro_gothic_glamour \
+  --basename chloe-heygen-gothic-boudoir-photoshoot-kontext-006 \
+  --model black-forest-labs/flux-kontext-pro \
+  --aspect-ratio 2:3 \
+  --output-format png \
+  --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png \
+  --input safety_tolerance=2
+```
