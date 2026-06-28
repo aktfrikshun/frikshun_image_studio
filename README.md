@@ -209,3 +209,17 @@ python3 scripts/replicate_image.py \
   --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png \
   --input safety_tolerance=2
 ```
+
+For a brighter professional photo shoot version, use:
+
+```bash
+python3 scripts/replicate_image.py \
+  --prompt-file studio/workflows/heygen_intro_identity_reference_prompt_v4_bright_photoshoot.md \
+  --outdir studio/outputs/replicate/heygen_intro_gothic_glamour \
+  --basename chloe-heygen-gothic-lingerie-photoshoot-kontext-004 \
+  --model black-forest-labs/flux-kontext-pro \
+  --aspect-ratio 2:3 \
+  --output-format png \
+  --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png \
+  --input safety_tolerance=2
+```
