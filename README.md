@@ -315,6 +315,35 @@ Repeat with `creator_support_seedance_part_02_project.md` and
 `creator_support_seedance_part_03_invitation.md`, changing the basename and
 duration to match each prompt.
 
+If Seedance still flags the source image, run a text-only diagnostic first:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/creator_support_seedance_text_only_diagnostic.md \
+  --outdir studio/outputs/replicate/creator_support_seedance \
+  --basename chloe-creator-support-seedance-text-only-diagnostic \
+  --model bytedance/seedance-2.0-fast \
+  --duration 8 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
+If text-only passes, create a safer first frame with
+`heygen_intro_identity_reference_prompt_v7_gothic_fashion_video_source.md`,
+then run the safe-source Seedance prompt:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/creator_support_seedance_safe_source_part_01_hook.md \
+  --image studio/outputs/replicate/heygen_intro_gothic_glamour/chloe-heygen-gothic-fashion-video-source-kontext-007.png \
+  --outdir studio/outputs/replicate/creator_support_seedance \
+  --basename chloe-creator-support-seedance-safe-source-part-01-hook \
+  --model bytedance/seedance-2.0-fast \
+  --duration 8 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
 After generating all three clips, stitch them:
 
 ```bash
