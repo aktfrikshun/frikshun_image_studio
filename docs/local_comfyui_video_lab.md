@@ -172,3 +172,43 @@ Local testing is successful enough to move to RunPod when:
 
 If local generation works but is slow, move the saved ComfyUI workflow to
 RunPod and use a CUDA GPU for real output.
+
+## Still Image First
+
+After the first usable low-motion LTXV result, move one step earlier in the
+pipeline: validate still-image identity and wardrobe before spending time on
+motion. The first local still workflow uses Flux Kontext because Kontext is
+designed for image editing with explicit preservation instructions.
+
+Prepare the required model files:
+
+```bash
+scripts/download_comfyui_flux_kontext_models.sh
+```
+
+Prepare the Chloe reference images in ComfyUI's input folder:
+
+```bash
+scripts/prepare_comfyui_chloe_kontext_inputs.sh
+```
+
+Then open this workflow in ComfyUI:
+
+```text
+studio/workflows/comfyui_templates/flux_kontext_chloe_gothic_wardrobe_still.json
+```
+
+This workflow uses:
+
+```text
+image 1: chloe_kontext_identity_headshot.png
+image 2: chloe_kontext_identity_full_body.png
+model: flux1-dev-kontext_fp8_scaled.safetensors
+clip: clip_l.safetensors
+t5: t5xxl_fp16.safetensors
+vae: ae.safetensors
+```
+
+The prompt asks for a tasteful gothic boudoir fashion still while preserving
+Chloe Model v1 face, build, age, eye color, hair color, skin texture, and body
+proportions.
