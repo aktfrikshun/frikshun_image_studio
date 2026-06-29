@@ -1,0 +1,148 @@
+# Local ComfyUI Video Lab
+
+This lab is for testing whether Chloe image-to-video can work locally before we
+move serious rendering to RunPod. The goal is not speed; the goal is to learn
+identity consistency, local restrictions, and model behavior without burning
+hosted API credit.
+
+## Machine Baseline
+
+Current local target:
+
+- MacBook Pro, Apple M1 Max
+- 32 GB unified memory
+- 24-core Apple GPU / Metal
+- Recommended role: workflow editor, prompt lab, low-resolution diagnostics,
+  and short LTX tests
+
+Use RunPod later for longer Wan/LTX generations, 720p+ output, batches, and
+anything that needs CUDA VRAM.
+
+## Install ComfyUI
+
+The setup script installs ComfyUI into `tools/ComfyUI`, which is ignored by git.
+It prefers the bundled Codex Python 3.12 runtime because macOS system Python is
+3.9 on this machine.
+
+```bash
+scripts/setup_comfyui_local.sh
+```
+
+If you want to use a different Python:
+
+```bash
+PYTHON_BIN=/opt/homebrew/bin/python3.12 scripts/setup_comfyui_local.sh
+```
+
+Launch ComfyUI:
+
+```bash
+scripts/run_comfyui_local.sh
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8188
+```
+
+Important local note: the Codex sandbox could not see Apple MPS, but the same
+environment launched correctly with normal terminal permissions. If ComfyUI
+crashes with `Torch not compiled with CUDA enabled`, launch it from Terminal
+with `scripts/run_comfyui_local.sh`.
+
+## First Test Target
+
+Use the first diagnostic prompt:
+
+```text
+studio/workflows/comfyui_ltx_identity_motion_test.md
+```
+
+Use the primary Chloe Model v1 headshot as the source image:
+
+```text
+studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png
+```
+
+Keep the first clip intentionally conservative:
+
+- 9:16 vertical
+- 480p or lower if memory is tight
+- 3-5 seconds
+- low motion
+- no dialogue/lip-sync yet
+- fully covered wardrobe
+
+This gives us a clean read on whether the local model preserves identity before
+we add sexuality, platform framing, dialogue, or complex camera movement.
+
+## Model Notes
+
+ComfyUI 0.26.0 launched successfully on this Mac with:
+
+- PyTorch 2.12.1
+- device: `mps`
+- memory mode: shared
+- reported memory: 32768 MB
+
+Start with LTXV locally because the built-in workflow is simple and has concrete
+model filenames. Treat Wan as a hosted-GPU candidate unless a small quantized
+local workflow proves itself.
+
+The first local LTXV image-to-video workflow is built into ComfyUI as
+`ltxv_image_to_video`. It expects:
+
+```text
+tools/ComfyUI/models/checkpoints/ltx-video-2b-v0.9.5.safetensors
+tools/ComfyUI/models/text_encoders/t5xxl_fp16.safetensors
+```
+
+Download them with:
+
+```bash
+scripts/download_comfyui_ltxv_models.sh
+```
+
+Confirmed local install:
+
+```text
+5.9G tools/ComfyUI/models/checkpoints/ltx-video-2b-v0.9.5.safetensors
+9.1G tools/ComfyUI/models/text_encoders/t5xxl_fp16.safetensors
+```
+
+The installed ComfyUI package also includes newer LTX2 and Wan templates. To
+copy the useful templates into this repo for inspection/import:
+
+```bash
+scripts/export_comfyui_video_templates.sh
+```
+
+The first exported templates are:
+
+```text
+studio/workflows/comfyui_templates/ltxv_image_to_video.json
+studio/workflows/comfyui_templates/video_ltx2_i2v_distilled.json
+studio/workflows/comfyui_templates/image_to_video_wan.json
+```
+
+Expected local limitations:
+
+- first generation may be slow
+- model downloads are large
+- some custom nodes may assume CUDA and fail on MPS
+- high resolution or long clips may run out of memory
+- identity may drift without an IP/reference workflow or LoRA-style identity
+  conditioning
+
+## Decision Gate
+
+Local testing is successful enough to move to RunPod when:
+
+- at least one local image-to-video workflow runs without hosted moderation
+- Chloe remains recognizable for a short low-motion clip
+- the workflow can be saved and repeated
+- failures are model quality or speed problems, not policy/provider blocks
+
+If local generation works but is slow, move the saved ComfyUI workflow to
+RunPod and use a CUDA GPU for real output.
