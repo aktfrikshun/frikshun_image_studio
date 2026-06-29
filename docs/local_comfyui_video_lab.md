@@ -180,6 +180,12 @@ pipeline: validate still-image identity and wardrobe before spending time on
 motion. The first local still workflow uses Flux Kontext because Kontext is
 designed for image editing with explicit preservation instructions.
 
+The photoshoot ladder is tracked here:
+
+```text
+studio/workflows/chloe_photoshoot_foundation.md
+```
+
 Prepare the required model files:
 
 ```bash
