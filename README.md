@@ -260,6 +260,13 @@ python3 scripts/replicate_image.py \
 `bytedance/seedance-2.0-fast`. Seedance requires a `prompt` and accepts fields
 including `image`, `duration`, `aspect_ratio`, and `resolution`.
 
+Current Seedance finding: `bytedance/seedance-2.0-fast` successfully generated
+the text-only creator-support diagnostic, but repeatedly rejected Chloe
+image-to-video inputs as sensitive, including the fully covered archive-host
+source frame. Treat Seedance as viable for text-to-video exploration, but do
+not spend more prototype credit on Chloe image-to-video through this model
+unless the model/provider moderation behavior changes.
+
 To test the OnlyFans intro concept from the latest Replicate still:
 
 ```bash
