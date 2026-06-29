@@ -37,9 +37,12 @@ scripts/train_chloe_lora_sdxl_local.sh
 ```
 
 The default full run is 800 steps. A 20-step smoke test on the local M1 Max
-completed successfully on 2026-06-29 using Apple MPS. Observed training speed
-after latent caching was roughly 7.3-7.6 seconds per step, so an 800-step run is
-expected to take around 100 minutes plus setup/caching time.
+completed successfully on 2026-06-29 using Apple MPS. The first full 800-step
+run completed in 1:42:39 and produced the run record:
+
+```text
+studio/training/chloe_lora_v1/runs/2026-06-29_sdxl_juggernaut_v0_1.md
+```
 
 Run a short smoke test:
 
