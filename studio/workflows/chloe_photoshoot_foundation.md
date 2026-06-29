@@ -81,6 +81,18 @@ First local Mac-compatible test workflow:
 studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still.json
 ```
 
+First result note: the v1 SDXL/IPAdapter output preserved a plausible Chloe-like
+face, green eyes, natural skin texture, and dark hair better than expected, but
+it read as a soft cropped portrait rather than a confident full photoshoot. It
+missed the visible corset/fishnets/unique heels requirement and did not provide
+enough body or shoe visibility for Stage 2 approval.
+
+Use the v2 full-body workflow for the next wardrobe test:
+
+```text
+studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v2_full_body.json
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.
