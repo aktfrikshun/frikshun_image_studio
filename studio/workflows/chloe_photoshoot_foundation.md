@@ -107,6 +107,20 @@ allowing head-to-toe wardrobe control:
 studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v3_standing_full_length.json
 ```
 
+Third result note: v3 improved standing full-body composition and shoe
+visibility, but failed Chloe identity. The general `PLUS (high strength)`
+adapter with the full-body reference produced a different woman with darker
+eyes, different facial structure, and a sporty bodysuit silhouette. This path
+is not acceptable for Chloe Model v1 continuity without stronger face locking.
+
+Use the v4 face-locked standing workflow to return to the `PLUS FACE
+(portraits)` adapter and headshot reference while lowering adapter strength and
+forcing standing/full-length composition through prompt and negatives:
+
+```text
+studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v4_face_locked_standing.json
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.
