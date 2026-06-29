@@ -1,6 +1,6 @@
 {
   "name": "chloe_lora_v1",
-  "status": "draft_identity_dataset",
+  "status": "identity_dataset_v0_1_ready_for_training",
   "character": "Chloe Katastrophe",
   "trigger_token": "chloe_katastrophe_v1",
   "human_alias": "Chloe Katastrophe",
@@ -84,13 +84,32 @@
     {
       "path": "studio/reference-decks/approved/003_expression_core/018_v001_018_controlled_anger.png",
       "caption": "photo of chloe_katastrophe_v1, adult woman, controlled anger, gray-green eyes, dark wavy chestnut hair, fair textured skin, contained emotion"
+    },
+    {
+      "path": "studio/training/chloe_lora_v1/synthetic_candidates/chloe_identity_aug_candidate_001_front_portrait.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, approved synthetic identity augmentation, front portrait, gray-green eyes, dark wavy chestnut hair, fair textured skin, light freckles, subtle Slavic facial structure, restrained neutral expression, authentic person",
+      "provenance": "generated_artifact_approved_by_allen_2026-06-29"
+    },
+    {
+      "path": "studio/training/chloe_lora_v1/synthetic_candidates/chloe_identity_aug_candidate_002_three_quarter_left.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, approved synthetic identity augmentation, three-quarter left portrait, gray-green eyes, dark wavy chestnut hair, fair textured skin, light freckles, subtle Slavic facial structure, observant restrained expression",
+      "provenance": "generated_artifact_approved_by_allen_2026-06-29"
+    },
+    {
+      "path": "studio/training/chloe_lora_v1/synthetic_candidates/chloe_identity_aug_candidate_003_left_profile.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, approved synthetic identity augmentation, left profile portrait, straight nose, soft jawline, high cheekbones, dark wavy chestnut hair, fair textured skin, quiet restrained expression",
+      "provenance": "generated_artifact_approved_by_allen_2026-06-29"
+    },
+    {
+      "path": "studio/training/chloe_lora_v1/synthetic_candidates/chloe_identity_aug_candidate_004_full_body_build_corrected.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, approved synthetic identity augmentation, full body front view, natural feminine hourglass silhouette, moderately full bust, gently defined waist, naturally rounded hips, realistic proportions, quiet upright posture, dark wavy chestnut hair, fair textured skin",
+      "provenance": "generated_artifact_approved_by_allen_2026-06-29"
     }
   ],
-  "synthetic_expansion_status": "candidate_only_until_human_approved",
+  "synthetic_expansion_status": "first_batch_approved_by_allen_2026-06-29",
   "excluded_sources": [
     "local SDXL and Juggernaut wardrobe tests unless explicitly promoted",
     "older marketing visual descriptions that conflict with Chloe Model v1",
     "music video stills until separately reviewed"
   ]
 }
-
