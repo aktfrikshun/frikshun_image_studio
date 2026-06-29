@@ -237,3 +237,47 @@ Next still-image options:
 - use RunPod/CUDA for Flux Kontext identity + wardrobe tests
 - find and test a non-FP8 Kontext-compatible local workflow
 - switch local still testing to a Mac-compatible SDXL identity workflow
+
+## Local SDXL + IPAdapter Still Test
+
+The first Mac-friendly still-image path is SDXL plus IPAdapter, using Chloe's
+approved headshot as the identity reference. This is not as surgically faithful
+as Kontext image editing, but it avoids FP8 and CUDA-only assumptions.
+
+Install the IPAdapter custom node:
+
+```bash
+git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git tools/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+```
+
+Prepare the model files:
+
+```bash
+scripts/download_comfyui_sdxl_ipadapter_models.sh
+```
+
+Prepare the Chloe reference images in ComfyUI's input folder if needed:
+
+```bash
+scripts/prepare_comfyui_chloe_kontext_inputs.sh
+```
+
+Then restart ComfyUI and open:
+
+```text
+studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still.json
+```
+
+This workflow uses:
+
+```text
+checkpoint: sd_xl_base_1.0.safetensors
+clip vision: CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors
+ipadapter: ip-adapter-plus-face_sdxl_vit-h.safetensors
+reference: chloe_kontext_identity_headshot.png
+latent: 768x1024
+```
+
+Evaluation rule: do not promote this path to setting or video until the output
+preserves Chloe Model v1 face shape, green eyes, dark auburn-black hair,
+adult build, skin texture, and overall presence while changing wardrobe.

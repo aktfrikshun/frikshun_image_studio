@@ -75,7 +75,17 @@ Only promote a still to video-source status when it passes:
 
 ## Current Local Workflow
 
-First local test workflow:
+First local Mac-compatible test workflow:
+
+```text
+studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still.json
+```
+
+Flux Kontext remains a higher-fidelity image-edit candidate, but the current
+FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
+it with a non-FP8 Kontext-compatible model before retrying locally.
+
+Kontext workflow:
 
 ```text
 studio/workflows/comfyui_templates/flux_kontext_chloe_gothic_wardrobe_still.json
