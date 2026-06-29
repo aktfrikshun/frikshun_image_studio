@@ -344,6 +344,49 @@ python3 scripts/replicate_video.py \
   --resolution 720p
 ```
 
+If Seedance still flags the image input, create an ultra-safe archive-host
+source frame:
+
+```bash
+python3 scripts/replicate_image.py \
+  --prompt-file studio/workflows/heygen_intro_identity_reference_prompt_v8_archive_host_video_source.md \
+  --outdir studio/outputs/replicate/heygen_intro_gothic_glamour \
+  --basename chloe-heygen-archive-host-video-source-kontext-008 \
+  --model black-forest-labs/flux-kontext-pro \
+  --aspect-ratio 2:3 \
+  --output-format png \
+  --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png \
+  --input safety_tolerance=2
+```
+
+Then run a no-dialogue image-input diagnostic:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/seedance_image_input_motion_diagnostic.md \
+  --image studio/outputs/replicate/heygen_intro_gothic_glamour/chloe-heygen-archive-host-video-source-kontext-008.png \
+  --outdir studio/outputs/replicate/creator_support_seedance \
+  --basename chloe-seedance-image-input-motion-diagnostic \
+  --model bytedance/seedance-2.0-fast \
+  --duration 8 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
+If that passes, test the archive-host creator intro:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/creator_support_seedance_archive_host_part_01_hook.md \
+  --image studio/outputs/replicate/heygen_intro_gothic_glamour/chloe-heygen-archive-host-video-source-kontext-008.png \
+  --outdir studio/outputs/replicate/creator_support_seedance \
+  --basename chloe-creator-support-seedance-archive-host-part-01-hook \
+  --model bytedance/seedance-2.0-fast \
+  --duration 8 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
 After generating all three clips, stitch them:
 
 ```bash
