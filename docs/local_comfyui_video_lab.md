@@ -274,6 +274,7 @@ This workflow uses:
 checkpoint: sd_xl_base_1.0.safetensors
 clip vision: CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors
 ipadapter: ip-adapter-plus-face_sdxl_vit-h.safetensors
+ipadapter full-length option: ip-adapter-plus_sdxl_vit-h.safetensors
 reference: chloe_kontext_identity_headshot.png
 latent: 768x1024
 ```

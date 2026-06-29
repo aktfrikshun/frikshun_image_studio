@@ -33,5 +33,9 @@ download \
   "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors" \
   "${COMFY_DIR}/models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors"
 
+download \
+  "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors" \
+  "${COMFY_DIR}/models/ipadapter/ip-adapter-plus_sdxl_vit-h.safetensors"
+
 echo
 echo "SDXL + IPAdapter model files are in place for local Chloe still-image tests."
