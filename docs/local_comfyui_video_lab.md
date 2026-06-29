@@ -126,6 +126,32 @@ studio/workflows/comfyui_templates/video_ltx2_i2v_distilled.json
 studio/workflows/comfyui_templates/image_to_video_wan.json
 ```
 
+## First LTXV Result
+
+The first Chloe LTXV test produced a deformed face. Likely causes:
+
+- the stock workflow used landscape `768x512` against a portrait headshot
+- `LTXVImgToVideo` strength was `0.15`, which preserves very little of the
+  source image according to the embedded node docs
+- the prompt asked for a push-in and expression shift before proving identity
+  stability
+
+Use the lower-motion portrait diagnostic next:
+
+```text
+studio/workflows/comfyui_templates/ltxv_chloe_identity_motion_test_portrait_low_motion.json
+```
+
+Key settings:
+
+```text
+width: 512
+height: 768
+frames: 49
+fps: 12
+strength: 0.95
+```
+
 Expected local limitations:
 
 - first generation may be slow
