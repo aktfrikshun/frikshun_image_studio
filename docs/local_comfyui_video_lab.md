@@ -311,3 +311,33 @@ tools/ComfyUI/models/controlnet/controlnet-openpose-sdxl-1.0.safetensors
 Next workflow goal: use a standing full-length pose/control image to force
 head-to-toe framing while IPAdapter preserves Chloe's face and the prompt
 controls gothic corset/fishnet/heel wardrobe.
+
+## Local Photoreal Base Checkpoint
+
+Before adding more control layers, test a stronger photoreal SDXL checkpoint.
+Juggernaut XL v9 is a public SDXL finetune tagged for photorealistic,
+photography, cinematic, and portrait work. It is not provider-moderated like a
+hosted API, and it should be a better local base for Chloe photoshoots than the
+plain SDXL base checkpoint.
+
+Prepare Juggernaut XL:
+
+```bash
+scripts/download_comfyui_juggernaut_xl_models.sh
+```
+
+Expected model path:
+
+```text
+tools/ComfyUI/models/checkpoints/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors
+```
+
+First Juggernaut identity/wardrobe workflow:
+
+```text
+studio/workflows/comfyui_templates/juggernaut_xl_ipadapter_chloe_gothic_wardrobe_face_locked.json
+```
+
+This workflow reuses the best face-locked SDXL/IPAdapter branch and changes only
+the base checkpoint plus output prefix, so the result can be compared directly
+against the plain SDXL base tests.

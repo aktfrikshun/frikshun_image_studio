@@ -149,6 +149,23 @@ Next technical setup:
 scripts/download_comfyui_sdxl_openpose_controlnet.sh
 ```
 
+Before adding OpenPose, test a stronger photoreal base checkpoint. The SDXL base
+model may be part of the identity/composition tradeoff. Juggernaut XL v9 is the
+next local photoshoot candidate because it is a photoreal SDXL finetune with
+strong portrait/fashion tendencies.
+
+Setup:
+
+```text
+scripts/download_comfyui_juggernaut_xl_models.sh
+```
+
+First workflow:
+
+```text
+studio/workflows/comfyui_templates/juggernaut_xl_ipadapter_chloe_gothic_wardrobe_face_locked.json
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.
