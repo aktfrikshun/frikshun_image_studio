@@ -121,6 +121,22 @@ forcing standing/full-length composition through prompt and negatives:
 studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v4_face_locked_standing.json
 ```
 
+Fourth result note: v4 is the best Chloe identity result so far. It restores
+gray-green eyes, dark chestnut near-black hair, pale textured skin, slim angular
+build, and a recognizable Chloe-like face. It also moves wardrobe toward the
+black gothic corset and lace direction. It is not yet a Stage 2 pass because the
+image remains cropped above the knees and does not show fishnet continuity or
+the unique heels.
+
+Use the v5 face-locked catalog workflow to keep the v4 identity strategy while
+pushing the camera farther back through full-length fashion catalog language,
+more negative crop terms, a taller latent, and slightly lower/shorter IPAdapter
+influence:
+
+```text
+studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v5_face_locked_catalog_full_length.json
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.
