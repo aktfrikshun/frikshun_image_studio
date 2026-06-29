@@ -137,6 +137,18 @@ influence:
 studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v5_face_locked_catalog_full_length.json
 ```
 
+Fifth result note: v5 moved farther away again. Lowering IPAdapter influence
+did not solve full-body framing; it produced another cropped portrait and began
+to idealize the face away from Chloe Model v1. This closes the prompt-only SDXL
+branch for Stage 2. The next local branch should keep `PLUS FACE (portraits)`
+for identity and add OpenPose/ControlNet for composition.
+
+Next technical setup:
+
+```text
+scripts/download_comfyui_sdxl_openpose_controlnet.sh
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.

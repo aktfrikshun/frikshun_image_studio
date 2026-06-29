@@ -282,3 +282,32 @@ latent: 768x1024
 Evaluation rule: do not promote this path to setting or video until the output
 preserves Chloe Model v1 face shape, green eyes, dark auburn-black hair,
 adult build, skin texture, and overall presence while changing wardrobe.
+
+## Local SDXL + IPAdapter + OpenPose Pivot
+
+The SDXL/IPAdapter prompt-only tests show a tradeoff:
+
+- `PLUS FACE (portraits)` preserves Chloe identity but keeps collapsing into
+  cropped portrait framing.
+- `PLUS (high strength)` improves standing/full-body composition but loses
+  Chloe identity.
+
+Do not keep producing prompt-only variants for the Stage 2 wardrobe proof. The
+next local test should add composition control with OpenPose/ControlNet while
+keeping the `PLUS FACE (portraits)` identity branch.
+
+Prepare the SDXL OpenPose ControlNet model:
+
+```bash
+scripts/download_comfyui_sdxl_openpose_controlnet.sh
+```
+
+Expected model path:
+
+```text
+tools/ComfyUI/models/controlnet/controlnet-openpose-sdxl-1.0.safetensors
+```
+
+Next workflow goal: use a standing full-length pose/control image to force
+head-to-toe framing while IPAdapter preserves Chloe's face and the prompt
+controls gothic corset/fishnet/heel wardrobe.
