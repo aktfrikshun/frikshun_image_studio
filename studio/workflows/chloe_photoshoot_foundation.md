@@ -166,6 +166,21 @@ First workflow:
 studio/workflows/comfyui_templates/juggernaut_xl_ipadapter_chloe_gothic_wardrobe_face_locked.json
 ```
 
+First Juggernaut result note: Juggernaut XL improved full-body framing and
+gothic fashion wardrobe control compared with plain SDXL, but the output did
+not preserve Chloe identity strongly enough. The face became a generic fashion
+model version of Chloe, and the lower body, heels, hands, and dangling garment
+details showed visible rendering artifacts. The crossed-leg pose and ornate
+lace/strap prompt likely increased malformed anatomy and wardrobe clutter.
+
+Use the v2 clean full-body workflow to test simpler wardrobe geometry, a stable
+feet-apart stance, relaxed arms, fewer dangling details, and slightly stronger
+IPAdapter identity pressure:
+
+```text
+studio/workflows/comfyui_templates/juggernaut_xl_ipadapter_chloe_gothic_wardrobe_face_locked_v2_clean_full_body.json
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.
