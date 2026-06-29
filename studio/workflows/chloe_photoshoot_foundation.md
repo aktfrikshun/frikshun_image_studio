@@ -93,6 +93,20 @@ Use the v2 full-body workflow for the next wardrobe test:
 studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v2_full_body.json
 ```
 
+Second result note: v2 improved facial continuity, skin texture, hair, and
+gothic wardrobe styling, but it remained a seated cropped portrait. It did not
+solve Stage 2 because the full body, fishnet continuity, and unique heels were
+not visible. The likely cause is the `PLUS FACE (portraits)` adapter preset
+combined with the headshot reference.
+
+Use the v3 standing full-length workflow to test whether the general SDXL
+IPAdapter preset and full-body reference can preserve enough identity while
+allowing head-to-toe wardrobe control:
+
+```text
+studio/workflows/comfyui_templates/sdxl_ipadapter_chloe_gothic_wardrobe_still_v3_standing_full_length.json
+```
+
 Flux Kontext remains a higher-fidelity image-edit candidate, but the current
 FP8 ComfyUI repack does not run on Apple MPS. Use it on CUDA/RunPod or replace
 it with a non-FP8 Kontext-compatible model before retrying locally.
