@@ -173,6 +173,38 @@ Local testing is successful enough to move to RunPod when:
 If local generation works but is slow, move the saved ComfyUI workflow to
 RunPod and use a CUDA GPU for real output.
 
+## Identity LoRA First
+
+After SDXL/IPAdapter and Juggernaut tests proved that prompt-only identity
+control drifts too easily, the next still-image priority is a dedicated Chloe
+identity LoRA. The goal is to teach local SDXL-family models the token
+`chloe_katastrophe_v1` so wardrobe, setting, and shot direction can be prompted
+normally.
+
+Training plan, manifest, and synthetic expansion prompts:
+
+```text
+studio/training/chloe_lora_v1/
+```
+
+Build the local dataset folder:
+
+```bash
+python3 scripts/prepare_chloe_lora_identity_dataset.py
+```
+
+The generated dataset is ignored by git:
+
+```text
+tools/lora_datasets/chloe_lora_v1/
+```
+
+Acceptance target:
+
+```text
+photo of chloe_katastrophe_v1, Chloe in a corset, standing in a gothic castle
+```
+
 ## Still Image First
 
 After the first usable low-motion LTXV result, move one step earlier in the

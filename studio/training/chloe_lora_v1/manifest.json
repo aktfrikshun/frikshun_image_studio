@@ -1,0 +1,96 @@
+{
+  "name": "chloe_lora_v1",
+  "status": "draft_identity_dataset",
+  "character": "Chloe Katastrophe",
+  "trigger_token": "chloe_katastrophe_v1",
+  "human_alias": "Chloe Katastrophe",
+  "base_target": "SDXL-family photoreal models",
+  "objective": "Teach local image models Chloe Model v1 identity so wardrobe, setting, and pose can be prompted normally.",
+  "local_output_dir": "tools/lora_datasets/chloe_lora_v1",
+  "canonical_sources": [
+    "studio/chloe-model/appearance.md",
+    "studio/reference-packs/chloe_model_v1/MODEL_CARD.md",
+    "studio/milestones/chloe_model_v1.json"
+  ],
+  "approved_reference_sources": [
+    {
+      "path": "studio/reference-decks/approved/001_identity_lock/001_front_headshot_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, front headshot, gray-green eyes, dark wavy chestnut hair, fair textured skin, light freckles, subtle Slavic facial structure, restrained neutral expression"
+    },
+    {
+      "path": "studio/reference-decks/approved/001_identity_lock/002_three_quarter_left_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, three-quarter face view, gray-green eyes, dark wavy chestnut hair, fair textured skin, light freckles, subtle Slavic facial structure, observant expression"
+    },
+    {
+      "path": "studio/reference-decks/approved/001_identity_lock/003_left_profile_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, left profile portrait, straight nose, soft jawline, high cheekbones, dark wavy chestnut hair, fair textured skin"
+    },
+    {
+      "path": "studio/reference-decks/approved/001_identity_lock/004_right_profile_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, right profile portrait, straight nose, soft jawline, high cheekbones, dark wavy chestnut hair, fair textured skin"
+    },
+    {
+      "path": "studio/reference-decks/approved/002_anatomical_reference/005_full_body_front_v3.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, full body front view, natural feminine hourglass silhouette, realistic proportions, quiet posture, dark wavy chestnut hair, fair textured skin"
+    },
+    {
+      "path": "studio/reference-decks/approved/002_character_turnaround/006_full_body_left_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, full body left side view, natural feminine hourglass silhouette, realistic proportions, quiet posture, dark wavy chestnut hair"
+    },
+    {
+      "path": "studio/reference-decks/approved/002_character_turnaround/007_full_body_right_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, full body right side view, natural feminine hourglass silhouette, realistic proportions, quiet posture, dark wavy chestnut hair"
+    },
+    {
+      "path": "studio/reference-decks/approved/002_character_turnaround/008_full_body_back_v1.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, full body back view, natural feminine hourglass silhouette, realistic proportions, quiet posture, dark wavy chestnut hair"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/009_v001_009_neutral_observation.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, neutral observation, gray-green eyes, fair textured skin, light freckles, restrained emotional presence"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/010_v001_010_dry_half_smile.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, dry half smile, gray-green eyes, dark wavy chestnut hair, fair textured skin, subtle asymmetry"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/011_v001_011_soft_smile.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, soft smile, gray-green eyes, dark wavy chestnut hair, fair textured skin, restrained warmth"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/012_v001_012_curiosity.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, curious expression, gray-green eyes, dark wavy chestnut hair, fair textured skin, observant presence"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/013_v001_013_melancholy.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, melancholy expression, gray-green eyes, dark wavy chestnut hair, fair textured skin, quiet grief"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/014_v001_014_determination.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, determined expression, gray-green eyes, dark wavy chestnut hair, fair textured skin, controlled intensity"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/015_v001_015_quiet_hope.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, quiet hope, gray-green eyes, dark wavy chestnut hair, fair textured skin, restrained optimism"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/016_v001_016_listening.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, listening expression, gray-green eyes, dark wavy chestnut hair, fair textured skin, attentive posture"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/017_v001_017_remembering.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, remembering expression, gray-green eyes, dark wavy chestnut hair, fair textured skin, distant focus"
+    },
+    {
+      "path": "studio/reference-decks/approved/003_expression_core/018_v001_018_controlled_anger.png",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, controlled anger, gray-green eyes, dark wavy chestnut hair, fair textured skin, contained emotion"
+    }
+  ],
+  "synthetic_expansion_status": "candidate_only_until_human_approved",
+  "excluded_sources": [
+    "local SDXL and Juggernaut wardrobe tests unless explicitly promoted",
+    "older marketing visual descriptions that conflict with Chloe Model v1",
+    "music video stills until separately reviewed"
+  ]
+}
+
