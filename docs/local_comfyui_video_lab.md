@@ -218,3 +218,22 @@ vae: ae.safetensors
 The prompt asks for a tasteful gothic boudoir fashion still while preserving
 Chloe Model v1 face, build, age, eye color, hair color, skin texture, and body
 proportions.
+
+### Current Flux Kontext Finding
+
+The local Flux Kontext FP8 workflow does not run on Apple MPS as configured.
+The KSampler fails with:
+
+```text
+TypeError: Trying to convert Float8_e4m3fn to the MPS backend but it does not have support for that dtype.
+```
+
+This is a runtime/model-format issue, not a prompt or input-image issue. Treat
+`flux1-dev-kontext_fp8_scaled.safetensors` as a CUDA/RunPod candidate unless we
+replace it with non-FP8 weights that PyTorch MPS can execute.
+
+Next still-image options:
+
+- use RunPod/CUDA for Flux Kontext identity + wardrobe tests
+- find and test a non-FP8 Kontext-compatible local workflow
+- switch local still testing to a Mac-compatible SDXL identity workflow
