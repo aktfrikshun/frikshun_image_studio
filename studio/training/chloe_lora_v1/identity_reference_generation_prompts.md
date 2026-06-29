@@ -13,8 +13,9 @@ Chloe Katastrophe, adult woman age 24-26, believable Slavic facial structure,
 gray-green eyes with subtle amber flecks, fair skin with natural texture and
 light freckles across nose and cheeks, dark chestnut to nearly black naturally
 wavy hair, naturally feminine hourglass silhouette, realistic balanced
-proportions, gently defined waist, naturally rounded hips, quiet intelligent
-presence, subtle asymmetry, authentic person, not plastic, not doll-like
+proportions, moderately full bust, gently defined waist, naturally rounded hips,
+quiet intelligent presence, subtle asymmetry, authentic person, not plastic, not
+doll-like
 ```
 
 ## Generation Rules
@@ -22,6 +23,9 @@ presence, subtle asymmetry, authentic person, not plastic, not doll-like
 - Keep wardrobe neutral and simple.
 - Prefer plain studio, window light, or simple interior backgrounds.
 - Vary angle, expression, focal length, and lighting.
+- Preserve Chloe's build canon: moderately full bust, gently defined waist,
+  naturally rounded hips, and realistic proportions. Do not let neutral wardrobe
+  flatten or erase her silhouette.
 - Do not make wardrobe, sexuality, gothic styling, or any single setting part of
   the identity.
 - Reject outputs that look too glamorous, too young, too polished, too generic,
@@ -39,11 +43,11 @@ presence, subtle asymmetry, authentic person, not plastic, not doll-like
 
 5. `Photoreal identity reference of [BASE IDENTITY BLOCK], right profile portrait, high cheekbones, soft jawline, fair textured skin, quiet expression, simple interior background.`
 
-6. `Photoreal full-body identity reference of [BASE IDENTITY BLOCK], standing naturally, arms relaxed, simple fitted black long-sleeve top and dark jeans, plain studio background, realistic proportions.`
+6. `Photoreal full-body identity reference of [BASE IDENTITY BLOCK], standing naturally, arms relaxed, simple fitted black long-sleeve top and dark jeans, plain studio background, realistic proportions, moderately full bust, natural feminine hourglass silhouette.`
 
 7. `Photoreal full-body identity reference of [BASE IDENTITY BLOCK], standing in profile, neutral fitted clothing, quiet posture, natural body proportions, plain studio background.`
 
-8. `Photoreal three-quarter full-body identity reference of [BASE IDENTITY BLOCK], simple fitted dark dress, natural posture, full figure visible head to toe, plain studio background.`
+8. `Photoreal three-quarter full-body identity reference of [BASE IDENTITY BLOCK], simple fitted dark dress, natural posture, full figure visible head to toe, plain studio background, moderately full bust, natural feminine hourglass silhouette.`
 
 9. `Photoreal seated identity reference of [BASE IDENTITY BLOCK], relaxed but alert posture, simple black sweater, gray-green eyes looking toward camera, natural skin texture, window light.`
 
@@ -76,9 +80,10 @@ Reject and do not train on a candidate if it has:
 - a face that would not pass as Chloe Model v1
 - glossy plastic skin or airbrushed texture
 - fashion-model posing as the default identity
+- flattened build that erases Chloe's moderately full bust or hourglass
+  silhouette
 - exaggerated bust, waist, hips, or legs
 - visible youthfulness below adult Chloe canon
 - locked costume language such as corset, lingerie, gothic castle, or stagewear
 - heavy makeup that changes facial identity
 - severe hands, limbs, neck, torso, eye, or mouth artifacts
-
