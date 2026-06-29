@@ -296,6 +296,25 @@ Repeat with `onlyfans_intro_seedance_part_02_project.md` and
 `onlyfans_intro_seedance_part_03_invitation.md`, changing the basename for each
 clip.
 
+If Seedance flags the adult-platform prompt set, use the creator-support prompt
+set with the same source image and safer editorial wording:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/creator_support_seedance_part_01_hook.md \
+  --image studio/outputs/replicate/heygen_intro_gothic_glamour/chloe-heygen-gothic-boudoir-photoshoot-kontext-006.png \
+  --outdir studio/outputs/replicate/creator_support_seedance \
+  --basename chloe-creator-support-seedance-part-01-hook \
+  --model bytedance/seedance-2.0-fast \
+  --duration 10 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
+Repeat with `creator_support_seedance_part_02_project.md` and
+`creator_support_seedance_part_03_invitation.md`, changing the basename and
+duration to match each prompt.
+
 After generating all three clips, stitch them:
 
 ```bash
