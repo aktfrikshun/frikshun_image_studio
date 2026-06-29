@@ -253,3 +253,55 @@ python3 scripts/replicate_image.py \
   --image-input input_image=studio/reference-packs/chloe_model_v1/packs/character_turnaround_v1/001/001_front_headshot_v1.png \
   --input safety_tolerance=2
 ```
+
+## Replicate Video Prototype
+
+`scripts/replicate_video.py` runs image-to-video or text-to-video models such as
+`bytedance/seedance-2.0-fast`. Seedance requires a `prompt` and accepts fields
+including `image`, `duration`, `aspect_ratio`, and `resolution`.
+
+To test the OnlyFans intro concept from the latest Replicate still:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/onlyfans_intro_seedance_prompt.md \
+  --image studio/outputs/replicate/heygen_intro_gothic_glamour/chloe-heygen-gothic-boudoir-photoshoot-kontext-006.png \
+  --outdir studio/outputs/replicate/onlyfans_intro_seedance \
+  --basename chloe-onlyfans-intro-seedance-fast-001 \
+  --model bytedance/seedance-2.0-fast \
+  --duration 8 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
+The script redacts file inputs in metadata and writes generated videos under
+`studio/outputs`, which is ignored by git.
+
+Seedance clips can also be generated as short modular parts and stitched later
+with transitions. This keeps dialogue natural inside the model's duration limit:
+
+```bash
+python3 scripts/replicate_video.py \
+  --prompt-file studio/workflows/onlyfans_intro_seedance_part_01_hook.md \
+  --image studio/outputs/replicate/heygen_intro_gothic_glamour/chloe-heygen-gothic-boudoir-photoshoot-kontext-006.png \
+  --outdir studio/outputs/replicate/onlyfans_intro_seedance \
+  --basename chloe-onlyfans-intro-seedance-part-01-hook \
+  --model bytedance/seedance-2.0-fast \
+  --duration 12 \
+  --aspect-ratio 9:16 \
+  --resolution 720p
+```
+
+Repeat with `onlyfans_intro_seedance_part_02_project.md` and
+`onlyfans_intro_seedance_part_03_invitation.md`, changing the basename for each
+clip.
+
+After generating all three clips, stitch them:
+
+```bash
+python3 scripts/stitch_video_clips.py \
+  --out studio/outputs/replicate/onlyfans_intro_seedance/chloe-onlyfans-intro-seedance-complete.mp4 \
+  studio/outputs/replicate/onlyfans_intro_seedance/chloe-onlyfans-intro-seedance-part-01-hook.mp4 \
+  studio/outputs/replicate/onlyfans_intro_seedance/chloe-onlyfans-intro-seedance-part-02-project.mp4 \
+  studio/outputs/replicate/onlyfans_intro_seedance/chloe-onlyfans-intro-seedance-part-03-invitation.mp4
+```
