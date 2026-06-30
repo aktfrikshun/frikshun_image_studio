@@ -18,9 +18,9 @@ against Chloe Model v1 canon before being copied into a training dataset.
 
 | File | Setting | Status | Notes |
 | --- | --- | --- | --- |
-| `001_gothic_cemetery_identity_candidate.png` | gothic cemetery | candidate | Strong cemetery pressure test. Identity, hair, skin, and mood hold well. Side-angle gaze ignored direct-gaze prompt, but the result is useful for angle/setting diversity. |
-| `002_sports_training_identity_candidate.png` | sports / athletic training | candidate | Useful full-body/body-shape candidate. Face is recognizable, posture is neutral, and sportswear stays practical rather than exaggerated fitness-model styling. |
-| `003_archive_desk_camera_photos_identity_candidate.png` | archive desk with camera/photos | strong candidate | Best identity result in this batch. Strong eyes, skin texture, hair, and archive-world context. Good candidate for v0.2 if Allen approves. |
+| `001_gothic_cemetery_identity_candidate.png` | gothic cemetery | approved | Allen approved for v0.2 reference use. Strong cemetery pressure test: identity, hair, skin, and mood hold well. Side-angle gaze ignored direct-gaze prompt, but the result is useful for angle/setting diversity. |
+| `002_sports_training_identity_candidate.png` | sports / athletic training | rejected | Allen rejected for identity drift: the sports context is useful, but the subject does not look like Chloe. Do not include in v0.2 training. |
+| `003_archive_desk_camera_photos_identity_candidate.png` | archive desk with camera/photos | quarantine_repair_or_regenerate | Setting and archive-world context are useful, but Allen flagged the eyes as malformed. Do not include directly in v0.2 training; regenerate or repair the eye region first. |
 
 ## Caption Drafts
 
