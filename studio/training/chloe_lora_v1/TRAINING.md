@@ -153,6 +153,13 @@ complex architecture again:
 studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_simple_gothic_setting_bridge.json
 ```
 
+If that bridge drifts into a close side-glance portrait or loses the setting,
+use the stricter direct-gaze arch-wall bridge:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_wall_direct_gaze_bridge.json
+```
+
 The current test ladder is: hold identity, hold identity with wardrobe, then
 hold identity + wardrobe inside a setting.
 

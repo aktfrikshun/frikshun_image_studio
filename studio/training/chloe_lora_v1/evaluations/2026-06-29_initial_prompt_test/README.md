@@ -15,6 +15,7 @@ Base checkpoint: `Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`
 | `005_plain_lingerie_wardrobe_face_drift.png` | plain-background lingerie wardrobe prompt | Wardrobe, pose, and body proportions are useful, but the side-glance catalogue pose drifts into a generic model face rather than Chloe. |
 | `006_plain_lingerie_face_locked_partial_win.png` | plain-background lingerie face-locked prompt | Clear improvement. Direct gaze, wardrobe, and body proportions are usable; remaining issue is a slightly polished/generic face texture. |
 | `007_plain_lingerie_texture_tuned_reference_win.png` | plain-background lingerie texture-tuned prompt | Current wardrobe reference win. Stronger Chloe identity, better skin texture, direct gaze, and usable gothic lingerie styling. |
+| `008_simple_gothic_bridge_portrait_drift.png` | simple gothic setting bridge prompt | Strong face and wardrobe, but it drifted into close side-glance portrait framing and lost the visible gothic setting cue. |
 
 ## Diagnosis
 
@@ -45,6 +46,11 @@ The seventh output is the current wardrobe reference winner. It keeps identity,
 texture, hair, eyes, and black lace styling in a usable balance. The next step
 should not return directly to a castle corridor; instead, add only a minimal
 gothic setting cue while preserving the winning subject/wardrobe recipe.
+
+The eighth output is attractive, but not a successful bridge: it lost direct
+eye contact, waist/upper-thigh framing, and the visible arched-wall cue. The
+next bridge should be stricter about direct gaze, medium framing, and a clear
+but simple gothic wall element behind Chloe.
 
 Likely causes:
 
@@ -120,6 +126,16 @@ studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_simple_gothic_settin
 
 This adds only a plain charcoal wall, subtle stone texture, and a soft arched
 window hint while explicitly avoiding castle/cathedral background dominance.
+
+The first bridge result became a close side-glance portrait with no visible
+setting cue. Use this stricter direct-gaze arch-wall bridge next:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_wall_direct_gaze_bridge.json
+```
+
+This requires medium framing, direct eye contact, visible shoulders/waist, and
+a matte gothic arch wall panel behind Chloe.
 
 ## Possible v0.2 Direction
 
