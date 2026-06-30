@@ -160,6 +160,13 @@ use the stricter direct-gaze arch-wall bridge:
 studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_wall_direct_gaze_bridge.json
 ```
 
+If the direct-gaze bridge improves framing but loses the arch and turns lingerie
+into leggings, use the three-quarter boudoir bridge:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_boudoir_three_quarter_bridge.json
+```
+
 The current test ladder is: hold identity, hold identity with wardrobe, then
 hold identity + wardrobe inside a setting.
 

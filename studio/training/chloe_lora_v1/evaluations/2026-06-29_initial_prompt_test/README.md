@@ -16,6 +16,7 @@ Base checkpoint: `Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`
 | `006_plain_lingerie_face_locked_partial_win.png` | plain-background lingerie face-locked prompt | Clear improvement. Direct gaze, wardrobe, and body proportions are usable; remaining issue is a slightly polished/generic face texture. |
 | `007_plain_lingerie_texture_tuned_reference_win.png` | plain-background lingerie texture-tuned prompt | Current wardrobe reference win. Stronger Chloe identity, better skin texture, direct gaze, and usable gothic lingerie styling. |
 | `008_simple_gothic_bridge_portrait_drift.png` | simple gothic setting bridge prompt | Strong face and wardrobe, but it drifted into close side-glance portrait framing and lost the visible gothic setting cue. |
+| `009_arch_wall_direct_gaze_framing_win_setting_wardrobe_miss.png` | direct-gaze arch-wall bridge prompt | Framing and direct gaze improved, but the visible arch cue was absent and wardrobe drifted into leggings/black bodysuit styling. |
 
 ## Diagnosis
 
@@ -51,6 +52,12 @@ The eighth output is attractive, but not a successful bridge: it lost direct
 eye contact, waist/upper-thigh framing, and the visible arched-wall cue. The
 next bridge should be stricter about direct gaze, medium framing, and a clear
 but simple gothic wall element behind Chloe.
+
+The ninth output recovers direct gaze and usable body framing, but it overcorrects
+into a full-body studio look. The gothic arch remains absent and the lace
+lingerie reference mutates into leggings. The next bridge should keep the
+framing gain while returning to head-to-upper-thigh boudoir composition, visible
+lace panties, and a clearly named freestanding gothic arch panel.
 
 Likely causes:
 
@@ -136,6 +143,16 @@ studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_wall_direct_gaz
 
 This requires medium framing, direct eye contact, visible shoulders/waist, and
 a matte gothic arch wall panel behind Chloe.
+
+The direct-gaze bridge improved framing but lost the arch and lingerie lower
+half. Use this three-quarter boudoir bridge next:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_boudoir_three_quarter_bridge.json
+```
+
+This asks for head-to-upper-thigh framing, visible black lace panties, and a
+freestanding matte charcoal gothic arch panel directly behind Chloe.
 
 ## Possible v0.2 Direction
 
