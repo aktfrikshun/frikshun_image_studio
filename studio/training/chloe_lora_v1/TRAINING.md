@@ -101,6 +101,29 @@ sampler: dpmpp_2m karras, 30 steps, CFG 5.5
 latent size: 832x1216
 ```
 
+Initial visual evaluation:
+
+```text
+studio/training/chloe_lora_v1/evaluations/2026-06-29_initial_prompt_test/
+```
+
+The simple studio prompt held identity well. The first gothic castle/corset test
+lost identity, so use this stronger identity-weighted workflow for the next
+round:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_gothic_castle_identity_weighted.json
+```
+
+The combined identity + gothic castle/corset prompt held identity much better
+and preserved the fuller corset silhouette, but cropped to upper body. Use this
+full-body locked workflow when the next failure mode is framing rather than
+identity:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_gothic_castle_full_body_locked.json
+```
+
 Use these after the LoRA is available in ComfyUI:
 
 ```text
