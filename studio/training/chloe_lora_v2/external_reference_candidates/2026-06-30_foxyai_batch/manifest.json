@@ -1,0 +1,72 @@
+{
+  "batch": "2026-06-30_foxyai_batch",
+  "source": "FoxyAI images provided by Allen",
+  "status": "external_reference_candidates",
+  "metadata_recovery": {
+    "png_text_chunks_found": false,
+    "raw_generation_parameters_found": false,
+    "notes": "No recoverable prompt, model, seed, sampler, or workflow metadata found in the PNG files."
+  },
+  "items": [
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/001_rainy_city_hoodie_reference.png",
+      "status": "candidate_style_reference",
+      "setting": "rainy_city_street",
+      "notes": "Strong environmental realism and face continuity. Text/logo artifacts make direct training risky."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/002_pink_feather_costume_reference.png",
+      "status": "quarantine_style_only",
+      "setting": "pink_costume_studio",
+      "notes": "Visually strong, but pink angel wings and glamour styling are outside core Chloe canon."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/003_sunlit_selfie_black_tank_reference.png",
+      "status": "candidate_pose_reference",
+      "setting": "sunlit_selfie",
+      "notes": "Useful selfie angle and skin lighting. Sunglasses and glamour angle reduce identity-training value."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/004_beach_sunset_casual_reference.png",
+      "status": "candidate_style_reference",
+      "setting": "beach_sunset",
+      "notes": "Useful lifestyle/environment reference. Side profile and logo hat reduce identity-training value."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/005_warm_mirror_camera_lingerie_reference.png",
+      "status": "strong_candidate_pending_review",
+      "setting": "warm_mirror_camera_lingerie",
+      "notes": "Strong photoreal mirror/camera reference with good face, body, and warm light."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/006_night_car_fur_reference.png",
+      "status": "candidate_style_reference",
+      "setting": "night_car_interior",
+      "notes": "Strong eyes and car-interior realism. Fur/luxury styling should not dominate training."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/007_car_sweater_sunglasses_reference.png",
+      "status": "quarantine_style_only",
+      "setting": "car_interior_sunglasses",
+      "notes": "Strong composition but sunglasses and luxury styling obscure identity."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/008_mirror_white_tank_reference.png",
+      "status": "strong_candidate_pending_review",
+      "setting": "mirror_white_tank",
+      "notes": "Strong face, body, mirror composition, and natural wardrobe. Useful casual selfie candidate."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/009_mirror_hoodie_underwear_reference.png",
+      "status": "candidate_style_reference",
+      "setting": "mirror_hoodie_underwear",
+      "notes": "Good casual mirror format and expression. Brand underwear text and influencer styling make direct training risky."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/010_pool_resort_swimwear_reference.png",
+      "status": "candidate_style_reference",
+      "setting": "pool_resort_swimwear",
+      "notes": "Useful resort/pool setting and body/pose variation. Side/back angle and resort glamour should be used sparingly."
+    }
+  ]
+}

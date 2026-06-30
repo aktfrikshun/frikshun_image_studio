@@ -41,3 +41,19 @@ Reject or quarantine a candidate if:
 ## Current Candidate Batches
 
 - `reference_candidates/2026-06-30_api_refset_probe/`
+- `external_reference_candidates/2026-06-30_foxyai_batch/`
+
+## External Reference Batches
+
+External reference batches may be useful for studying composition, style,
+identity consistency, lighting, camera language, and setting diversity. They are
+not automatically approved as training data.
+
+Before external images are promoted into an actual training dataset, review for:
+
+- source/provenance clarity
+- unwanted logos or text artifacts
+- sunglasses or props hiding identity-critical face features
+- overrepresentation of glamour, lingerie, luxury, or influencer styling
+- body-shape drift away from Chloe Model v1
+- whether the image teaches Chloe identity or teaches a different face
