@@ -59,6 +59,20 @@ Reject or quarantine a candidate if:
 - jewelry or accessories become oversized, symbolic, or visually dominant
 - the image contradicts current Chloe visual canon
 
+## Jewelry Reference Priorities
+
+For v0.2, jewelry references should use simple backgrounds and clear framing so
+the model learns correct accessory scale.
+
+Prioritize:
+
+- delicate silver chain with small wolf pendant
+- small silver compass charm or pendant
+- small bright red ruby ring, pendant, or stud earrings
+
+Avoid training on jewelry images where the accessory becomes larger or more
+important than Chloe's face, posture, or body silhouette.
+
 ## Current Candidate Batches
 
 - `reference_candidates/2026-06-30_api_refset_probe/`

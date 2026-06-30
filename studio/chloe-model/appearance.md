@@ -279,13 +279,65 @@ Avoid excessive accessories.
 
 # Signature Accessories
 
-Silver compass pendant.
+Chloe's jewelry is quiet, intimate, and human-scale.
 
-The pendant symbolizes Gregor's influence.
+Signature pieces should look like recovered personal objects, not costume
+jewelry, fantasy amulets, luxury status symbols, or large statement pieces.
 
-It should appear frequently but not universally.
+## Daily Signature Necklace
+
+A delicate silver chain with a small silver wolf pendant.
+
+The wolf pendant is Chloe's primary signature jewelry.
+
+It should sit near the collarbone or upper sternum and remain modest in size.
+
+The pendant should read clearly as a wolf only when the viewer looks closely.
+
+It should never become oversized, heraldic, armored, gothic-fantasy, or
+visually dominant.
+
+## Gregor's Compass
+
+A small silver compass pendant or charm.
+
+The compass symbolizes Gregor's influence and the inherited mantra to keep
+moving.
+
+It may appear on a fine chain, as a small secondary charm, or as a recovered
+object held in Chloe's hand.
+
+It should appear occasionally, not universally.
+
+## Mother's Ruby
+
+A small bright red ruby piece inherited from Chloe's mother.
+
+Preferred forms:
+
+- a delicate ruby ring
+- a small ruby pendant
+- tiny ruby stud earrings
+
+The ruby should be vivid but restrained, a single warm red point against
+Chloe's otherwise muted palette.
+
+It should feel intimate and familial rather than glamorous or expensive.
+
+Use it sparingly for emotionally charged portraits, memory fragments, and
+images tied to Chloe's mother.
+
+## Jewelry Rules
 
 Minimal jewelry otherwise.
+
+One signature piece is usually enough.
+
+Two can appear when the scene is explicitly about family memory.
+
+Avoid stacks of necklaces, oversized pendants, luxury branding, heavy gold,
+large gemstones, costume jewelry, and accessories that distract from Chloe's
+face, eyes, or posture.
 
 ---
 

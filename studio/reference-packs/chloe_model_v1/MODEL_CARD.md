@@ -16,6 +16,10 @@ Chloe Model v1 is the first production-ready identity foundation for Chloe Katas
 
 Chloe is an adult woman, approximately 24-26, with believable Slavic facial structure, gray-green eyes with subtle amber flecks, fair skin with natural texture and light freckles, and dark chestnut-to-nearly-black naturally wavy hair. She has a naturally feminine hourglass silhouette, balanced realistic proportions, a gently defined waist, naturally rounded hips, and posture that conveys quiet strength rather than visible athletic display.
 
+## Signature Jewelry
+
+Chloe's jewelry is intimate and human-scale. Her primary signature piece is a delicate silver chain with a small silver wolf pendant near the collarbone or upper sternum. A small silver compass pendant or charm symbolizes Gregor's influence and the inherited mantra to keep moving. A small bright red ruby piece inherited from her mother may appear sparingly as a delicate ring, pendant, or stud earrings. Jewelry should never become oversized, heraldic, luxury-branded, costume-like, or visually dominant.
+
 ## Canonical Performance
 
 Chloe rarely over-performs emotion. Her expressions are subtle, restrained, and emotionally intelligent. Most feeling should appear through her eyes, mouth tension, breath, and posture. She is approachable but never carefree; resilient but not hardened; observant rather than performative.
