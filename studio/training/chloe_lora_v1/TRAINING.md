@@ -138,6 +138,13 @@ the face-locked variant:
 studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_face_locked_reference.json
 ```
 
+If the face-locked result is usable but too polished, use the texture-tuned
+variant:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_texture_tuned_reference.json
+```
+
 The current test ladder is: hold identity, hold identity with wardrobe, then
 hold identity + wardrobe inside a setting.
 

@@ -13,6 +13,7 @@ Base checkpoint: `Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`
 | `003_combined_prompt_stronger_identity_cropped.png` | combined identity + gothic castle/corset prompt | Stronger identity bridge. Face, hair, eyes, skin texture, and fuller corset silhouette are much closer to canon, but the image crops to upper body. |
 | `004_full_body_locked_face_degraded.png` | full-body locked gothic castle prompt | Framing improved, but face quality and identity degraded. The subject is too small in frame and the castle consumes too much detail budget. |
 | `005_plain_lingerie_wardrobe_face_drift.png` | plain-background lingerie wardrobe prompt | Wardrobe, pose, and body proportions are useful, but the side-glance catalogue pose drifts into a generic model face rather than Chloe. |
+| `006_plain_lingerie_face_locked_partial_win.png` | plain-background lingerie face-locked prompt | Clear improvement. Direct gaze, wardrobe, and body proportions are usable; remaining issue is a slightly polished/generic face texture. |
 
 ## Diagnosis
 
@@ -33,6 +34,11 @@ The fifth output confirms that removing the castle helps the wardrobe and body
 reference, but side-glance fashion posing still weakens identity. The next
 variant should keep the plain background while forcing direct eye contact,
 centered face, and a face large enough for identity fidelity.
+
+The sixth output is the first usable plain lingerie wardrobe reference. It holds
+direct gaze and proportions well enough to tune from. The next iteration should
+keep the recipe stable while reducing catalogue polish and restoring more
+natural Chloe skin/face texture.
 
 Likely causes:
 
@@ -87,6 +93,17 @@ studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_face_locked_re
 
 This variant uses stronger LoRA weights, direct eye contact, centered
 front-facing geometry, and a negative prompt against side-glance/profile drift.
+
+The face-locked result is usable but a little too polished. Use this texture
+tuned variant next:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_texture_tuned_reference.json
+```
+
+This keeps the same plain-background wardrobe setup while adding natural skin
+texture, subtle asymmetry, and negative prompts against beauty-filter/catalogue
+model drift.
 
 ## Possible v0.2 Direction
 
