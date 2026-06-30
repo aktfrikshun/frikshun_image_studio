@@ -12,6 +12,7 @@ Base checkpoint: `Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`
 | `002_gothic_castle_prompt_identity_drift.png` | gothic castle full-body corset prompt | Identity drift. Costume and setting are successful, but face, build, and age read as a different woman. |
 | `003_combined_prompt_stronger_identity_cropped.png` | combined identity + gothic castle/corset prompt | Stronger identity bridge. Face, hair, eyes, skin texture, and fuller corset silhouette are much closer to canon, but the image crops to upper body. |
 | `004_full_body_locked_face_degraded.png` | full-body locked gothic castle prompt | Framing improved, but face quality and identity degraded. The subject is too small in frame and the castle consumes too much detail budget. |
+| `005_plain_lingerie_wardrobe_face_drift.png` | plain-background lingerie wardrobe prompt | Wardrobe, pose, and body proportions are useful, but the side-glance catalogue pose drifts into a generic model face rather than Chloe. |
 
 ## Diagnosis
 
@@ -27,6 +28,11 @@ stronger, but it is not full body.
 The fourth output confirms that forcing full body in a detailed castle solves
 the crop at the expense of face fidelity. The next step should isolate wardrobe
 on a plain background before reintroducing complex settings.
+
+The fifth output confirms that removing the castle helps the wardrobe and body
+reference, but side-glance fashion posing still weakens identity. The next
+variant should keep the plain background while forcing direct eye contact,
+centered face, and a face large enough for identity fidelity.
 
 Likely causes:
 
@@ -71,6 +77,16 @@ studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_wardrobe_refer
 
 This keeps the background plain and tests only whether Chloe identity survives
 an elegant black lace gothic lingerie/corset wardrobe change.
+
+The first plain lingerie result held the wardrobe but not the face. Use the
+face-locked variant next:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_face_locked_reference.json
+```
+
+This variant uses stronger LoRA weights, direct eye contact, centered
+front-facing geometry, and a negative prompt against side-glance/profile drift.
 
 ## Possible v0.2 Direction
 

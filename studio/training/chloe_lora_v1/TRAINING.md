@@ -131,6 +131,13 @@ so use this plain-background wardrobe reference before adding complex settings:
 studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_wardrobe_reference.json
 ```
 
+If the wardrobe holds but the face drifts into a generic catalogue model, use
+the face-locked variant:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_face_locked_reference.json
+```
+
 The current test ladder is: hold identity, hold identity with wardrobe, then
 hold identity + wardrobe inside a setting.
 
