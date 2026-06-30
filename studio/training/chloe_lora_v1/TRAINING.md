@@ -84,6 +84,23 @@ tools/ComfyUI/models/loras/
 
 ## First Test Prompts
 
+Open this ready-to-run ComfyUI workflow:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_simple_prompt_test.json
+```
+
+It includes:
+
+```text
+checkpoint: Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors
+LoRA: chloe_katastrophe_v1_sdxl_lora_v0_1.safetensors
+positive prompt: simple Chloe studio test
+negative prompt: basic identity/artifact guardrails
+sampler: dpmpp_2m karras, 30 steps, CFG 5.5
+latent size: 832x1216
+```
+
 Use these after the LoRA is available in ComfyUI:
 
 ```text
