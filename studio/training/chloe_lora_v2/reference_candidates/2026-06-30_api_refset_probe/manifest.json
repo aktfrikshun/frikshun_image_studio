@@ -1,6 +1,6 @@
 {
   "batch": "2026-06-30_api_refset_probe",
-  "purpose": "Setting-diverse Chloe LoRA v0.2 reference candidates generated through the local ComfyUI API runner.",
+  "purpose": "Early setting-diversity probe generated through the local ComfyUI API runner. Retained as review evidence; v0.2 has been narrowed to identity plus wardrobe/accessory robustness on blank or simple backgrounds, with settings deferred to v0.3.",
   "base_checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
   "base_lora": "chloe_katastrophe_v1_sdxl_lora_v0_1.safetensors",
   "trigger_token": "chloe_katastrophe_v1",

@@ -4,19 +4,37 @@ Status: candidate gathering
 
 ## Goal
 
-Train a stronger Chloe identity model that can place Chloe in varied shoots and
-settings without repeatedly re-describing her face and body.
+Train a stronger Chloe identity model that can preserve her face, body, and
+presence across wardrobe and accessory changes before introducing complex
+settings.
 
 v0.1 successfully learned parts of Chloe's face, hair, skin texture, and body
 canon, but it behaves more like identity gravity than a hard lock. v0.2 should
-improve generalization across:
+stay deliberately simple: Chloe on blank or minimally textured backgrounds, with
+wardrobe and jewelry variation only.
+
+Use v0.2 to improve generalization across:
 
 - neutral portraits
 - full-body anatomy/body-shape references
-- gothic cemetery / ruins / weathered architecture
-- sports or movement-oriented wardrobe
-- archive desk scenes with camera, photographs, and recovered documents
-- performance and social-media settings
+- everyday wardrobe variations
+- gothic wardrobe variations
+- lingerie / corset / boudoir wardrobe variations
+- sports or movement-oriented wardrobe, without sports environments
+- controlled accessory and jewelry changes
+- simple studio, plain wall, or neutral floor/background setups
+
+Do not make v0.2 solve environmental storytelling. Once v0.2 can keep Chloe
+recognizable across a good number of accepted wardrobe/accessory references,
+train it and then move to v0.3 for settings.
+
+## Version Roadmap
+
+- v0.2: identity plus wardrobe/accessory robustness on blank or simple
+  backgrounds.
+- v0.3: setting robustness after v0.2 is trained, including gothic cemetery,
+  archive desk, sports locations, ruins, performance scenes, and social-media
+  environments.
 
 ## Candidate Discipline
 
@@ -28,14 +46,17 @@ Approve a candidate only if:
 - Chloe is immediately recognizable.
 - Skin texture, eyes, hair, and facial geometry remain close to Chloe Model v1.
 - Body proportions stay realistic and canon-consistent.
-- The setting is present without replacing identity.
-- The image would help the model generalize rather than teach a new face.
+- The background is blank, plain, or minimally distracting.
+- Wardrobe or jewelry variation is present without replacing identity.
+- The image would help the model generalize wardrobe/accessories rather than
+  teach a new face.
 
 Reject or quarantine a candidate if:
 
 - it drifts into a generic fashion, fitness, glamour, or stock-photo face
 - the body becomes overly athletic, exaggerated, fragile, or stylized
-- the setting dominates and reduces Chloe to a small or blurry figure
+- the setting becomes a meaningful scene rather than a simple background
+- jewelry or accessories become oversized, symbolic, or visually dominant
 - the image contradicts current Chloe visual canon
 
 ## Current Candidate Batches
@@ -46,8 +67,12 @@ Reject or quarantine a candidate if:
 ## External Reference Batches
 
 External reference batches may be useful for studying composition, style,
-identity consistency, lighting, camera language, and setting diversity. They are
-not automatically approved as training data.
+identity consistency, lighting, camera language, wardrobe, accessories, and
+future setting diversity. They are not automatically approved as training data.
+
+For v0.2, promote only external images that are useful as wardrobe/accessory
+references and whose backgrounds are simple enough not to teach a new setting.
+Scene-heavy images should be held for v0.3 planning.
 
 Before external images are promoted into an actual training dataset, review for:
 

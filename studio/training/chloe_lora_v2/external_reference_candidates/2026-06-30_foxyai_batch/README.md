@@ -26,10 +26,12 @@ plain text-to-image prompts. FoxyAI is likely using some combination of:
 - phone/mirror/selfie composition prompts
 - fashion/editorial setting prompts
 
-The key lesson for Chloe LoRA v0.2 is not the exact Foxy prompt. It is that the
-identity model needs enough contextual reference data to survive different
-camera languages: city street, mirror selfie, car interior, beach/resort, desk,
-sports, and stylized costume.
+The key lesson is not the exact Foxy prompt. It is that the identity model needs
+stronger reference discipline before it can survive different camera languages.
+For Chloe LoRA v0.2, use this batch mainly to study identity, wardrobe,
+accessories, pose, lighting, and body continuity. Save scene-heavy lessons like
+city street, car interior, beach/resort, desk, sports, and stylized costume for
+v0.3 setting work.
 
 ## Review Table
 
@@ -52,15 +54,15 @@ sports, and stylized costume.
 To reproduce this quality locally, prioritize:
 
 - stronger identity conditioning than LoRA v0.1 alone
-- v0.2 training data with context diversity, not just neutral portraits
+- v0.2 training data with wardrobe/accessory diversity on simple backgrounds
 - phone/mirror/selfie workflows for casual realism
 - full-resolution candidate generation after low-resolution probing
-- setting-specific prompts that keep Chloe large in frame
+- v0.3 setting-specific prompts that keep Chloe large in frame
 - negative prompts against generic influencer/fashion-model drift
 
 Possible local routes:
 
-- retrain Chloe LoRA v0.2 with carefully approved contextual references
+- retrain Chloe LoRA v0.2 with carefully approved wardrobe/accessory references
 - add an IPAdapter/InstantID-style reference workflow for stronger face locking
 - use two-pass generation: first identity/pose, then setting/background
 - use inpaint/detailer passes only when the body/scene is already good
