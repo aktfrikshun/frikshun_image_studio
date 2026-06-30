@@ -170,6 +170,36 @@ studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_boudoir_three_q
 The current test ladder is: hold identity, hold identity with wardrobe, then
 hold identity + wardrobe inside a setting.
 
+## API-Driven ComfyUI Runs
+
+ComfyUI can be driven without the browser UI. Start the local server:
+
+```text
+scripts/run_comfyui_local.sh
+```
+
+Then submit any supported Chloe LoRA workflow through the API runner:
+
+```text
+python3 scripts/run_comfyui_workflow.py \
+  studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_boudoir_three_quarter_bridge.json \
+  --runs 4 \
+  --outdir studio/outputs/comfyui_api/chloe_lora_v0_1_arch_boudoir_three_quarter
+```
+
+The runner converts the UI workflow JSON into ComfyUI's `/prompt` API format,
+queues each run, polls `/history/{prompt_id}`, downloads generated images from
+`/view`, and writes a manifest with prompt ids, seeds, and output paths.
+
+Use `--dry-run` to inspect the converted API graph without generating:
+
+```text
+python3 scripts/run_comfyui_workflow.py \
+  studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_arch_boudoir_three_quarter_bridge.json \
+  --dry-run \
+  --outdir /tmp/comfyui-api-dry-run
+```
+
 Use these after the LoRA is available in ComfyUI:
 
 ```text

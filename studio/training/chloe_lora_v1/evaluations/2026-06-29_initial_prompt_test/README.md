@@ -17,6 +17,7 @@ Base checkpoint: `Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`
 | `007_plain_lingerie_texture_tuned_reference_win.png` | plain-background lingerie texture-tuned prompt | Current wardrobe reference win. Stronger Chloe identity, better skin texture, direct gaze, and usable gothic lingerie styling. |
 | `008_simple_gothic_bridge_portrait_drift.png` | simple gothic setting bridge prompt | Strong face and wardrobe, but it drifted into close side-glance portrait framing and lost the visible gothic setting cue. |
 | `009_arch_wall_direct_gaze_framing_win_setting_wardrobe_miss.png` | direct-gaze arch-wall bridge prompt | Framing and direct gaze improved, but the visible arch cue was absent and wardrobe drifted into leggings/black bodysuit styling. |
+| `010_api_arch_boudoir_identity_wardrobe_win_setting_miss.png` | API-run three-quarter arch boudoir prompt | Generated through `scripts/run_comfyui_workflow.py`. Identity and lingerie wardrobe are strong; arch/setting cue is still absent. |
 
 ## Diagnosis
 
@@ -58,6 +59,13 @@ into a full-body studio look. The gothic arch remains absent and the lace
 lingerie reference mutates into leggings. The next bridge should keep the
 framing gain while returning to head-to-upper-thigh boudoir composition, visible
 lace panties, and a clearly named freestanding gothic arch panel.
+
+The tenth output proves the ComfyUI API runner works end-to-end: the workflow
+was submitted without using the browser UI, saved to `studio/outputs`, copied
+into this evaluation set, and reviewed locally. Visually it is another strong
+identity/wardrobe result, but the backdrop still reads as plain studio wall.
+The next setting experiment likely needs either a reference backdrop image,
+ControlNet-style layout guidance, or a two-pass/inpaint approach.
 
 Likely causes:
 
