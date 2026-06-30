@@ -1,0 +1,31 @@
+{
+  "batch": "2026-06-30_api_refset_probe",
+  "purpose": "Setting-diverse Chloe LoRA v0.2 reference candidates generated through the local ComfyUI API runner.",
+  "base_checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "base_lora": "chloe_katastrophe_v1_sdxl_lora_v0_1.safetensors",
+  "trigger_token": "chloe_katastrophe_v1",
+  "status": "candidate_review",
+  "items": [
+    {
+      "path": "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_api_refset_probe/001_gothic_cemetery_identity_candidate.png",
+      "setting": "gothic_cemetery",
+      "status": "candidate",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, gothic cemetery environmental portrait, dark wavy hair, gray-green eyes, fair textured skin with light freckles, subtle Slavic facial structure, black wool coat, weathered headstones, overcast natural light, quiet observant expression",
+      "review_notes": "Identity holds under cemetery setting pressure. Side-angle gaze is useful for diversity but not direct-gaze canon."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_api_refset_probe/002_sports_training_identity_candidate.png",
+      "setting": "sports_training",
+      "status": "candidate",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, sports training reference, full-body athletic portrait, practical black athletic tank top and charcoal leggings, gray-green eyes, dark wavy hair, fair textured skin, natural feminine hourglass silhouette, relaxed neutral posture, outdoor track",
+      "review_notes": "Good full-body/body-shape candidate. Sports context is plain but useful and avoids exaggerated fitness-model drift."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_api_refset_probe/003_archive_desk_camera_photos_identity_candidate.png",
+      "setting": "archive_desk_camera_photos",
+      "status": "strong_candidate",
+      "caption": "photo of chloe_katastrophe_v1, adult woman, archive desk portrait, gray-green eyes, dark wavy hair, fair textured skin with freckles, subtle Slavic facial structure, seated at wooden desk, vintage camera, recovered photographs, handwritten notes, warm practical light, quiet searching expression",
+      "review_notes": "Strongest identity candidate in this batch. Good archive-world context and facial continuity."
+    }
+  ]
+}
