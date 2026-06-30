@@ -67,6 +67,12 @@
       "status": "candidate_style_reference",
       "setting": "pool_resort_swimwear",
       "notes": "Useful resort/pool setting and body/pose variation. Side/back angle and resort glamour should be used sparingly."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/011_archive_desk_lingerie_fox_necklace_reference.png",
+      "status": "strong_candidate_pending_review",
+      "setting": "archive_desk_lingerie_fox_necklace",
+      "notes": "Strong archive desk, camera, recovered-photo context with useful adult wardrobe/body framing. Oversized fox pendant, dramatic pose, and lingerie emphasis require balancing before direct training."
     }
   ]
 }

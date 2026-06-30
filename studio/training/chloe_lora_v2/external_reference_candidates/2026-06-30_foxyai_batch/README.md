@@ -45,6 +45,7 @@ sports, and stylized costume.
 | `008_mirror_white_tank_reference.png` | strong_candidate_pending_review | Strong face, body, mirror composition, and natural wardrobe. Phone covers part of frame, but this is a useful casual selfie identity candidate. |
 | `009_mirror_hoodie_underwear_reference.png` | candidate_style_reference | Good casual mirror format and expression, but phone occlusion, brand underwear text, and influencer styling make it risky as direct training. |
 | `010_pool_resort_swimwear_reference.png` | candidate_style_reference | Useful resort/pool setting and body/pose variation. Side/back angle and resort glamour should be used sparingly. |
+| `011_archive_desk_lingerie_fox_necklace_reference.png` | strong_candidate_pending_review | Strong archive desk, camera, recovered-photo context with useful adult wardrobe/body framing. Oversized fox pendant, dramatic pose, and lingerie emphasis require balancing before direct training. |
 
 ## Reproduction Notes
 
