@@ -124,6 +124,16 @@ identity:
 studio/workflows/comfyui_templates/chloe_lora_v0_1_gothic_castle_full_body_locked.json
 ```
 
+The first full-body locked castle result improved framing but degraded the face,
+so use this plain-background wardrobe reference before adding complex settings:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_wardrobe_reference.json
+```
+
+The current test ladder is: hold identity, hold identity with wardrobe, then
+hold identity + wardrobe inside a setting.
+
 Use these after the LoRA is available in ComfyUI:
 
 ```text
