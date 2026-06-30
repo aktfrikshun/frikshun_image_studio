@@ -14,6 +14,7 @@ Base checkpoint: `Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors`
 | `004_full_body_locked_face_degraded.png` | full-body locked gothic castle prompt | Framing improved, but face quality and identity degraded. The subject is too small in frame and the castle consumes too much detail budget. |
 | `005_plain_lingerie_wardrobe_face_drift.png` | plain-background lingerie wardrobe prompt | Wardrobe, pose, and body proportions are useful, but the side-glance catalogue pose drifts into a generic model face rather than Chloe. |
 | `006_plain_lingerie_face_locked_partial_win.png` | plain-background lingerie face-locked prompt | Clear improvement. Direct gaze, wardrobe, and body proportions are usable; remaining issue is a slightly polished/generic face texture. |
+| `007_plain_lingerie_texture_tuned_reference_win.png` | plain-background lingerie texture-tuned prompt | Current wardrobe reference win. Stronger Chloe identity, better skin texture, direct gaze, and usable gothic lingerie styling. |
 
 ## Diagnosis
 
@@ -39,6 +40,11 @@ The sixth output is the first usable plain lingerie wardrobe reference. It holds
 direct gaze and proportions well enough to tune from. The next iteration should
 keep the recipe stable while reducing catalogue polish and restoring more
 natural Chloe skin/face texture.
+
+The seventh output is the current wardrobe reference winner. It keeps identity,
+texture, hair, eyes, and black lace styling in a usable balance. The next step
+should not return directly to a castle corridor; instead, add only a minimal
+gothic setting cue while preserving the winning subject/wardrobe recipe.
 
 Likely causes:
 
@@ -104,6 +110,16 @@ studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_texture_tuned_
 This keeps the same plain-background wardrobe setup while adding natural skin
 texture, subtle asymmetry, and negative prompts against beauty-filter/catalogue
 model drift.
+
+The texture-tuned result is the current wardrobe reference win. Use this bridge
+workflow to introduce a simple gothic setting without overloading identity:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_simple_gothic_setting_bridge.json
+```
+
+This adds only a plain charcoal wall, subtle stone texture, and a soft arched
+window hint while explicitly avoiding castle/cathedral background dominance.
 
 ## Possible v0.2 Direction
 

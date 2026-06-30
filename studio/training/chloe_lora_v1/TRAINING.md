@@ -145,6 +145,14 @@ variant:
 studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_texture_tuned_reference.json
 ```
 
+The texture-tuned output is the current plain lingerie wardrobe reference win.
+Use this bridge workflow to add only a minimal gothic setting cue before trying
+complex architecture again:
+
+```text
+studio/workflows/comfyui_templates/chloe_lora_v0_1_lingerie_simple_gothic_setting_bridge.json
+```
+
 The current test ladder is: hold identity, hold identity with wardrobe, then
 hold identity + wardrobe inside a setting.
 
