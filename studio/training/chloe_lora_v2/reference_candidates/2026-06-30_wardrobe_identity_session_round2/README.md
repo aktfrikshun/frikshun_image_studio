@@ -25,24 +25,27 @@ This round attempts to minimize drift by using:
 
 `contact_sheet.jpg`
 
-## Preliminary Review
+## Allen Review
 
-These are candidate references only. Allen has not approved them.
+Allen reviewed this batch on 2026-07-01.
 
-Compared with round 1, this batch is more consistent and the faces are less
-chaotic. However, identity still needs careful review. Do not promote any image
-from this batch into the v0.2 identity dataset without explicit approval.
+Compared with round 1, this batch is much closer. Allen rejected `004` for
+identity drift and `005` for the eyes. The remaining six images seem very close
+and should be held as strong candidates pending final training approval.
 
-| File | Wardrobe / Framing | Preliminary Status | Notes |
+Do not automatically promote the strong candidates into the v0.2 identity
+dataset without final approval.
+
+| File | Wardrobe / Framing | Review Status | Notes |
 | --- | --- | --- | --- |
-| `001_black_tank_chest_up_identity_00001_.png` | black tank, chest-up | candidate_pending_review | Better body/wardrobe control than round 1, but face still needs Allen review. |
-| `002_charcoal_sweater_chest_up_identity_00001_.png` | charcoal sweater, chest-up | candidate_pending_review | One of the more stable daily-wardrobe candidates; check eye shape and facial geometry. |
-| `003_blue_shirt_chest_up_identity_00001_.png` | muted blue shirt, chest-up | candidate_pending_review | Useful non-black wardrobe variation; face is clear enough for review. |
-| `004_gray_hoodie_waist_up_identity_00001_.png` | gray hoodie, waist-up | candidate_pending_review | Casual wardrobe reference with clear body framing; face may still read generic. |
-| `005_black_lace_chest_up_identity_00001_.png` | black intimate wardrobe, chest-up | candidate_pending_review | Useful simple intimate wardrobe reference; identity requires close review. |
-| `006_corset_waist_up_identity_00001_.png` | gothic corset, waist-up | candidate_pending_review | Strong wardrobe shape, but side gaze and stylized costume may reduce identity confidence. |
-| `007_leather_jacket_waist_up_identity_00001_.png` | leather jacket, waist-up | candidate_pending_review | Useful jacket styling; face and expression may be drifting. |
-| `008_ruby_ring_close_identity_00001_.png` | black top / ruby prompt, close portrait | candidate_pending_review | Face is large and reviewable; ruby did not clearly render. |
+| `001_black_tank_chest_up_identity_00001_.png` | black tank, chest-up | strong_candidate_pending_final_review | Allen reviewed as very close. Hold for final training approval. |
+| `002_charcoal_sweater_chest_up_identity_00001_.png` | charcoal sweater, chest-up | strong_candidate_pending_final_review | Allen reviewed as very close. Hold for final training approval. |
+| `003_blue_shirt_chest_up_identity_00001_.png` | muted blue shirt, chest-up | strong_candidate_pending_final_review | Allen reviewed as very close. Useful non-black wardrobe variation. |
+| `004_gray_hoodie_waist_up_identity_00001_.png` | gray hoodie, waist-up | rejected_identity_drift | Rejected by Allen for identity drift. Do not train. |
+| `005_black_lace_chest_up_identity_00001_.png` | black intimate wardrobe, chest-up | rejected_eye_artifacts | Rejected by Allen because the eyes are not acceptable. Do not train. |
+| `006_corset_waist_up_identity_00001_.png` | gothic corset, waist-up | strong_candidate_pending_final_review | Allen reviewed as very close. Hold for final training approval. |
+| `007_leather_jacket_waist_up_identity_00001_.png` | leather jacket, waist-up | strong_candidate_pending_final_review | Allen reviewed as very close. Hold for final training approval. |
+| `008_ruby_ring_close_identity_00001_.png` | black top / ruby prompt, close portrait | strong_candidate_pending_final_review | Allen reviewed as very close. Ruby did not clearly render, but identity is promising. |
 
 ## Next Prompt Adjustments
 

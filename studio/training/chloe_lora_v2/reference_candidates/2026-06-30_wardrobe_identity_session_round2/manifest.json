@@ -16,7 +16,7 @@
       "index": 1,
       "slug": "black_tank_chest_up_identity",
       "seed": 22063101,
-      "status": "candidate_pending_review",
+      "status": "strong_candidate_pending_final_review",
       "framing": "chest-up portrait, direct calm eye contact, face centered and dominant",
       "wardrobe": "simple fitted black cotton tank top, no visible jewelry",
       "pose": "standing still, shoulders relaxed, head level, neutral documentary posture",
@@ -25,13 +25,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/001_black_tank_chest_up_identity_00001_.png"
       ],
-      "prompt_id": "cc19fb61-f9eb-457e-99a1-86608f3a21d6"
+      "prompt_id": "cc19fb61-f9eb-457e-99a1-86608f3a21d6",
+      "training_use": "candidate_hold_for_possible_v0_2_training",
+      "review_notes": "Allen reviewed this image as very close to Chloe identity. Hold for final training approval rather than auto-promoting."
     },
     {
       "index": 2,
       "slug": "charcoal_sweater_chest_up_identity",
       "seed": 22063102,
-      "status": "candidate_pending_review",
+      "status": "strong_candidate_pending_final_review",
       "framing": "chest-up portrait, direct calm eye contact, face centered and dominant",
       "wardrobe": "soft charcoal wool sweater, delicate silver chain with very small wolf pendant inherited from Gregor",
       "pose": "standing still, relaxed shoulders, quiet attentive expression",
@@ -40,13 +42,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/002_charcoal_sweater_chest_up_identity_00001_.png"
       ],
-      "prompt_id": "690c6be5-ce51-4815-bf63-b19db236dbbc"
+      "prompt_id": "690c6be5-ce51-4815-bf63-b19db236dbbc",
+      "training_use": "candidate_hold_for_possible_v0_2_training",
+      "review_notes": "Allen reviewed this image as very close to Chloe identity. Hold for final training approval rather than auto-promoting."
     },
     {
       "index": 3,
       "slug": "blue_shirt_chest_up_identity",
       "seed": 22063103,
-      "status": "candidate_pending_review",
+      "status": "strong_candidate_pending_final_review",
       "framing": "chest-up portrait, direct eye contact, face centered and sharp",
       "wardrobe": "muted blue button-down shirt with open collar, no logos, no earrings",
       "pose": "standing still with a slight natural head angle, restrained expression",
@@ -55,13 +59,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/003_blue_shirt_chest_up_identity_00001_.png"
       ],
-      "prompt_id": "01806561-698b-49df-9c9f-018834aeff57"
+      "prompt_id": "01806561-698b-49df-9c9f-018834aeff57",
+      "training_use": "candidate_hold_for_possible_v0_2_training",
+      "review_notes": "Allen reviewed this image as very close to Chloe identity. Hold for final training approval rather than auto-promoting."
     },
     {
       "index": 4,
       "slug": "gray_hoodie_waist_up_identity",
       "seed": 22063104,
-      "status": "candidate_pending_review",
+      "status": "rejected_identity_drift",
       "framing": "waist-up portrait, face large enough for identity review",
       "wardrobe": "plain gray zip hoodie over black tank top, no visible logos",
       "pose": "standing front-facing, hands outside frame, calm neutral posture",
@@ -70,13 +76,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/004_gray_hoodie_waist_up_identity_00001_.png"
       ],
-      "prompt_id": "edabd87c-4c8b-43de-a970-894767820936"
+      "prompt_id": "edabd87c-4c8b-43de-a970-894767820936",
+      "training_use": "do_not_train_identity",
+      "review_notes": "Rejected by Allen for identity drift."
     },
     {
       "index": 5,
       "slug": "black_lace_chest_up_identity",
       "seed": 22063105,
-      "status": "candidate_pending_review",
+      "status": "rejected_eye_artifacts",
       "framing": "chest-up portrait, face centered and dominant",
       "wardrobe": "black lace camisole, tasteful intimate wardrobe, no necklace",
       "pose": "standing still, shoulders relaxed, direct calm eye contact",
@@ -85,13 +93,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/005_black_lace_chest_up_identity_00001_.png"
       ],
-      "prompt_id": "66e40c15-fbaf-4e19-b827-bd6e1a21f64a"
+      "prompt_id": "66e40c15-fbaf-4e19-b827-bd6e1a21f64a",
+      "training_use": "do_not_train_identity",
+      "review_notes": "Rejected by Allen because the eyes are not acceptable."
     },
     {
       "index": 6,
       "slug": "corset_waist_up_identity",
       "seed": 22063106,
-      "status": "candidate_pending_review",
+      "status": "strong_candidate_pending_final_review",
       "framing": "waist-up portrait, face large and sharp, torso visible for wardrobe reference",
       "wardrobe": "fitted black gothic corset, matte fabric, minimal lace, no jewelry",
       "pose": "standing front-facing, arms relaxed outside frame, documentary reference posture",
@@ -100,13 +110,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/006_corset_waist_up_identity_00001_.png"
       ],
-      "prompt_id": "000bb0a1-dc40-4b95-8608-cb68d9c93f1f"
+      "prompt_id": "000bb0a1-dc40-4b95-8608-cb68d9c93f1f",
+      "training_use": "candidate_hold_for_possible_v0_2_training",
+      "review_notes": "Allen reviewed this image as very close to Chloe identity. Hold for final training approval rather than auto-promoting."
     },
     {
       "index": 7,
       "slug": "leather_jacket_waist_up_identity",
       "seed": 22063107,
-      "status": "candidate_pending_review",
+      "status": "strong_candidate_pending_final_review",
       "framing": "waist-up portrait, direct eye contact, face centered",
       "wardrobe": "worn black leather jacket over plain black tee, no large accessories",
       "pose": "standing still, shoulders relaxed, quiet observant expression",
@@ -115,13 +127,15 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/007_leather_jacket_waist_up_identity_00001_.png"
       ],
-      "prompt_id": "1523bfd1-b381-4dd2-a028-97e8c9bd9e51"
+      "prompt_id": "1523bfd1-b381-4dd2-a028-97e8c9bd9e51",
+      "training_use": "candidate_hold_for_possible_v0_2_training",
+      "review_notes": "Allen reviewed this image as very close to Chloe identity. Hold for final training approval rather than auto-promoting."
     },
     {
       "index": 8,
       "slug": "ruby_ring_close_identity",
       "seed": 22063108,
-      "status": "candidate_pending_review",
+      "status": "strong_candidate_pending_final_review",
       "framing": "close portrait from upper chest up, face dominant in frame",
       "wardrobe": "plain black long-sleeve top, small bright red ruby ring from her mother visible near collarbone",
       "pose": "one hand lightly near collarbone, ring small and secondary, direct calm eye contact",
@@ -130,7 +144,11 @@
       "outputs": [
         "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/008_ruby_ring_close_identity_00001_.png"
       ],
-      "prompt_id": "52290eb8-9a47-441b-8b2e-ed4917d06d94"
+      "prompt_id": "52290eb8-9a47-441b-8b2e-ed4917d06d94",
+      "training_use": "candidate_hold_for_possible_v0_2_training",
+      "review_notes": "Allen reviewed this image as very close to Chloe identity. Hold for final training approval rather than auto-promoting."
     }
-  ]
+  ],
+  "status": "partially_successful_reviewed",
+  "allen_review": "Round 2 is much closer. Reject 004 for identity drift and 005 for eyes. The remaining images seem very close but are not automatically promoted to training without final approval."
 }
