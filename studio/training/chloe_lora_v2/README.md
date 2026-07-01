@@ -79,7 +79,12 @@ important than Chloe's face, posture, or body silhouette.
 - `reference_candidates/2026-06-30_wardrobe_identity_session/`
 - `reference_candidates/2026-06-30_wardrobe_identity_session_round2/`
 - `reference_candidates/2026-07-01_wardrobe_identity_refinement_round3/`
+- `reference_candidates/2026-07-01_eye_repair_round4/`
 - `external_reference_candidates/2026-06-30_foxyai_batch/`
+
+## Approved Candidate Pools
+
+- `approved_training_candidates/2026-07-01_round3_identity_approved/`
 
 ## External Reference Batches
 

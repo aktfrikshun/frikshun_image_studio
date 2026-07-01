@@ -1,0 +1,38 @@
+{
+  "batch": "2026-07-01_round3_identity_approved",
+  "status": "approved_training_candidates",
+  "generated_on": "2026-07-01",
+  "reviewed_on": "2026-07-01",
+  "source_batch": "studio/training/chloe_lora_v2/reference_candidates/2026-07-01_wardrobe_identity_refinement_round3",
+  "reviewer": "Allen Taylor",
+  "items": [
+    {
+      "source_index": 7,
+      "status": "approved_identity_reference",
+      "file": "007_corset_identity_calibration_v01_00001_.png",
+      "source_file": "studio/training/chloe_lora_v2/reference_candidates/2026-07-01_wardrobe_identity_refinement_round3/007_corset_identity_calibration_v01_00001_.png",
+      "note": "Approved by Allen for Chloe v0.2 identity reference consideration."
+    },
+    {
+      "source_index": 9,
+      "status": "approved_identity_reference",
+      "file": "009_leather_jacket_identity_calibration_v01_00001_.png",
+      "source_file": "studio/training/chloe_lora_v2/reference_candidates/2026-07-01_wardrobe_identity_refinement_round3/009_leather_jacket_identity_calibration_v01_00001_.png",
+      "note": "Approved by Allen for Chloe v0.2 identity reference consideration."
+    },
+    {
+      "source_index": 11,
+      "status": "approved_identity_reference",
+      "file": "011_black_top_identity_calibration_v01_00001_.png",
+      "source_file": "studio/training/chloe_lora_v2/reference_candidates/2026-07-01_wardrobe_identity_refinement_round3/011_black_top_identity_calibration_v01_00001_.png",
+      "note": "Approved by Allen for Chloe v0.2 identity reference consideration; balance with direct-gaze references before training."
+    },
+    {
+      "source_index": 12,
+      "status": "approved_identity_reference",
+      "file": "012_black_top_identity_calibration_v02_00001_.png",
+      "source_file": "studio/training/chloe_lora_v2/reference_candidates/2026-07-01_wardrobe_identity_refinement_round3/012_black_top_identity_calibration_v02_00001_.png",
+      "note": "Approved by Allen for Chloe v0.2 identity reference consideration; balance with direct-gaze references before training."
+    }
+  ]
+}
