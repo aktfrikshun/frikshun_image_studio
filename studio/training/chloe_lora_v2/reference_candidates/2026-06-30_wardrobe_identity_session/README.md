@@ -24,23 +24,31 @@ plain studio walls so evaluation can focus on:
 
 `contact_sheet.jpg`
 
-## Preliminary Review
+## Allen Review
 
-These are candidate references only. Do not promote into v0.2 training until
-Allen reviews them.
+Allen reviewed this batch and rejected all images for v0.2 identity training.
 
-| File | Wardrobe / Framing | Preliminary Status | Notes |
+Overall decision: `rejected_identity_drift`
+
+Reason: none of the faces look recognizably enough like Chloe. Image `010` is
+the closest, but even that image has strange eyes and should not be used for
+identity training.
+
+Several images remain useful as wardrobe or costume references only. Do not
+promote any image from this batch into a Chloe identity training dataset.
+
+| File | Wardrobe / Framing | Review Status | Notes |
 | --- | --- | --- | --- |
-| `001_black_tank_close_portrait_00001_.png` | black tank, upper-body | strong_candidate_pending_review | Strong face, skin texture, and body read. Prompt asked for close portrait but output is closer to upper-body; still useful. |
-| `002_charcoal_sweater_waist_up_00001_.png` | charcoal sweater, full/three-quarter body | candidate_pending_review | Useful daily wardrobe. Face is a little smaller than ideal but still reviewable. |
-| `003_gray_hoodie_three_quarter_00001_.png` | hoodie and tank, three-quarter | candidate_pending_review | Good plain-background casual reference. Watch for slight generic-model drift. |
-| `004_black_lace_camisole_upper_thigh_00001_.png` | intimate black wardrobe, upper-thigh | strong_candidate_pending_review | Strong body and face continuity. Wardrobe simplified away from lace/camisole details, but the identity holds well. |
-| `005_gothic_corset_full_body_00001_.png` | gothic corset, full body | candidate_with_scale_caution | Useful wardrobe silhouette. Face is small, so identity confidence is lower; may need a closer corset variant. |
-| `006_black_slip_dress_three_quarter_00001_.png` | black slip dress, seated | candidate_pending_review | Useful seated body-position reference. Face is decent, but pose/stool should not become overrepresented. |
-| `007_leather_jacket_full_body_00001_.png` | leather jacket, full body | candidate_with_identity_caution | Useful daily wardrobe and full-body stance. Face may be drifting more generic than the strongest candidates. |
-| `008_blue_shirt_waist_up_00001_.png` | muted blue shirt, waist-up | strong_candidate_pending_review | Strong face, hair, and skin read. Good non-black wardrobe variation. |
-| `009_athletic_wear_full_body_00001_.png` | athletic wear, full body | candidate_with_body_caution | Useful sports wardrobe on plain background. Watch for athletic/elongated body drift. |
-| `010_ruby_memory_close_portrait_00001_.png` | black top, close portrait | strong_candidate_pending_review | Strong close identity candidate. Ruby ring prompt did not clearly render, but face and skin are useful. |
+| `001_black_tank_close_portrait_00001_.png` | black tank, upper-body | rejected_identity_drift | Costume/basic wardrobe idea may be useful, but the face does not look like Chloe. |
+| `002_charcoal_sweater_waist_up_00001_.png` | charcoal sweater, full/three-quarter body | rejected_identity_drift | Useful daily wardrobe idea only. Reject for identity training. |
+| `003_gray_hoodie_three_quarter_00001_.png` | hoodie and tank, three-quarter | rejected_identity_drift | Casual wardrobe idea may be useful, but the face drifts away from Chloe. |
+| `004_black_lace_camisole_upper_thigh_00001_.png` | intimate black wardrobe, upper-thigh | rejected_identity_drift | Costume/body framing may be useful, but identity does not hold. |
+| `005_gothic_corset_full_body_00001_.png` | gothic corset, full body | rejected_identity_drift | Useful gothic wardrobe silhouette only. Face is not Chloe. |
+| `006_black_slip_dress_three_quarter_00001_.png` | black slip dress, seated | rejected_identity_drift | Seated pose and wardrobe may be useful, but reject for identity. |
+| `007_leather_jacket_full_body_00001_.png` | leather jacket, full body | rejected_identity_drift | Daily wardrobe idea only. Face drifts generic. |
+| `008_blue_shirt_waist_up_00001_.png` | muted blue shirt, waist-up | rejected_identity_drift | Non-black wardrobe idea may be useful, but face does not preserve Chloe identity. |
+| `009_athletic_wear_full_body_00001_.png` | athletic wear, full body | rejected_identity_drift | Sports wardrobe idea only. Reject for identity training. |
+| `010_ruby_memory_close_portrait_00001_.png` | black top, close portrait | rejected_identity_drift | Closest of the batch, but the eyes seem strange and the face is still not canon-safe. |
 
 ## Next Prompt Adjustments
 
@@ -51,3 +59,5 @@ Allen reviews them.
   did not reliably appear in this run.
 - Avoid letting athletic references become fitness-model or elongated-body
   references.
+- Before generating another wardrobe batch, improve identity locking. This batch
+  shows that wardrobe variation alone still pulls the face away from Chloe.
