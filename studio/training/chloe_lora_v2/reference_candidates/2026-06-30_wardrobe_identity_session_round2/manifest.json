@@ -1,0 +1,136 @@
+{
+  "batch": "2026-06-30_wardrobe_identity_session_round2",
+  "purpose": "Second Chloe LoRA v0.2 wardrobe identity session with stricter identity locking and larger faces.",
+  "base_workflow": "studio/workflows/comfyui_templates/chloe_lora_v0_1_plain_lingerie_texture_tuned_reference.json",
+  "identity_strategy": [
+    "chest-up and waist-up framing over full-body framing",
+    "plain backgrounds only",
+    "stronger LoRA weights",
+    "wardrobe swap only language",
+    "direct eye contact and face-centered composition"
+  ],
+  "lora_model_strength": 1.45,
+  "lora_clip_strength": 1.15,
+  "items": [
+    {
+      "index": 1,
+      "slug": "black_tank_chest_up_identity",
+      "seed": 22063101,
+      "status": "candidate_pending_review",
+      "framing": "chest-up portrait, direct calm eye contact, face centered and dominant",
+      "wardrobe": "simple fitted black cotton tank top, no visible jewelry",
+      "pose": "standing still, shoulders relaxed, head level, neutral documentary posture",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, chest-up portrait, direct calm eye contact, face centered and dominant, simple fitted black cotton tank top, no visible jewelry, standing still, shoulders relaxed, head level, neutral documentary posture, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/001_black_tank_chest_up_identity_00001_.png"
+      ],
+      "prompt_id": "cc19fb61-f9eb-457e-99a1-86608f3a21d6"
+    },
+    {
+      "index": 2,
+      "slug": "charcoal_sweater_chest_up_identity",
+      "seed": 22063102,
+      "status": "candidate_pending_review",
+      "framing": "chest-up portrait, direct calm eye contact, face centered and dominant",
+      "wardrobe": "soft charcoal wool sweater, delicate silver chain with very small wolf pendant inherited from Gregor",
+      "pose": "standing still, relaxed shoulders, quiet attentive expression",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, chest-up portrait, direct calm eye contact, face centered and dominant, soft charcoal wool sweater, delicate silver chain with very small wolf pendant inherited from Gregor, standing still, relaxed shoulders, quiet attentive expression, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/002_charcoal_sweater_chest_up_identity_00001_.png"
+      ],
+      "prompt_id": "690c6be5-ce51-4815-bf63-b19db236dbbc"
+    },
+    {
+      "index": 3,
+      "slug": "blue_shirt_chest_up_identity",
+      "seed": 22063103,
+      "status": "candidate_pending_review",
+      "framing": "chest-up portrait, direct eye contact, face centered and sharp",
+      "wardrobe": "muted blue button-down shirt with open collar, no logos, no earrings",
+      "pose": "standing still with a slight natural head angle, restrained expression",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, chest-up portrait, direct eye contact, face centered and sharp, muted blue button-down shirt with open collar, no logos, no earrings, standing still with a slight natural head angle, restrained expression, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/003_blue_shirt_chest_up_identity_00001_.png"
+      ],
+      "prompt_id": "01806561-698b-49df-9c9f-018834aeff57"
+    },
+    {
+      "index": 4,
+      "slug": "gray_hoodie_waist_up_identity",
+      "seed": 22063104,
+      "status": "candidate_pending_review",
+      "framing": "waist-up portrait, face large enough for identity review",
+      "wardrobe": "plain gray zip hoodie over black tank top, no visible logos",
+      "pose": "standing front-facing, hands outside frame, calm neutral posture",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, waist-up portrait, face large enough for identity review, plain gray zip hoodie over black tank top, no visible logos, standing front-facing, hands outside frame, calm neutral posture, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/004_gray_hoodie_waist_up_identity_00001_.png"
+      ],
+      "prompt_id": "edabd87c-4c8b-43de-a970-894767820936"
+    },
+    {
+      "index": 5,
+      "slug": "black_lace_chest_up_identity",
+      "seed": 22063105,
+      "status": "candidate_pending_review",
+      "framing": "chest-up portrait, face centered and dominant",
+      "wardrobe": "black lace camisole, tasteful intimate wardrobe, no necklace",
+      "pose": "standing still, shoulders relaxed, direct calm eye contact",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, chest-up portrait, face centered and dominant, black lace camisole, tasteful intimate wardrobe, no necklace, standing still, shoulders relaxed, direct calm eye contact, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/005_black_lace_chest_up_identity_00001_.png"
+      ],
+      "prompt_id": "66e40c15-fbaf-4e19-b827-bd6e1a21f64a"
+    },
+    {
+      "index": 6,
+      "slug": "corset_waist_up_identity",
+      "seed": 22063106,
+      "status": "candidate_pending_review",
+      "framing": "waist-up portrait, face large and sharp, torso visible for wardrobe reference",
+      "wardrobe": "fitted black gothic corset, matte fabric, minimal lace, no jewelry",
+      "pose": "standing front-facing, arms relaxed outside frame, documentary reference posture",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, waist-up portrait, face large and sharp, torso visible for wardrobe reference, fitted black gothic corset, matte fabric, minimal lace, no jewelry, standing front-facing, arms relaxed outside frame, documentary reference posture, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/006_corset_waist_up_identity_00001_.png"
+      ],
+      "prompt_id": "000bb0a1-dc40-4b95-8608-cb68d9c93f1f"
+    },
+    {
+      "index": 7,
+      "slug": "leather_jacket_waist_up_identity",
+      "seed": 22063107,
+      "status": "candidate_pending_review",
+      "framing": "waist-up portrait, direct eye contact, face centered",
+      "wardrobe": "worn black leather jacket over plain black tee, no large accessories",
+      "pose": "standing still, shoulders relaxed, quiet observant expression",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, waist-up portrait, direct eye contact, face centered, worn black leather jacket over plain black tee, no large accessories, standing still, shoulders relaxed, quiet observant expression, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/007_leather_jacket_waist_up_identity_00001_.png"
+      ],
+      "prompt_id": "1523bfd1-b381-4dd2-a028-97e8c9bd9e51"
+    },
+    {
+      "index": 8,
+      "slug": "ruby_ring_close_identity",
+      "seed": 22063108,
+      "status": "candidate_pending_review",
+      "framing": "close portrait from upper chest up, face dominant in frame",
+      "wardrobe": "plain black long-sleeve top, small bright red ruby ring from her mother visible near collarbone",
+      "pose": "one hand lightly near collarbone, ring small and secondary, direct calm eye contact",
+      "positive_prompt": "photo of chloe_katastrophe_v1, exact same Chloe Katastrophe identity as approved Chloe Model v1, wardrobe swap only, do not redesign her face, do not change facial structure, same gray-green eyes with subtle amber flecks, same eye shape and spacing, same delicate Slavic facial geometry, high cheekbones, soft jawline, straight nose, naturally full lips, same fair skin with freckles and visible pores, same dark chestnut nearly black naturally wavy hair, adult woman age 24-26, quiet restrained expression, natural feminine hourglass body, moderately full bust, gently defined waist, naturally rounded hips, real person, natural imperfections, close portrait from upper chest up, face dominant in frame, plain black long-sleeve top, small bright red ruby ring from her mother visible near collarbone, one hand lightly near collarbone, ring small and secondary, direct calm eye contact, plain neutral gray seamless background, soft even studio light, identity reference photograph, face large in frame, eyes sharp and natural, skin texture visible, natural 70mm portrait lens, no environment, no props, no dramatic styling, no retouching, no glamour face, no beauty filter",
+      "negative_prompt": "different woman, different face, generic model face, fashion model face, stock photo face, childlike, teenager, doll face, plastic skin, wax skin, porcelain skin, airbrushed skin, beauty filter, heavy glamour makeup, distorted eyes, malformed eyes, asymmetrical eyes, cross eyed, lazy eye, black eyes, brown eyes, glowing eyes, blurry face, small face, deformed hands, extra fingers, missing fingers, distorted body, extra limbs, cropped head, cropped feet, overly muscular, bodybuilder, overly thin, exaggerated hourglass, exaggerated bust, exaggerated hips, oversized jewelry, huge pendant, statement necklace, luxury branding, text, watermark, busy background, city, cemetery, archive desk, car interior, beach, ruins, dramatic fantasy setting, low quality, jpeg artifacts, changed face, redesigned face, new person, influencer face, instagram model, fox-eye makeup, overdone eyebrows, heavy eyeliner, catwalk pose, sultry beauty pose, open mouth, vacant stare, dead eyes, strange eyes, glassy eyes, oversized head, tiny head, long neck",
+      "outputs": [
+        "studio/training/chloe_lora_v2/reference_candidates/2026-06-30_wardrobe_identity_session_round2/008_ruby_ring_close_identity_00001_.png"
+      ],
+      "prompt_id": "52290eb8-9a47-441b-8b2e-ed4917d06d94"
+    }
+  ]
+}
