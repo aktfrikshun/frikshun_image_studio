@@ -290,6 +290,9 @@ A delicate silver chain with a small silver wolf pendant.
 
 The wolf pendant is Chloe's primary signature jewelry.
 
+It is inherited from her father, Gregor, and should feel personal rather than
+decorative.
+
 It should sit near the collarbone or upper sternum and remain modest in size.
 
 The pendant should read clearly as a wolf only when the viewer looks closely.
@@ -301,8 +304,8 @@ visually dominant.
 
 A small silver compass pendant or charm.
 
-The compass symbolizes Gregor's influence and the inherited mantra to keep
-moving.
+The compass symbolizes Gregor's influence, his practical guidance, and the
+inherited mantra to keep moving.
 
 It may appear on a fine chain, as a small secondary charm, or as a recovered
 object held in Chloe's hand.

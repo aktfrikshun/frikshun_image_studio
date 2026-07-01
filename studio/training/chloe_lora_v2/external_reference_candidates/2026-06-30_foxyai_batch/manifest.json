@@ -73,6 +73,12 @@
       "status": "strong_candidate_pending_review",
       "setting": "archive_desk_lingerie_fox_necklace",
       "notes": "Strong archive desk, camera, recovered-photo context with useful adult wardrobe/body framing. Oversized fox pendant, dramatic pose, and lingerie emphasis require balancing before direct training."
+    },
+    {
+      "path": "studio/training/chloe_lora_v2/external_reference_candidates/2026-06-30_foxyai_batch/012_father_wolf_pendant_lingerie_reference.png",
+      "status": "candidate_jewelry_wardrobe_reference",
+      "setting": "black_and_white_lingerie_wolf_pendant",
+      "notes": "Useful reference for the father/Gregor wolf pendant and black lingerie wardrobe mood. Layered chains and intimate styling should be used cautiously; not automatically approved for identity training."
     }
   ]
 }

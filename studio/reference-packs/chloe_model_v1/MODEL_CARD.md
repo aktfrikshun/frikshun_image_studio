@@ -18,7 +18,7 @@ Chloe is an adult woman, approximately 24-26, with believable Slavic facial stru
 
 ## Signature Jewelry
 
-Chloe's jewelry is intimate and human-scale. Her primary signature piece is a delicate silver chain with a small silver wolf pendant near the collarbone or upper sternum. A small silver compass pendant or charm symbolizes Gregor's influence and the inherited mantra to keep moving. A small bright red ruby piece inherited from her mother may appear sparingly as a delicate ring, pendant, or stud earrings. Jewelry should never become oversized, heraldic, luxury-branded, costume-like, or visually dominant.
+Chloe's jewelry is intimate and human-scale. Her primary signature piece is a delicate silver chain with a small silver wolf pendant inherited from her father, Gregor, near the collarbone or upper sternum. A small silver compass pendant or charm symbolizes Gregor's practical guidance and the inherited mantra to keep moving. A small bright red ruby piece inherited from her mother may appear sparingly as a delicate ring, pendant, or stud earrings. Jewelry should never become oversized, heraldic, luxury-branded, costume-like, or visually dominant.
 
 ## Canonical Performance
 
