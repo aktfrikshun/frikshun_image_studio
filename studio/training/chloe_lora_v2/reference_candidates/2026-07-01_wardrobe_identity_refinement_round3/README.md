@@ -1,8 +1,9 @@
 # Chloe v0.2 Wardrobe Identity Refinement Round 3
 
-Status: generated candidate batch, pending Allen review
+Status: reviewed candidate batch
 
 Generated: 2026-07-01
+Reviewed: 2026-07-01
 
 ## Purpose
 
@@ -32,21 +33,33 @@ plain backgrounds.
 - `contact_sheet.jpg`: quick visual review sheet
 - `manifest.json`: source prompts, seeds, model settings, and outputs
 
-## Preliminary Read
+## Allen Review
 
-This round appears more internally consistent than round two, especially in the
-face-dominant images. The strongest preliminary identity candidates are `007`,
-`009`, `011`, and `012`, though side-profile views should not dominate a training
-set. Full-body candidates remain useful for body continuity, but some faces are
-soft at distance and need Allen approval before promotion.
+Approved for Chloe v0.2 identity reference consideration:
 
-Do not treat any image in this folder as approved training data until reviewed.
+- `007_corset_identity_calibration_v01`
+- `009_leather_jacket_identity_calibration_v01`
+- `011_black_top_identity_calibration_v01`
+- `012_black_top_identity_calibration_v02`
 
-## Next Review Questions
+Close but not approved because the eyes still feel slightly off:
 
-- Which faces read immediately as Chloe without explanation?
-- Are the lips, cheekbones, and eye shape close enough to Chloe Model v1?
-- Are any wardrobe/body variants useful enough to keep despite softer facial
-  detail?
-- Should the next round focus on fewer full-body images and more face-dominant
-  half-body references?
+- `002_black_tank_identity_calibration_v02`
+- `006_blue_shirt_identity_calibration_v02`
+- `008_corset_identity_calibration_v02`
+- `010_leather_jacket_identity_calibration_v02`
+
+Rejected for misshapen eyes / identity drift:
+
+- `001_black_tank_identity_calibration_v01`
+- `003_charcoal_sweater_identity_calibration_v01`
+- `004_charcoal_sweater_identity_calibration_v02`
+- `005_blue_shirt_identity_calibration_v01`
+
+## Notes
+
+This round is more internally consistent than round two, but eye shape remains
+the main failure point. The strongest keepers are mostly face-dominant images,
+which supports the next refinement direction: fewer distant full-body frames,
+more direct eye contact, and stronger eye-shape constraints before expanding
+into settings.
